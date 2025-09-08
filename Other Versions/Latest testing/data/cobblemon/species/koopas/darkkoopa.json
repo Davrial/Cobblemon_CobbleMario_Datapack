@@ -1,0 +1,239 @@
+{
+  "implemented": true,
+  "name": "dark_koopa",
+  "nationalPokedexNumber": 65016,
+  "primaryType": "dragon",
+  "secondaryType": "dark",
+  "abilities": [
+    "shellarmor",
+    "pickup",
+    "h:darkaura"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 60,
+    "defence": 80,
+    "special_attack": 60,
+    "special_defence": 80,
+    "speed": 45
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "12-15",
+      "willSleepOnBed": false,
+      "times": "day"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.67,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 15,
+  "eggGroups": [
+    "dragon",
+    "human_like",
+    "monster"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:leather_boots",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
+
+
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "1:bite",
+    "1:withdraw",
+    "9:rapidspin",
+    "12:endure",
+    "15:headbutt",
+    "20:protect",
+    "25:raindance",
+    "30:irondefense",
+    "35:shellsmash",
+    "40:dragonclaw",
+    "45:dualchop",
+    "50:bodyslam",
+    "55:zenheadbutt",
+    "60:focusenergy",
+    "65:dragonpulse",
+    "70:outrage",
+    "75:doubleedge",
+    "77:dragonrush",
+    "tm:stomp",
+    "tm:doublekick",
+    "tm:megakick",
+    "tm:jumpkick",
+    "tm:rollingkick",
+    "tm:sandattack",
+    "tm:takedown",
+    "tm:tailwhip",
+    "tm:leer",
+    "tm:lowkick",
+    "tm:counter",
+    "tm:growth",
+    "tm:dragonrage",
+    "tm:rockthrow",
+    "tm:meditate",
+    "tm:agility",
+    "tm:quickattack",
+    "tm:harden",
+    "tm:defensecurl",
+    "tm:barrier",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:bide",
+    "tm:swift",
+    "tm:skullbash",
+    "tm:highjumpkick",
+    "tm:dizzypunch",
+    "tm:rest",
+    "tm:substitute",
+    "tm:snore",
+    "tm:flail",
+    "tm:spite",
+    "tm:machpunch",
+    "tm:feintattack",
+    "tm:mudslap",
+    "tm:detect",
+    "tm:charm",
+    "tm:rollout",
+    "tm:falseswipe",
+    "tm:return",
+    "tm:frustration",
+    "tm:dynamicpunch",
+    "tm:encore",
+    "tm:hiddenpower",
+    "tm:crosschop",
+    "tm:twister",
+    "tm:sunnyday",
+    "tm:crunch",
+    "tm:mirrorcoat",
+    "tm:ancientpower",
+    "tm:rocksmash",
+    "tm:whirlpool",
+    "tm:stockpile",
+    "tm:flatter",
+    "tm:facade",
+    "tm:focuspunch",
+    "tm:followme",
+    "tm:naturepower",
+    "tm:assist",
+    "tm:superpower",
+    "tm:brickbreak",
+    "tm:endeavor",
+    "tm:secretpower",
+    "tm:armthrust",
+    "tm:blazekick",
+    "tm:iceball",
+    "tm:faketears",
+    "tm:odorsleuth",
+    "tm:bounce",
+    "tm:mudshot",
+    "tm:dragondance",
+    "tm:gyroball",
+    "tm:uturn",
+    "tm:closecombat",
+    "tm:fling",
+    "tm:lastresort",
+    "tm:suckerpunch",
+    "tm:rockpolish",
+    "tm:gigaimpact",
+    "tm:rockclimb",
+    "tm:captivate",
+    "tm:headsmash",
+    "tm:honeclaws",
+    "tm:storedpower",
+    "tm:acrobatics",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:flipturn",
+    "tm:trailblaze"
+
+
+  ],
+
+
+
+
+
+  "labels": [
+    "custom",
+    "cobblemario",
+    "koopa"
+  ],
+  "pokedex": [
+    "cobblemon.species.dark_koopa.desc1",
+    "cobblemon.species.dark_koopa.desc2"
+  ],
+  "baseScale": 0.75,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 1,
+
+  "preEvolution": "koopa",
+  "evolutions": [
+
+    {"id": "darkkoopa-shadykoopa-level_up",
+      "variant": "level_up",
+      "result": "shadykoopa",
+      "consumeHeldItem": false,
+      "learnableMoves": ["rapidspin"],
+      "requirements": [
+        {"variant": "level", "minLevel": 36}
+      ]
+    },
+    {"id": "darkkoopa-darkkoopatrol-level_up",
+      "variant": "level_up",
+      "result": "darkkoopatrol",
+      "consumeHeldItem": false,
+      "learnableMoves": ["irondefense"],
+      "requirements": [
+        {"variant": "level", "minLevel": 36},
+        {"variant": "has_move_type", "type": "steel"}
+      ]
+    }
+
+  ]
+
+}

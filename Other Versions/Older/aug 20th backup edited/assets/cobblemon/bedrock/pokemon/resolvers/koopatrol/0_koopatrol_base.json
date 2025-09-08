@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:koopatrol",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:koopa",
+      "model": "cobblemon:koopatrol.geo",
+      "texture": "cobblemon:textures/pokemon/koopatrol/koopatrol.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/koopatrol/koopatrol_shiny.png"
+    }
+  ]
+}

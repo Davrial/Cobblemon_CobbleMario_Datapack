@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:tutankoopa",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sprite",
+      "model": "cobblemon:sprite.geo",
+      "texture": "cobblemon:textures/pokemon/tutankoopa/tutankoopa_sprite.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/tutankoopa/tutankoopa_shiny.png"
+    }
+  ]
+}

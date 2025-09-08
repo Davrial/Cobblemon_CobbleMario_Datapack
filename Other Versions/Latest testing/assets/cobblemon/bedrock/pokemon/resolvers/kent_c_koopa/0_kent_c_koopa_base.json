@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:kent_c_koopa",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sprite",
+      "model": "cobblemon:sprite.geo",
+      "texture": "cobblemon:textures/pokemon/kent_c_koopa/kent_c_koopa_sprite.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/kent_c_koopa/kent_c_koopa_shiny.png"
+    }
+  ]
+}

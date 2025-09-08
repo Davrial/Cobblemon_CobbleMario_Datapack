@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:paragoomba",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:paragoomba",
+      "model": "cobblemon:paragoomba.geo",
+      "texture": "cobblemon:textures/pokemon/paragoomba/paragoomba.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/paragoomba/paragoomba_shiny.png"
+    }
+  ]
+}

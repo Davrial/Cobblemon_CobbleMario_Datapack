@@ -1,0 +1,43 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "jr_troopa_1-1",
+      "pokemon": "jr_troopa_1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "1-30",
+      "weight": 6.0,
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "maxY": 100,
+          "biomes": [
+            "#cobblemon:is_temperate"
+          ]
+        }
+      },
+      "condition": {
+        "minY": 60,
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_grassland",
+          "#minecraft:is_hill"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#minecraft:is_nether",
+          "#minecraft:is_end"
+        ]
+      }
+    }
+  ]
+}

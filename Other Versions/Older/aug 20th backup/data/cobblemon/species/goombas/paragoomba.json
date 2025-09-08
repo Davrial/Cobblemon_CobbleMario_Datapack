@@ -1,0 +1,244 @@
+{
+  "implemented": true,
+  "name": "paragoomba",
+  "nationalPokedexNumber": 65002,
+  "primaryType": "normal",
+  "secondaryType": "flying",
+  "abilities": [
+    "klutz",
+    "simple",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 35,
+    "defence": 35,
+    "special_attack": 35,
+    "special_defence": 35,
+    "speed": 175
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 200,
+  "maleRatio": 0.86,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 10,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:leather_boots",
+        "quantityRange": "1-1",
+        "percentage": 22
+      }
+    ]
+  },
+
+
+
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:quickattack",
+    "1:bite",
+    "1:headbutt",
+    "12:sandattack",
+    "13:gust",
+    "15:astonish",
+    "17:whirlwind",
+    "19:mudslap",
+    "21:twister",
+    "23:flail",
+    "25:featherdance",
+    "27:acrobatics",
+    "29:agility",
+    "31:crunch",
+    "33:wingattack",
+    "35:bodyslam",
+    "37:roost",
+    "39:doubleedge",
+    "41:tailwind",
+    "43:superfang",
+    "45:aerialace",
+    "47:zenheadbutt",
+    "49:airslash",
+    "51:focusenergy",
+    "55:endeavor",
+    "59:outrage",
+    "tm:quickattack",
+    "tm:bite",
+    "tm:headbutt",
+    "tm:sandattack",
+    "tm:gust",
+    "tm:astonish",
+    "tm:whirlwind",
+    "tm:mudslap",
+    "tm:twister",
+    "tm:flail",
+    "tm:featherdance",
+    "tm:bounce",
+    "tm:agility",
+    "tm:crunch",
+    "tm:wingattack",
+    "tm:bodyslam",
+    "tm:roost",
+    "tm:doubleedge",
+    "tm:tailwind",
+    "tm:superfang",
+    "tm:aerialace",
+    "tm:zenheadbutt",
+    "tm:airslash",
+    "tm:focusenergy",
+    "tm:endeavor",
+    "tm:outrage",
+    "tm:jumpkick",
+    "tm:takedown",
+    "tm:hyperbeam",
+    "tm:minimize",
+    "tm:bide",
+    "tm:swift",
+    "tm:skullbash",
+    "tm:highjumpkick",
+    "tm:hyperfang",
+    "tm:scaryface",
+    "tm:detect",
+    "tm:endure",
+    "tm:swagger",
+    "tm:meanlook",
+    "tm:hiddenpower",
+    "tm:memento",
+    "tm:slackoff",
+    "tm:lastresort",
+    "tm:nastyplot",
+    "tm:headsmash",
+    "tm:acrobatics",
+    "tm:finalgambit",
+    "tm:workup",
+    "tm:mudsport",
+    "tm:acid",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:firefang",
+    "tm:zenheadbutt",
+    "egg:thunderfang",
+    "egg:icefang",
+    "egg:firefang",
+    "egg:zenheadbutt",
+    "tutor:thunderfang",
+    "tutor:icefang",
+    "tutor:firefang",
+    "tutor:zenheadbutt",
+    "tm:snarl",
+    "tm:jawlock",
+    "tm:lashout",
+    "tm:hyperbeam",
+    "tm:fly",
+    "tm:skyattack",
+    "tm:steelwing",
+    "tm:aircutter",
+    "tm:razorwind"
+  ],
+
+
+
+
+
+  "labels": [
+    "custom",
+    "cobblemario"
+  ],
+  "pokedex": [
+    "cobblemon.species.paragoomba.desc1",
+    "cobblemon.species.paragoomba.desc2"
+  ],
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  "baseFriendship": 30,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 36,
+  "weight": 116,
+
+  "preEvolution": "goomba",
+  "evolutions": [
+
+    {
+      "id": "paragoomba-hyperparagoomba-item_interact-vanilla",
+      "variant": "item_interact",
+      "result": "hyperparagoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["charge","swordsdance"],
+      "requirements": [
+        {"variant": "level", "minLevel": 30},
+        {"variant": "time_range", "range": "twilight"}],
+      "requiredContext": "minecraft:redstone_lamp"
+    },
+
+
+    {
+      "id": "paragoomba-hyperparagoomba-item_interact-cobblemario",
+      "variant": "item_interact",
+      "result": "hyperparagoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["charge","swordsdance"],
+      "requirements": [
+        {"variant": "level", "minLevel": 25},
+        {"variant": "time_range", "range": "twilight"}],
+      "requiredContext": "cobblemario:hyper_powder"
+    },
+
+    {
+      "id": "paragoomba-paragloomba-level_up",
+      "variant": "level_up",
+      "result": "paragloomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["crunch", "nastyplot"],
+      "requirements": [
+        {"variant": "level", "minLevel": 25},
+        {"variant": "has_move_type", "type": "dark"},
+        {"variant": "biome", "biomeCondition": "#cobblemon:is_cave"}
+      ],
+      "requiredContext": ""
+    }
+
+  ]
+}

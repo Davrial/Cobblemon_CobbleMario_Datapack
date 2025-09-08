@@ -1,0 +1,51 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "kent_c_koopa-1",
+      "pokemon": "kent_c_koopa",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "55-75",
+      "weight": 6.0,
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "maxY": 100,
+          "biomes": [
+            "#cobblemon:is_temperate"
+          ]
+        }
+      },
+      "condition": {
+        "minY": 60,
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_grassland",
+          "#minecraft:is_hill"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_island",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_deep_dark",
+          "#cobblemon:is_freezing",
+          "#forge:is_snowy",
+          "#c:snowy",
+          "#minecraft:is_nether",
+          "#minecraft:is_end"
+        ]
+      }
+    }
+  ]
+}

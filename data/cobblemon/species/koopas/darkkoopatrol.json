@@ -1,0 +1,229 @@
+{
+  "implemented": true,
+  "name": "darkkoopatrol",
+  "nationalPokedexNumber": 65018,
+  "primaryType": "dragon",
+  "secondaryType": "dark",
+  "abilities": [
+    "ironbarbs",
+    "steelyspirit",
+    "h:darkaura"
+  ],
+  "baseStats": {
+    "hp": 125,
+    "attack": 100,
+    "defence": 110,
+    "special_attack": 70,
+    "special_defence": 55,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "13-15",
+      "willSleepOnBed": false,
+      "times": "day"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "avoidsWater": true,
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 300
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.67,
+  "shoulderMountable": false,
+  "baseExperienceYield": 300,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "dragon",
+    "human_like",
+    "monster"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:iron_boots",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "quantityRange": "1-1",
+        "percentage": 100
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "quantityRange": "1-1",
+        "percentage": 25
+      },
+      {
+        "item": "minecraft:netherite_scrap",
+        "quantityRange": "1-1",
+        "percentage": 0.1
+      }
+    ]
+  },
+
+
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "3:bite",
+    "6:withdraw",
+    "9:rapidspin",
+    "12:endure",
+    "15:headbutt",
+    "18:protect",
+    "21:raindance",
+    "24:irondefense",
+    "27:shellsmash",
+    "30:dragonclaw",
+    "32:dualchop",
+    "33:bodyslam",
+    "36:zenheadbutt",
+    "40:focusenergy",
+    "45:dragonpulse",
+    "50:outrage",
+    "55:doubleedge",
+    "57:dragonrush",
+    "tm:stomp",
+    "tm:doublekick",
+    "tm:megakick",
+    "tm:jumpkick",
+    "tm:rollingkick",
+    "tm:sandattack",
+    "tm:takedown",
+    "tm:tailwhip",
+    "tm:leer",
+    "tm:lowkick",
+    "tm:counter",
+    "tm:growth",
+    "tm:dragonrage",
+    "tm:rockthrow",
+    "tm:meditate",
+    "tm:agility",
+    "tm:quickattack",
+    "tm:harden",
+    "tm:defensecurl",
+    "tm:barrier",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:bide",
+    "tm:swift",
+    "tm:skullbash",
+    "tm:highjumpkick",
+    "tm:dizzypunch",
+    "tm:rest",
+    "tm:substitute",
+    "tm:snore",
+    "tm:flail",
+    "tm:spite",
+    "tm:machpunch",
+    "tm:feintattack",
+    "tm:mudslap",
+    "tm:detect",
+    "tm:charm",
+    "tm:rollout",
+    "tm:falseswipe",
+    "tm:return",
+    "tm:frustration",
+    "tm:dynamicpunch",
+    "tm:encore",
+    "tm:hiddenpower",
+    "tm:crosschop",
+    "tm:twister",
+    "tm:sunnyday",
+    "tm:crunch",
+    "tm:mirrorcoat",
+    "tm:ancientpower",
+    "tm:rocksmash",
+    "tm:whirlpool",
+    "tm:stockpile",
+    "tm:flatter",
+    "tm:facade",
+    "tm:focuspunch",
+    "tm:followme",
+    "tm:naturepower",
+    "tm:assist",
+    "tm:superpower",
+    "tm:brickbreak",
+    "tm:endeavor",
+    "tm:secretpower",
+    "tm:armthrust",
+    "tm:blazekick",
+    "tm:iceball",
+    "tm:faketears",
+    "tm:odorsleuth",
+    "tm:bounce",
+    "tm:mudshot",
+    "tm:dragondance",
+    "tm:gyroball",
+    "tm:uturn",
+    "tm:closecombat",
+    "tm:fling",
+    "tm:lastresort",
+    "tm:suckerpunch",
+    "tm:rockpolish",
+    "tm:gigaimpact",
+    "tm:rockclimb",
+    "tm:captivate",
+    "tm:headsmash",
+    "tm:honeclaws",
+    "tm:storedpower",
+    "tm:acrobatics",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:flipturn",
+    "tm:trailblaze"
+
+  ],
+
+
+
+  "labels": [
+    "custom",
+    "cobblemario",
+    "koopa"
+  ],
+  "pokedex": [
+    "cobblemon.species.darkkoopatrol.desc1",
+    "cobblemon.species.darkkoopatrol.desc2"
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  "baseFriendship": 25,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 1,
+
+  "preEvolution": "koopatrol"
+
+}

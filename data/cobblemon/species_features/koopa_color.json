@@ -1,0 +1,11 @@
+{
+  "type": "choice",
+  "keys": ["koopa_color"],
+  "default": "false",
+  "choices": [
+    "red",
+    "green"
+  ],
+  "isAspect": true,
+  "aspectFormat": "koopa-color-{{choice}}"
+}

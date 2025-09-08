@@ -1,0 +1,257 @@
+{
+  "implemented": true,
+  "name": "hammerbro",
+  "nationalPokedexNumber": 65024,
+  "primaryType": "dragon",
+  "secondaryType": "normal",
+  "abilities": [
+    "shellarmor",
+    "longreach",
+    "h:limber"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defence": 80,
+    "special_attack": 40,
+    "special_defence": 80,
+    "speed": 55
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 200
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.9,
+  "shoulderMountable": false,
+  "baseExperienceYield": 150,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 15,
+  "eggGroups": [
+    "dragon",
+    "human_like",
+    "monster"
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:iron_ingot",
+        "quantityRange": "1-1",
+        "percentage": 100
+      },
+      {
+        "item": "minecraft:iron_boots",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "quantityRange": "1-1",
+        "percentage": 25
+      }
+    ]
+  },
+
+
+  "moves": [
+    "1:woodhammer",
+    "1:fling",
+    "1:bite",
+    "1:withdraw",
+    "9:rapidspin",
+    "12:endure",
+    "15:headbutt",
+    "20:swift",
+    "25:grasswhistle",
+    "30:irondefense",
+    "35:shellsmash",
+    "40:dragonclaw",
+    "45:dualchop",
+    "50:bodyslam",
+    "55:grasspledge",
+    "60:focusenergy",
+    "65:dragonpulse",
+    "70:outrage",
+    "75:doubleedge",
+    "77:dragonrush",
+    "tm:stomp",
+    "tm:doublekick",
+    "tm:megakick",
+    "tm:jumpkick",
+    "tm:rollingkick",
+    "tm:sandattack",
+    "tm:takedown",
+    "tm:tailwhip",
+    "tm:leer",
+    "tm:lowkick",
+    "tm:counter",
+    "tm:growth",
+    "tm:dragonrage",
+    "tm:rockthrow",
+    "tm:meditate",
+    "tm:agility",
+    "tm:quickattack",
+    "tm:harden",
+    "tm:defensecurl",
+    "tm:barrier",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:bide",
+    "tm:swift",
+    "tm:skullbash",
+    "tm:highjumpkick",
+    "tm:dizzypunch",
+    "tm:rest",
+    "tm:substitute",
+    "tm:snore",
+    "tm:flail",
+    "tm:spite",
+    "tm:machpunch",
+    "tm:feintattack",
+    "tm:mudslap",
+    "tm:detect",
+    "tm:charm",
+    "tm:rollout",
+    "tm:falseswipe",
+    "tm:return",
+    "tm:frustration",
+    "tm:dynamicpunch",
+    "tm:encore",
+    "tm:hiddenpower",
+    "tm:crosschop",
+    "tm:twister",
+    "tm:sunnyday",
+    "tm:crunch",
+    "tm:mirrorcoat",
+    "tm:ancientpower",
+    "tm:rocksmash",
+    "tm:whirlpool",
+    "tm:stockpile",
+    "tm:flatter",
+    "tm:facade",
+    "tm:focuspunch",
+    "tm:followme",
+    "tm:naturepower",
+    "tm:assist",
+    "tm:superpower",
+    "tm:brickbreak",
+    "tm:endeavor",
+    "tm:secretpower",
+    "tm:armthrust",
+    "tm:blazekick",
+    "tm:iceball",
+    "tm:faketears",
+    "tm:odorsleuth",
+    "tm:bounce",
+    "tm:mudshot",
+    "tm:dragondance",
+    "tm:gyroball",
+    "tm:uturn",
+    "tm:closecombat",
+    "tm:fling",
+    "tm:lastresort",
+    "tm:suckerpunch",
+    "tm:rockpolish",
+    "tm:gigaimpact",
+    "tm:rockclimb",
+    "tm:captivate",
+    "tm:headsmash",
+    "tm:honeclaws",
+    "tm:storedpower",
+    "tm:acrobatics",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:flipturn",
+    "tm:trailblaze"
+
+
+  ],
+
+
+
+
+
+  "labels": [
+    "custom",
+    "cobblemario",
+    "koopa"
+  ],
+  "pokedex": [
+    "cobblemon.species.hammerbro.desc1",
+    "cobblemon.species.hammerbro.desc2"
+  ],
+  "baseScale": 0.14,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 1,
+
+  "preEvolution": "koopa",
+
+  "evolutions": [
+    {"id": "hammerbro-kent_c_koopa-level_up1",
+      "variant": "level_up",
+      "result": "kent_c_koopa",
+      "consumeHeldItem": true,
+      "learnableMoves": ["superpower"],
+      "requirements": [
+        {"variant": "level", "minLevel": 60},
+        {"variant": "held_item", "itemCondition": "cobblemon:wise_glasses"}
+      ]
+    },
+    {"id": "hammerbro-kent_c_koopa-level_up2",
+      "variant": "level_up",
+      "result": "kent_c_koopa",
+      "consumeHeldItem": true,
+      "learnableMoves": ["superpower"],
+      "requirements": [{"variant": "held_item", "ratio": "DEFENCE_HIGHER", "itemCondition": "cobblemario:thick_glasses"}]
+    },
+    {"id": "hammerbro-bowser-level_up",
+      "variant": "level_up",
+      "result": "bowser",
+      "consumeHeldItem": false,
+      "learnableMoves": ["dragonbreath", "firepunch"],
+      "requirements": [
+        {"variant": "level", "minLevel": 75},
+        {"variant": "has_move_type", "type": "dragon"}
+      ]
+    }
+
+  ]
+
+}

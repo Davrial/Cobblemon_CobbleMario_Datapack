@@ -1,0 +1,49 @@
+{
+  "species": "cobblemon:magikoopa",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sprite",
+      "model": "cobblemon:sprite.geo",
+      "texture": "cobblemon:textures/pokemon/magikoopa/magikoopa_sprite.png",
+      "layers": []
+    },
+    {
+      "aspects": ["magikoopa-color-green"],
+      "texture": "cobblemon:textures/pokemon/magikoopa/magikoopa_sprite_green.png",
+      "layers": []
+    },
+    {
+      "aspects": ["magikoopa-color-red"],
+      "texture": "cobblemon:textures/pokemon/magikoopa/magikoopa_sprite_red.png",
+      "layers": []
+    },
+    {
+      "aspects": ["magikoopa-color-white"],
+      "texture": "cobblemon:textures/pokemon/magikoopa/magikoopa_sprite_white.png",
+      "layers": []
+    },
+    {
+      "aspects": ["magikoopa-color-yellow"],
+      "texture": "cobblemon:textures/pokemon/magikoopa/magikoopa_sprite_yellow.png",
+      "layers": []
+    },
+    {
+      "aspects": ["magikoopa-color-gray"],
+      "texture": "cobblemon:textures/pokemon/magikoopa/magikoopa_sprite_gray.png",
+      "layers": []
+    },
+    {
+      "aspects": ["magikoopa-color-purple"],
+      "texture": "cobblemon:textures/pokemon/magikoopa/magikoopa_sprite_purple.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/koopatrol/magikoopa_sprite_shiny.png"
+    }
+  ]
+}

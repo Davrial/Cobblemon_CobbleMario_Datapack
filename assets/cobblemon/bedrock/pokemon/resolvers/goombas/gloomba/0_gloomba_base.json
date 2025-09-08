@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:gloomba",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:goomba",
+      "model": "cobblemon:goomba.geo",
+      "texture": "cobblemon:textures/pokemon/goombas/gloomba/gloomba.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/gloomba/gloomba_shiny.png"
+    }
+  ]
+}

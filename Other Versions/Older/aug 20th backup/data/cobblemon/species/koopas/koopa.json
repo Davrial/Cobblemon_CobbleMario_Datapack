@@ -1,0 +1,540 @@
+{
+  "implemented": true,
+  "name": "koopa",
+  "nationalPokedexNumber": 65010,
+  "primaryType": "dragon",
+  "secondaryType": "normal",
+  "abilities": [
+    "shellarmor",
+    "h:steadfast"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 80,
+    "special_attack": 30,
+    "special_defence": 60,
+    "speed": 50
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 120
+    }
+  },
+  "catchRate": 180,
+  "maleRatio": 0.67,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 15,
+  "eggGroups": [
+    "dragon",
+    "human_like",
+    "monster"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:leather_boots",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
+
+  "forms": [
+    {
+      "name": "KP",
+      "primaryType": "dragon",
+      "secondaryType": "fighting",
+      "abilities": [
+          "shellarmor",
+          "innerfocus",
+          "h:purepower"
+        ],
+      "baseStats": {
+        "hp": 40,
+        "attack": 40,
+        "defence": 60,
+        "special_attack": 40,
+        "special_defence": 60,
+        "speed": 60
+      },
+      "catchRate": 180,
+      "maleRatio": 0.86,
+      "baseExperienceYield": 100,
+      "baseFriendship": 50,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "experienceGroup": "medium_slow",
+      "eggCycles": 5,
+      "eggGroups": [
+        "dragon",
+        "human_like",
+        "monster"
+      ],
+      "moves": [
+        "1:tackle",
+        "1:tailwhip",
+        "3:bite",
+        "6:withdraw",
+        "9:rapidspin",
+        "12:endure",
+        "15:headbutt",
+        "18:protect",
+        "21:raindance",
+        "24:irondefense",
+        "27:shellsmash",
+        "30:dragonclaw",
+        "32:dualchop",
+        "33:bodyslam",
+        "36:zenheadbutt",
+        "40:focusenergy",
+        "45:dragonpulse",
+        "50:outrage",
+        "55:doubleedge",
+        "57:dragonrush",
+        "tm:stomp",
+        "tm:doublekick",
+        "tm:megakick",
+        "tm:jumpkick",
+        "tm:rollingkick",
+        "tm:sandattack",
+        "tm:takedown",
+        "tm:tailwhip",
+        "tm:leer",
+        "tm:lowkick",
+        "tm:counter",
+        "tm:growth",
+        "tm:dragonrage",
+        "tm:rockthrow",
+        "tm:meditate",
+        "tm:agility",
+        "tm:quickattack",
+        "tm:harden",
+        "tm:defensecurl",
+        "tm:barrier",
+        "tm:lightscreen",
+        "tm:reflect",
+        "tm:bide",
+        "tm:swift",
+        "tm:skullbash",
+        "tm:highjumpkick",
+        "tm:dizzypunch",
+        "tm:rest",
+        "tm:substitute",
+        "tm:snore",
+        "tm:flail",
+        "tm:spite",
+        "tm:machpunch",
+        "tm:feintattack",
+        "tm:mudslap",
+        "tm:detect",
+        "tm:charm",
+        "tm:rollout",
+        "tm:falseswipe",
+        "tm:return",
+        "tm:frustration",
+        "tm:dynamicpunch",
+        "tm:encore",
+        "tm:hiddenpower",
+        "tm:crosschop",
+        "tm:twister",
+        "tm:sunnyday",
+        "tm:crunch",
+        "tm:mirrorcoat",
+        "tm:ancientpower",
+        "tm:rocksmash",
+        "tm:whirlpool",
+        "tm:stockpile",
+        "tm:flatter",
+        "tm:facade",
+        "tm:focuspunch",
+        "tm:followme",
+        "tm:naturepower",
+        "tm:assist",
+        "tm:superpower",
+        "tm:brickbreak",
+        "tm:endeavor",
+        "tm:secretpower",
+        "tm:armthrust",
+        "tm:blazekick",
+        "tm:iceball",
+        "tm:faketears",
+        "tm:odorsleuth",
+        "tm:bounce",
+        "tm:mudshot",
+        "tm:dragondance",
+        "tm:gyroball",
+        "tm:uturn",
+        "tm:closecombat",
+        "tm:fling",
+        "tm:lastresort",
+        "tm:suckerpunch",
+        "tm:rockpolish",
+        "tm:gigaimpact",
+        "tm:rockclimb",
+        "tm:captivate",
+        "tm:headsmash",
+        "tm:honeclaws",
+        "tm:storedpower",
+        "tm:acrobatics",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tm:flipturn",
+        "tm:trailblaze"
+
+      ],
+      "labels": [
+        "custom",
+        "cobblemario",
+        "koopa"
+      ],
+      "aspects": [
+      "kp-koopa-true"
+      ],
+      "pokedex": [
+        "cobblemon.species.kp_koopa.desc1",
+        "cobblemon.species.kp_koopa.desc2"
+      ],
+      "height": 1,
+      "weight": 1,
+      "evolutions": [
+      ],
+      "cannotDynamax": false,
+      "battleOnly": false
+    }
+  ],
+
+
+
+
+  "moves": [
+  "1:tackle",
+  "1:tailwhip",
+  "3:bite",
+  "6:withdraw",
+  "egg:withdraw",
+  "9:rapidspin",
+  "12:endure",
+  "15:headbutt",
+  "18:protect",
+  "21:raindance",
+  "24:irondefense",
+  "27:shellsmash",
+  "30:dragonclaw",
+  "32:dualchop",
+  "33:bodyslam",
+  "36:zenheadbutt",
+  "40:focusenergy",
+  "45:dragonpulse",
+  "50:outrage",
+  "55:doubleedge",
+  "57:dragonrush",
+  "tm:stomp",
+  "tm:doublekick",
+  "tm:megakick",
+  "tm:jumpkick",
+  "tm:rollingkick",
+  "tm:sandattack",
+  "tm:takedown",
+  "tm:tailwhip",
+  "tm:leer",
+  "tm:lowkick",
+  "tm:counter",
+  "tm:growth",
+  "tm:dragonrage",
+  "tm:rockthrow",
+  "tm:meditate",
+  "tm:agility",
+  "tm:quickattack",
+  "tm:harden",
+  "tm:defensecurl",
+  "tm:barrier",
+  "tm:lightscreen",
+  "tm:reflect",
+  "tm:bide",
+  "tm:swift",
+  "tm:skullbash",
+  "tm:highjumpkick",
+  "tm:dizzypunch",
+  "tm:rest",
+  "tm:substitute",
+  "tm:snore",
+  "tm:flail",
+  "tm:spite",
+  "tm:machpunch",
+  "tm:feintattack",
+  "tm:mudslap",
+  "tm:detect",
+  "tm:charm",
+  "tm:rollout",
+  "tm:falseswipe",
+  "tm:return",
+  "tm:frustration",
+  "tm:dynamicpunch",
+  "tm:encore",
+  "tm:hiddenpower",
+  "tm:crosschop",
+  "tm:twister",
+  "tm:sunnyday",
+  "tm:crunch",
+  "tm:mirrorcoat",
+  "tm:ancientpower",
+  "tm:rocksmash",
+  "tm:whirlpool",
+  "tm:stockpile",
+  "tm:flatter",
+  "tm:facade",
+  "tm:focuspunch",
+  "tm:followme",
+  "tm:naturepower",
+  "tm:assist",
+  "tm:superpower",
+  "tm:brickbreak",
+  "tm:endeavor",
+  "tm:secretpower",
+  "tm:armthrust",
+  "tm:blazekick",
+  "tm:iceball",
+  "tm:faketears",
+  "tm:odorsleuth",
+  "tm:bounce",
+  "tm:mudshot",
+  "tm:dragondance",
+  "tm:gyroball",
+  "tm:uturn",
+  "tm:closecombat",
+  "tm:fling",
+  "tm:lastresort",
+  "tm:suckerpunch",
+  "tm:rockpolish",
+  "tm:gigaimpact",
+  "tm:rockclimb",
+  "tm:captivate",
+  "tm:headsmash",
+  "tm:honeclaws",
+  "tm:storedpower",
+  "tm:acrobatics",
+  "tm:voltswitch",
+  "tm:wildcharge",
+  "tm:flipturn",
+  "tm:trailblaze"
+  ],
+
+
+
+  "labels": [
+    "custom",
+    "cobblemario",
+    "koopa"
+  ],
+  "pokedex": [
+    "cobblemon.species.koopa.desc1",
+    "cobblemon.species.koopa.desc2"
+  ],
+  "baseScale": 0.7,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 1,
+
+  "evolutions": [
+
+    {"id": "koopa-hammer_bro-item_interact",
+      "variant": "item_interact",
+      "result": "hammer_bro",
+      "consumeHeldItem": false,
+      "learnableMoves": ["woodhammer", "fling"],
+      "requirements": [{"variant": "level", "minLevel": 16}],
+      "requiredContext": "cobblemario:throwing_hammer"
+    },
+    {"id": "koopa-hammer_bro-level_up",
+      "variant": "level_up",
+      "result": "hammer_bro",
+      "consumeHeldItem": true,
+      "learnableMoves": ["woodhammer", "fling"],
+      "requirements": [
+        {"variant": "level", "minLevel": 26},
+        {"variant": "held_item", "itemCondition": "#minecraft:logs"}
+      ]
+    },
+    {"id": "koopa-parakoopa-item_interact",
+      "variant": "item_interact",
+      "result": "parakoopa",
+      "consumeHeldItem": false,
+      "learnableMoves": ["fly", "wingattack"],
+      "requirements": [{"variant": "level", "minLevel": 11}],
+      "requiredContext": "cobblemario:stick_on_wings"
+    },
+    {"id": "koopa-parakoopa-level_up",
+      "variant": "level_up",
+      "result": "parakoopa",
+      "consumeHeldItem": true,
+      "learnableMoves": ["fly", "wingattack"],
+      "requirements": [
+        {"variant": "held_item", "itemCondition": "minecraft:feather"},
+        {"variant": "level", "minLevel": 20},
+        {"variant": "weather", "isRaining": false, "isThundering": false},
+        {"variant": "party_member", "target": "flying"}
+      ],
+      "requiredContext": "minecraft:white_wool"
+    },
+    {"id": "koopa-dark_koopa-level_up",
+      "variant": "level_up",
+      "result": "dark_koopa",
+      "consumeHeldItem": false,
+      "learnableMoves": ["assurance"],
+      "requirements": [
+        {"variant": "has_move_type", "type": "dark"},
+        {"variant": "level", "minLevel": 16},
+        {"variant": "biome", "biomeCondition": "#cobblemon:is_cave"},
+        {"variant": "time_range", "range": "night"}
+      ]
+    },
+    {"id": "koopa-koopatrol-level_up1",
+      "variant": "level_up",
+      "result": "koopatrol",
+      "consumeHeldItem": true,
+      "learnableMoves": ["ironhead", "irondefense"],
+      "requirements": [
+        {"variant": "held_item", "itemCondition": "cobblemon:metal_coat"},
+        {"variant": "level", "minLevel": 18}
+      ]
+    },
+    {"id": "koopa-koopatrol-level_up2",
+      "variant": "level_up",
+      "result": "koopatrol",
+      "consumeHeldItem": false,
+      "learnableMoves": ["ironhead"],
+      "requirements": [
+        {"variant": "level", "minLevel": 26},
+        {"variant": "use_move", "move": "irondefense", "amount": 26}
+      ]
+    },
+    {"id": "koopa-boomerang_bro-item_interact",
+      "variant": "item_interact",
+      "result": "boomerang_bro",
+      "consumeHeldItem": false,
+      "learnableMoves": ["doublehit", "bonemerang", "fling"],
+      "requirements": [{"variant": "level", "minLevel": 20}],
+      "requiredContext": "cobblemario:boomerang"
+    },
+    {"id": "koopa-fire_bro-level_up",
+      "variant": "level_up",
+      "result": "fire_bro",
+      "consumeHeldItem": false,
+      "learnableMoves": ["flamethrower", "fling"],
+      "requirements": [
+        {"variant": "held_item", "itemCondition": "cobblemon:flame_orb"},
+        {"variant": "level", "minLevel": 20}
+      ]
+    },
+    {"id": "koopa-fire_bro-item_interact",
+      "variant": "item_interact",
+      "result": "fire_bro",
+      "consumeHeldItem": false,
+      "learnableMoves": ["flamethrower", "fling"],
+      "requirements": [],
+      "requiredContext": "cobblemon:fire_stone"
+    },
+    {"id": "koopa-magikoopa-level_up1",
+      "variant": "level_up",
+      "result": "magikoopa",
+      "consumeHeldItem": true,
+      "learnableMoves": ["psychic", "lightscreen"],
+      "requirements": [
+        {"variant": "has_move_type", "type": "psychic"},
+        {"variant": "held_item", "itemCondition": "cobblemario:magikoopa_wand"}
+      ]
+    },
+    {"id": "koopa-magikoopa-level_up2",
+      "variant": "level_up",
+      "result": "magikoopa",
+      "consumeHeldItem": true,
+      "learnableMoves": ["psychic", "healpulse"],
+      "requirements": [
+        {"variant": "has_move_type", "type": "psychic"},
+        {"variant": "held_item", "itemCondition": "cobblemon:wise_glasses"},
+        {"variant": "level", "minLevel": 32}
+      ]
+    },
+    {"id": "koopa-kent_c_koopa-level_up1",
+      "variant": "level_up",
+      "result": "kent_c_koopa",
+      "consumeHeldItem": true,
+      "learnableMoves": ["superpower"],
+      "requirements": [
+        {"variant": "level", "minLevel": 55},
+        {"variant": "held_item", "itemCondition": "cobblemon:wise_glasses"}
+      ]
+    },
+    {"id": "koopa-kent_c_koopa-level_up2",
+      "variant": "level_up",
+      "result": "kent_c_koopa",
+      "consumeHeldItem": true,
+      "learnableMoves": ["superpower"],
+      "requirements": [{"variant": "held_item", "ratio": "DEFENCE_HIGHER", "itemCondition": "cobblemario:thick_glasses"}]
+    },
+    {"id": "koopa-bowser-level_up",
+      "variant": "level_up",
+      "result": "bowser",
+      "consumeHeldItem": false,
+      "learnableMoves": ["dragonbreath", "firepunch"],
+      "requirements": [
+        {"variant": "level", "minLevel": 68},
+        {"variant": "has_move_type", "type": "dragon"}
+      ]
+    },
+    {"id": "koopa-tutankoopa-level_up",
+      "variant": "level_up",
+      "result": "tutankoopa",
+      "consumeHeldItem": false,
+      "learnableMoves": ["sandtomb"],
+      "requirements": [
+        {"variant": "level", "minLevel": 55},
+        {"variant": "biome", "biomeCondition": "#cobblemon:is_desert"}
+      ]
+    }
+  ]
+}

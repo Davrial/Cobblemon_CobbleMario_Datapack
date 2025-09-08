@@ -1,0 +1,242 @@
+{
+  "implemented": true,
+  "name": "magikoopa",
+  "nationalPokedexNumber": 65036,
+  "primaryType": "dragon",
+  "secondaryType": "psychic",
+  "abilities": [
+    "keeneye",
+    "analytic",
+    "h:telepathy"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 80,
+    "defence": 35,
+    "special_attack": 80,
+    "special_defence": 35,
+    "speed": 105
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 200
+    }
+  },
+  "catchRate": 100,
+  "maleRatio": 0.67,
+  "shoulderMountable": false,
+  "baseExperienceYield": 200,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 15,
+  "eggGroups": [
+    "dragon",
+    "human_like",
+    "monster"
+  ],
+  "features": [
+    "magikoopa_color"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:leather_boots",
+        "quantityRange": "1-1",
+        "percentage": 10
+      }
+    ]
+  },
+
+
+
+  "moves": [
+    "1:tackle",
+    "1:tailwhip","REPLACEBEFOREFINISH",
+    "1:bite",
+    "1:withdraw","REPLACEBEFOREFINISH",
+    "9:rapidspin",
+    "12:endure",
+    "15:headbutt",
+    "20:protect",
+    "25:raindance",
+    "30:irondefense","REPLACEBEFOREFINISH",
+    "35:shellsmash","REPLACEBEFOREFINISH",
+    "40:dragonclaw","REPLACEBEFOREFINISH",
+    "45:dualchop","REPLACEBEFOREFINISH",
+    "50:bodyslam","REPLACEBEFOREFINISH",
+    "55:zenheadbutt",
+    "60:focusenergy",
+    "65:dragonpulse",
+    "70:outrage","REPLACEBEFOREFINISH",
+    "75:doubleedge",
+    "77:dragonrush",
+    "tm:stomp","REPLACEBEFOREFINISH",
+    "tm:doublekick","REPLACEBEFOREFINISH",
+    "tm:megakick","REPLACEBEFOREFINISH",
+    "tm:jumpkick","REPLACEBEFOREFINISH",
+    "tm:rollingkick","REPLACEBEFOREFINISH",
+    "tm:sandattack",
+    "tm:takedown",
+    "tm:tailwhip","REPLACEBEFOREFINISH",
+    "tm:leer",
+    "tm:lowkick","REPLACEBEFOREFINISH",
+    "tm:counter",
+    "tm:growth",
+    "tm:dragonrage",
+    "tm:rockthrow",
+    "tm:meditate",
+    "tm:agility",
+    "tm:quickattack",
+    "tm:harden",
+    "tm:defensecurl","REPLACEBEFOREFINISH",
+    "tm:barrier",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:bide",
+    "tm:swift",
+    "tm:skullbash","REPLACEBEFOREFINISH",
+    "tm:highjumpkick","REPLACEBEFOREFINISH",
+    "tm:dizzypunch","REPLACEBEFOREFINISH",
+    "tm:rest",
+    "tm:substitute",
+    "tm:snore",
+    "tm:flail","REPLACEBEFOREFINISH",
+    "tm:spite",
+    "tm:machpunch","REPLACEBEFOREFINISH",
+    "tm:feintattack",
+    "tm:mudslap",
+    "tm:detect",
+    "tm:charm",
+    "tm:rollout","REPLACEBEFOREFINISH",
+    "tm:falseswipe",
+    "tm:return",
+    "tm:frustration",
+    "tm:dynamicpunch","REPLACEBEFOREFINISH",
+    "tm:encore",
+    "tm:hiddenpower",
+    "tm:crosschop","REPLACEBEFOREFINISH",
+    "tm:twister",
+    "tm:sunnyday",
+    "tm:crunch",
+    "tm:mirrorcoat",
+    "tm:ancientpower",
+    "tm:rocksmash","REPLACEBEFOREFINISH",
+    "tm:whirlpool",
+    "tm:stockpile",
+    "tm:flatter",
+    "tm:facade",
+    "tm:focuspunch","REPLACEBEFOREFINISH",
+    "tm:followme",
+    "tm:naturepower",
+    "tm:assist",
+    "tm:superpower","REPLACEBEFOREFINISH",
+    "tm:brickbreak","REPLACEBEFOREFINISH",
+    "tm:endeavor",
+    "tm:secretpower",
+    "tm:armthrust","REPLACEBEFOREFINISH",
+    "tm:blazekick","REPLACEBEFOREFINISH",
+    "tm:iceball",
+    "tm:faketears",
+    "tm:odorsleuth",
+    "tm:bounce",
+    "tm:mudshot",
+    "tm:dragondance",
+    "tm:gyroball","REPLACEBEFOREFINISH",
+    "tm:uturn",
+    "tm:closecombat","REPLACEBEFOREFINISH",
+    "tm:fling",
+    "tm:lastresort",
+    "tm:suckerpunch",
+    "tm:rockpolish","REPLACEBEFOREFINISH",
+    "tm:gigaimpact","REPLACEBEFOREFINISH",
+    "tm:rockclimb","REPLACEBEFOREFINISH",
+    "tm:captivate",
+    "tm:headsmash","REPLACEBEFOREFINISH",
+    "tm:honeclaws","REPLACEBEFOREFINISH",
+    "tm:storedpower",
+    "tm:acrobatics",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:flipturn",
+    "tm:trailblaze"
+
+
+  ],
+
+
+
+  "labels": [
+    "custom",
+    "cobblemario",
+    "koopa"
+  ],
+  "pokedex": [
+    "cobblemon.species.magikoopa.desc1",
+    "cobblemon.species.magikoopa.desc2"
+  ],
+  "baseScale": 0.14,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 1,
+
+  "preEvolution": "koopa",
+
+  "evolutions": [
+    {"id": "magikoopa-kamek-level_up",
+      "variant": "level_up",
+      "result": "kamek",
+      "learnableMoves": ["reflect", "calmmind"],
+      "requirements": [
+        {"variant": "has_move_type", "type": "psychic"},
+        {"variant": "level", "minLevel": 64},
+        {"variant": "properties", "target": "gender=male"}
+
+      ]
+    },
+    {"id": "magikoopa-kammykoopa-level_up",
+      "variant": "level_up",
+      "result": "kammykoopa",
+      "learnableMoves": ["lightscreen", "cosmicpower"],
+      "requirements": [
+        {"variant": "has_move_type", "type": "psychic"},
+        {"variant": "level", "minLevel": 64},
+        {"variant": "properties", "target": "gender=female"}
+      ]
+    }
+  ]
+
+}

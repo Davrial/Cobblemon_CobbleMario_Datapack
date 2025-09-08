@@ -1,0 +1,42 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "shady_koopa-1",
+      "pokemon": "shady_koopa",
+      "presets": [
+        "natural",
+        "derelict"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "30-60",
+      "weight": 10.0,
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "maxY": 32,
+          "minY": 0
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark",
+          "#c:caves",
+          "#c:underground",
+          "#forge:is_underground",
+          "#cobblemon:is_cave",
+          "#cobblemon:is_spooky"
+        ],
+        "maxY": 60,
+        "maxLight": 4
+      },
+      "anticondition": {
+        "canSeeSky": true
+      }
+    }
+  ]
+}

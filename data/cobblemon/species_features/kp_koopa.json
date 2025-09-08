@@ -1,0 +1,11 @@
+{
+  "type": "choice",
+  "keys": ["kp_koopa"],
+  "default": "false",
+  "choices": [
+    "true",
+    "gold"
+  ],
+  "isAspect": true,
+  "aspectFormat": "kp-koopa-{{choice}}"
+}

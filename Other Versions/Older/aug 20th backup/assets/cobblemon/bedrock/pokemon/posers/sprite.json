@@ -1,0 +1,16 @@
+{
+  "head": "head",
+  "portraitScale": 0.1,
+  "portraitTranslation": [ 0, -4.5, 0 ],
+  "profileScale": 0.1,
+  "profileTranslation": [ 0, -4.6, 0 ],
+  "faint": "bedrock(sprite, faint)",
+  "poses": {
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "allPoseTypes": true,
+      "animations": []
+    }
+  }
+}

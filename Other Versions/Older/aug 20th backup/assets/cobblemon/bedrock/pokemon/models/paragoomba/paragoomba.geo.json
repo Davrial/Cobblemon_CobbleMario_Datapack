@@ -1,0 +1,119 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 5,
+				"visible_bounds_offset": [0, 1.5, 0]
+			},
+			"bones": [
+				{
+					"name": "paragoomba",
+					"pivot": [0, 8, 0]
+				},
+				{
+					"name": "head",
+					"parent": "paragoomba",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{"origin": [-8, 6, -8], "size": [16, 4, 16], "uv": [0, 0]},
+						{"origin": [-6, 10, -6], "size": [12, 6, 12], "uv": [0, 40]},
+						{"origin": [-7, 7, -7], "size": [14, 6, 14], "uv": [0, 20]},
+						{"origin": [-6, 11, -7], "size": [12, 7, 0], "uv": [36, 40]}
+					]
+				},
+				{
+					"name": "wings",
+					"parent": "head",
+					"pivot": [0, 24, 8]
+				},
+				{
+					"name": "left_wing",
+					"parent": "wings",
+					"pivot": [1, 8, 8],
+					"cubes": [
+						{"origin": [0, 7, 8], "size": [16, 16, 0], "uv": [1, 112]}
+					]
+				},
+				{
+					"name": "right_wing",
+					"parent": "wings",
+					"pivot": [-1, 8, 7],
+					"cubes": [
+						{"origin": [-16, 7, 8], "size": [16, 16, 0], "uv": [95, 112]}
+					]
+				},
+				{
+					"name": "foot_left",
+					"parent": "paragoomba",
+					"pivot": [3, 2, -2]
+				},
+				{
+					"name": "heel_left",
+					"parent": "foot_left",
+					"pivot": [6, 0.616, -2.296],
+					"cubes": [
+						{"origin": [2, 0, -3], "size": [6, 4, 4], "uv": [48, 47]}
+					]
+				},
+				{
+					"name": "arch_left",
+					"parent": "foot_left",
+					"pivot": [6, 0.616, -4.296],
+					"cubes": [
+						{"origin": [2, 0, -5], "size": [6, 4, 4], "uv": [48, 47]}
+					]
+				},
+				{
+					"name": "loe_left",
+					"parent": "foot_left",
+					"pivot": [6, 0.616, -6.296],
+					"cubes": [
+						{"origin": [2, 0, -7], "size": [6, 4, 4], "uv": [48, 47]}
+					]
+				},
+				{
+					"name": "foot_right",
+					"parent": "paragoomba",
+					"pivot": [-3, 2, -2]
+				},
+				{
+					"name": "toe_right",
+					"parent": "foot_right",
+					"pivot": [-4, 0.75, -1.6],
+					"cubes": [
+						{"origin": [-8, 0, -7], "size": [6, 4, 4], "uv": [42, 20]}
+					]
+				},
+				{
+					"name": "arch_right",
+					"parent": "foot_right",
+					"pivot": [-4, 0.75, 0.4],
+					"cubes": [
+						{"origin": [-8, 0, -5], "size": [6, 4, 4], "uv": [42, 20]}
+					]
+				},
+				{
+					"name": "heel_right",
+					"parent": "foot_right",
+					"pivot": [-4, 0.75, 2.4],
+					"cubes": [
+						{"origin": [-8, 0, -3], "size": [6, 4, 4], "uv": [42, 20]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "paragoomba",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{"origin": [-4, 2, -4], "size": [8, 8, 8], "uv": [48, 0]}
+					]
+				}
+			]
+		}
+	]
+}

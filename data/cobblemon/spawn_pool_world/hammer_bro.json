@@ -1,0 +1,53 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hammer_bro-1",
+      "pokemon": "hammer_bro",
+      "presets": [
+        "natural",
+        "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 6.0,
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "minY": 60,
+          "maxY": 160,
+          "biomes": [
+            "#cobblemon:is_temperate"
+          ]
+        }
+      },
+      "condition": {
+        "minY": 32,
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_grassland",
+          "#minecraft:is_hill"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_island",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_deep_dark",
+          "#cobblemon:is_freezing",
+          "#forge:is_snowy",
+          "#c:snowy",
+          "#minecraft:is_nether",
+          "#minecraft:is_end"
+        ]
+      }
+    }
+  ]
+}

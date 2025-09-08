@@ -1,0 +1,33 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tutankoopa-1",
+      "pokemon": "tutankoopa",
+      "presets": [
+        "desert_pyramid"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "45-65",
+      "weight": 50.0,
+      "heldItems": [
+        {
+          "item": "cobblemon:soft_sand",
+          "percentage": 50
+        },
+        {
+          "item": "cobblemon:smooth_rock",
+          "percentage": 50
+        },
+        {
+          "item": "cobblemon:dragon_fang",
+          "percentage": 100
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "implemented": true,
+  "name": "spikedgloomba",
+  "nationalPokedexNumber": 65009,
+  "primaryType": "dark",
+  "secondaryType": "steel",
+  "abilities": [
+    "innerfocus",
+    "merciless",
+    "h:guts"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 85,
+    "defence": 25,
+    "special_attack": 85,
+    "special_defence": 25,
+    "speed": 110
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "11-15",
+      "willSleepOnBed": false,
+      "times": "day"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 200
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.86,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 10,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:leather_boots",
+        "quantityRange": "1-1",
+        "percentage": 22
+      }
+    ]
+  },
+
+
+
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:quickattack",
+    "1:bite",
+    "1:headbutt",
+    "12:sandattack",
+    "13:harden",
+    "14:beatup",
+    "15:astonish",
+    "16:hornattack",
+    "18:torment",
+    "19:mudslap",
+    "21:doubleedge",
+    "21:taunt",
+    "23:flail",
+    "25:focusenergy",
+    "25:knockoff",
+    "27:bounce",
+    "29:sharpen",
+    "29:snatch",
+    "31:crunch",
+    "33:slash",
+    "33:payback",
+    "35:bodyslam",
+    "38:megahorn",
+    "38:assurance",
+    "41:doubleedge",
+    "44:irondefense",
+    "44:darkpulse",
+    "47:superfang",
+    "52:gigaimpact",
+    "52:nastyplot",
+    "55:zenheadbutt",
+    "58:ironhead",
+    "58:foulplay",
+    "61:drillrun",
+    "62:sharpen",
+    "65:memento",
+    "67:endeavor",
+    "73:outrage",
+    "tm:quickattack",
+    "tm:bite",
+    "tm:headbutt",
+    "tm:sandattack",
+    "tm:harden",
+    "tm:beatup",
+    "tm:astonish",
+    "tm:hornattack",
+    "tm:torment",
+    "tm:mudslap",
+    "tm:doubleedge",
+    "tm:taunt",
+    "tm:flail",
+    "tm:focusenergy",
+    "tm:knockoff",
+    "tm:bounce",
+    "tm:sharpen",
+    "tm:snatch",
+    "tm:crunch",
+    "tm:slash",
+    "tm:payback",
+    "tm:bodyslam",
+    "tm:megahorn",
+    "tm:assurance",
+    "tm:doubleedge",
+    "tm:irondefense",
+    "tm:darkpulse",
+    "tm:superfang",
+    "tm:gigaimpact",
+    "tm:nastyplot",
+    "tm:zenheadbutt",
+    "tm:ironhead",
+    "tm:foulplay",
+    "tm:drillrun",
+    "tm:sharpen",
+    "tm:memento",
+    "tm:endeavor",
+    "tm:outrage",
+    "tm:jumpkick",
+    "tm:takedown",
+    "tm:hyperbeam",
+    "tm:minimize",
+    "tm:bide",
+    "tm:skullbash",
+    "tm:highjumpkick",
+    "tm:hyperfang",
+    "tm:scaryface",
+    "tm:detect",
+    "tm:endure",
+    "tm:rollout",
+    "tm:swagger",
+    "tm:meanlook",
+    "tm:hiddenpower",
+    "tm:memento",
+    "tm:slackoff",
+    "tm:lastresort",
+    "tm:nastyplot",
+    "tm:headsmash",
+    "tm:acrobatics",
+    "tm:finalgambit",
+    "tm:workup",
+    "tm:mudsport",
+    "tm:acid",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:firefang",
+    "tm:zenheadbutt",
+    "egg:thunderfang",
+    "egg:icefang",
+    "egg:firefang",
+    "egg:zenheadbutt",
+    "tutor:thunderfang",
+    "tutor:icefang",
+    "tutor:firefang",
+    "tutor:zenheadbutt",
+    "tm:snarl",
+    "tm:jawlock",
+    "tm:lashout",
+    "tm:hyperbeam"
+  ],
+
+
+
+
+
+
+  "labels": [
+    "custom",
+    "cobblemario"
+  ],
+  "pokedex": [
+    "cobblemon.species.spikedgloomba.desc1",
+    "cobblemon.species.spikedgloomba.desc2"
+  ],
+  "preEvolution": "gloomba",
+  "baseScale": 1.25,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 30,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 45,
+  "weight": 175
+
+}

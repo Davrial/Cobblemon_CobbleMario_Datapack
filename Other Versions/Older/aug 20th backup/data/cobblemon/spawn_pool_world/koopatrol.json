@@ -1,0 +1,57 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "koopatrol-1",
+      "pokemon": "koopatrol held_item=minecraft:iron_ingot",
+      "presets": [
+        "mansion",
+        "pillager_outpost",
+        "nether_structures",
+        "stronghold",
+        "derelict"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "44-60",
+      "weight": 5.0,
+      "weightMultiplier": {
+        "multiplier": 2.0,
+        "condition": {
+          "minY": 60,
+          "maxY": 160,
+          "structures": [
+            "minecraft:stronghold",
+            "minecraft:mansion",
+            "minecraft:woodland_mansion"
+          ]
+        }
+      },
+      "condition": {
+        "minY": 0,
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_grassland",
+          "#minecraft:is_hill"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_island",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_deep_dark",
+          "#cobblemon:is_freezing",
+          "#forge:is_snowy",
+          "#c:snowy",
+          "#minecraft:is_end"
+        ]
+      }
+    }
+  ]
+}

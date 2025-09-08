@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:boomerang_bro",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sprite",
+      "model": "cobblemon:sprite.geo",
+      "texture": "cobblemon:textures/pokemon/boomerang_bro/boomerang_bro_sprite.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/boomerang_bro/boomerang_bro_shiny.png"
+    }
+  ]
+}

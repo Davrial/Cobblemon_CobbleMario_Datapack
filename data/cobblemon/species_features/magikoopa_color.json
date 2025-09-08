@@ -1,0 +1,16 @@
+{
+  "type": "choice",
+  "keys": ["magikoopa_color"],
+  "default": "blue",
+  "choices": [
+    "blue",
+    "red",
+    "green",
+    "white",
+    "yellow",
+    "gray",
+    "purple"
+  ],
+  "isAspect": true,
+  "aspectFormat": "magikoopa-color-{{choice}}"
+}

@@ -1,0 +1,68 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dark_koopatrol-1",
+      "pokemon": "dark_koopatrol",
+      "presets": [
+        "nether_structures",
+        "stronghold",
+        "derelict",
+        "ancient_city"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "49-75",
+      "weight": 5.0,
+      "condition": {
+        "biomes": [
+          "minecraft:basalt_deltas",
+          "incendium:volcanic_deltas",
+          "betternether:soul_plain",
+          "cinderscapes:blackstone_shales",
+          "incendium:ash_barrens",
+          "cinderscapes:blackstone_shales",
+          "incendium:withered_forest"
+        ],
+        "maxLight": 13
+      },
+      "anticondition": {
+        "canSeeSky": true
+      }
+    },
+    {
+      "id": "dark_koopatrol-2",
+      "pokemon": "dark_koopatrol",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "49-75",
+      "weight": 10.0,
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "maxY": 0
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_deep_dark",
+          "#c:caves",
+          "#c:underground",
+          "#forge:is_underground",
+          "#c:underground",
+          "#cobblemon:is_cave",
+          "#cobblemon:is_spooky"
+        ],
+        "maxY": 32,
+        "maxLight": 4
+      },
+      "anticondition": {
+        "canSeeSky": true
+      }
+    }
+  ]
+}

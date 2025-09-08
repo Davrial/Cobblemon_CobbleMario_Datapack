@@ -1,0 +1,55 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bowser-1",
+      "pokemon": "bowser",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "ultra-rare",
+      "level": "50-75",
+      "weight": 10.0,
+      "weightMultiplier": {
+        "multiplier": 3.0,
+        "condition": {
+          "isThundering": true
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld",
+          "#minecraft:is_nether"
+        ]
+      }
+    },
+    {
+      "id": "bowser-2",
+      "pokemon": "bowser",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "rare",
+      "level": "50-75",
+      "weight": 5.0,
+      "weightMultiplier": {
+        "multiplier": 10.0,
+        "condition": {
+          "isThundering": true
+        }
+      },
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_thermal",
+          "#cobblemon:is_volcanic",
+          "#cobblemon:is_mountain",
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_magical"
+        ]
+      },
+      "anticondition": {
+        "timeRange": "noon"
+      }
+    }
+  ]
+}

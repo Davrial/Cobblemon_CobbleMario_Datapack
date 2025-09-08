@@ -1,0 +1,12 @@
+{
+  "species": "cobblemon:royalgoomba",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["female"],
+      "model": "cobblemon:royalgoomba.geo",
+      "texture": "cobblemon:textures/pokemon/royalgoomba/royalgoomba_female.png"
+    }
+  ]
+}
+

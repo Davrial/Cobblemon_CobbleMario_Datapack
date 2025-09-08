@@ -1,0 +1,53 @@
+{
+  "enabled": false,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "magikoopa-1",
+      "pokemon": "magikoopa held_item=cobblemon:air_balloon",
+      "presets": [
+        "trail_ruins",
+        "ruined_portal",
+        "mansion",
+        "jungle_pyramid",
+        "derelict",
+        "stronghold"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "17-47",
+      "weight": 6.0,
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "maxY": 160,
+          "biomes": [
+            "#cobblemon:is_magical"
+          ]
+        }
+      },
+      "condition": {
+        "minY": 32,
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_grassland",
+          "#cobblemon:is_magical",
+          "#minecraft:is_hill"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_deep_dark",
+          "#cobblemon:is_freezing",
+          "#forge:is_snowy",
+          "#c:snowy"
+        ]
+      }
+    }
+  ]
+}

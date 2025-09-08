@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:redgoomba",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:goomba",
+      "model": "cobblemon:goomba.geo",
+      "texture": "cobblemon:textures/pokemon/goombas/redgoomba/redgoomba.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/redgoomba/redgoomba_shiny.png"
+    }
+  ]
+}

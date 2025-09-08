@@ -1,0 +1,273 @@
+{
+  "implemented": true,
+  "name": "tutankoopa",
+  "nationalPokedexNumber": 64041,
+  "primaryType": "dragon",
+  "secondaryType": "ground",
+  "abilities": [
+    "sandforce",
+    "sandrush",
+    "h:sandstream"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 30,
+    "defence": 45,
+    "special_attack": 80,
+    "special_defence": 95,
+    "speed": 120
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 200
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 1.0,
+  "shoulderMountable": false,
+  "baseExperienceYield": 300,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 20,
+  "eggGroups": [
+    "dragon",
+    "human_like",
+    "monster"
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:sand",
+        "quantityRange": "1-4",
+        "percentage": 100
+      },
+      {
+        "item": "minecraft:cactus",
+        "quantityRange": "1-3",
+        "percentage": 50
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "quantityRange": "1-1",
+        "percentage": 50
+      },
+      {
+        "item": "cobblemon:safety_goggles",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "cobblemon:heat_rock",
+        "quantityRange": "1-1",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:kings_rock",
+        "quantityRange": "1-1",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:light_clay",
+        "quantityRange": "1-1",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:smooth_rock",
+        "quantityRange": "1-1",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "quantityRange": "1-1",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:dragon_fang",
+        "quantityRange": "1-1",
+        "percentage": 5
+      },
+      {
+        "item": "cobblemon:fire_stone",
+        "quantityRange": "1-1",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:sun_stone",
+        "quantityRange": "1-1",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:dragon_scale",
+        "quantityRange": "1-1",
+        "percentage": 5
+      }
+    ]
+  },
+
+
+  "moves": [
+    "1:tackle",
+    "1:tailwhip",
+    "3:bite",
+    "6:withdraw",
+    "9:rapidspin",
+    "12:endure",
+    "15:headbutt",
+    "18:protect",
+    "21:raindance",
+    "24:irondefense",
+    "27:shellsmash",
+    "30:dragonclaw",
+    "32:dualchop",
+    "33:bodyslam",
+    "36:zenheadbutt",
+    "40:focusenergy",
+    "45:dragonpulse",
+    "50:outrage",
+    "55:doubleedge",
+    "57:dragonrush",
+    "tm:stomp",
+    "tm:doublekick",
+    "tm:megakick",
+    "tm:jumpkick",
+    "tm:rollingkick",
+    "tm:sandattack",
+    "tm:takedown",
+    "tm:tailwhip",
+    "tm:leer",
+    "tm:lowkick",
+    "tm:counter",
+    "tm:growth",
+    "tm:dragonrage",
+    "tm:rockthrow",
+    "tm:meditate",
+    "tm:agility",
+    "tm:quickattack",
+    "tm:harden",
+    "tm:defensecurl",
+    "tm:barrier",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:bide",
+    "tm:swift",
+    "tm:skullbash",
+    "tm:highjumpkick",
+    "tm:dizzypunch",
+    "tm:rest",
+    "tm:substitute",
+    "tm:snore",
+    "tm:flail",
+    "tm:spite",
+    "tm:machpunch",
+    "tm:feintattack",
+    "tm:mudslap",
+    "tm:detect",
+    "tm:charm",
+    "tm:rollout",
+    "tm:falseswipe",
+    "tm:return",
+    "tm:frustration",
+    "tm:dynamicpunch",
+    "tm:encore",
+    "tm:hiddenpower",
+    "tm:crosschop",
+    "tm:twister",
+    "tm:sunnyday",
+    "tm:crunch",
+    "tm:mirrorcoat",
+    "tm:ancientpower",
+    "tm:rocksmash",
+    "tm:whirlpool",
+    "tm:stockpile",
+    "tm:flatter",
+    "tm:facade",
+    "tm:focuspunch",
+    "tm:followme",
+    "tm:naturepower",
+    "tm:assist",
+    "tm:superpower",
+    "tm:brickbreak",
+    "tm:endeavor",
+    "tm:secretpower",
+    "tm:armthrust",
+    "tm:blazekick",
+    "tm:iceball",
+    "tm:faketears",
+    "tm:odorsleuth",
+    "tm:bounce",
+    "tm:mudshot",
+    "tm:dragondance",
+    "tm:gyroball",
+    "tm:uturn",
+    "tm:closecombat",
+    "tm:fling",
+    "tm:lastresort",
+    "tm:suckerpunch",
+    "tm:rockpolish",
+    "tm:gigaimpact",
+    "tm:rockclimb",
+    "tm:captivate",
+    "tm:headsmash",
+    "tm:honeclaws",
+    "tm:storedpower",
+    "tm:acrobatics",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:flipturn",
+    "tm:trailblaze"
+
+  ],
+
+
+
+  "labels": [
+    "custom",
+    "cobblemario",
+    "koopa"
+  ],
+  "pokedex": [
+    "cobblemon.species.tutankoopa.desc1",
+    "cobblemon.species.tutankoopa.desc2"
+  ],
+  "baseScale": 0.14,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 2,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 1,
+
+  "preEvolution": "magikoopa"
+
+}

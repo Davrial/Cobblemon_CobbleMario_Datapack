@@ -1,0 +1,107 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "koopa-green-1",
+      "pokemon": "koopa koopa_color=green",
+      "presets": [
+        "natural",
+        "urban"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "10-30",
+      "weight": 6.0,
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "minY": 60,
+          "maxY": 160,
+          "biomes": [
+            "#cobblemon:is_temperate"
+          ]
+        }
+      },
+      "condition": {
+        "minY": 32,
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_grassland",
+          "#minecraft:is_hill"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_sky",
+          "#cobblemon:is_island",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_deep_dark",
+          "#cobblemon:is_freezing",
+          "#forge:is_snowy",
+          "#c:snowy",
+          "#forge:is_peak",
+          "#c:mountain_peak",
+          "#minecraft:is_nether",
+          "#minecraft:is_end"
+        ]
+      }
+    },
+    {
+      "id": "koopa-red-1",
+      "pokemon": "koopa koopa_color=red",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "10-30",
+      "weight": 6.0,
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "minY": 60,
+          "maxY": 160,
+          "biomes": [
+            "#cobblemon:is_temperate"
+          ]
+        }
+      },
+      "condition": {
+        "minY": 32,
+        "biomes": [
+          "#cobblemon:is_forest",
+          "#cobblemon:is_highlands",
+          "#cobblemon:is_grassland",
+          "#minecraft:is_hill"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_sky",
+          "#cobblemon:is_island",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_deep_dark",
+          "#cobblemon:is_freezing",
+          "#forge:is_snowy",
+          "#c:snowy",
+          "#forge:is_peak",
+          "#c:mountain_peak",
+          "#minecraft:is_nether",
+          "#minecraft:is_end"
+        ]
+      }
+    }
+  ]
+}

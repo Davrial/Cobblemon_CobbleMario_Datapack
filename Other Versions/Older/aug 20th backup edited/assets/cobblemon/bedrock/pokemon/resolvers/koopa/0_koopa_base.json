@@ -1,0 +1,39 @@
+{
+  "species": "cobblemon:koopa",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:koopa",
+      "model": "cobblemon:koopa.geo",
+      "texture": "cobblemon:textures/pokemon/koopa/koopa.png",
+      "layers": []
+    },
+    {
+      "aspects": ["koopa-color-green"],
+      "texture": "cobblemon:textures/pokemon/koopa/koopa_green.png",
+      "layers": []
+    },
+    {
+      "aspects": ["koopa-color-red"],
+      "texture": "cobblemon:textures/pokemon/koopa/koopa_red.png",
+      "layers": []
+    },
+    {
+      "aspects": ["kp-koopa-true"],
+      "texture": "cobblemon:textures/pokemon/koopa/koopa_kp_yellow.png",
+      "layers": []
+    },
+    {
+      "aspects": ["kp-koopa-gold"],
+      "texture": "cobblemon:textures/pokemon/koopa/koopa_kp_yellow.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/koopa/koopa_shiny.png"
+    }
+  ]
+}

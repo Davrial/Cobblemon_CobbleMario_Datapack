@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:royalgoomba",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:royalgoomba",
+      "model": "cobblemon:royalgoomba.geo",
+      "texture": "cobblemon:textures/pokemon/royalgoomba/royalgoomba.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/royalgoomba/royalgoomba_shiny.png"
+    }
+  ]
+}

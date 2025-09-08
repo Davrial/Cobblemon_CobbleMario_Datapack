@@ -1,0 +1,224 @@
+{
+  "implemented": true,
+  "name": "hyperspikedgoomba",
+  "nationalPokedexNumber": 65006,
+  "primaryType": "grass",
+  "secondaryType": "steel",
+  "abilities": [
+    "angerpoint",
+    "berserk",
+    "h:defiant"
+  ],
+  "baseStats": {
+    "hp": 85,
+    "attack": 65,
+    "defence": 25,
+    "special_attack": 65,
+    "special_defence": 25,
+    "speed": 140
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-15",
+      "willSleepOnBed": false,
+      "times": "167-11834,13702-22300"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 100
+    }
+  },
+  "catchRate": 75,
+  "maleRatio": 0.86,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 10,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:leather_boots",
+        "quantityRange": "1-1",
+        "percentage": 22
+      }
+    ]
+  },
+
+
+
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:quickattack",
+    "1:bite",
+    "1:headbutt",
+    "12:sandattack",
+    "13:harden",
+    "14:growth",
+    "15:astonish",
+    "16:hornattack",
+    "18:charge",
+    "19:mudslap",
+    "21:doubleedge",
+    "21:hyperfang",
+    "23:flail",
+    "25:focusenergy",
+    "25:bulkup",
+    "27:bounce",
+    "29:sharpen",
+    "29:focusenergy ",
+    "31:crunch",
+    "33:slash",
+    "33:psychup",
+    "35:bodyslam",
+    "38:megahorn",
+    "38:swordsdance",
+    "41:doubleedge",
+    "44:irondefense",
+    "44:dragondance",
+    "47:superfang",
+    "52:gigaimpact",
+    "52:quiverdance",
+    "55:zenheadbutt",
+    "58:ironhead",
+    "58:hyperbeam",
+    "61:drillrun",
+    "62:swagger",
+    "65:wildcharge",
+    "67:endeavor",
+    "73:outrage",
+    "tm:quickattack",
+    "tm:bite",
+    "tm:headbutt",
+    "tm:sandattack",
+    "tm:harden",
+    "tm:growth",
+    "tm:astonish",
+    "tm:hornattack",
+    "tm:charge",
+    "tm:mudslap",
+    "tm:doubleedge",
+    "tm:hyperfang",
+    "tm:flail",
+    "tm:focusenergy",
+    "tm:bulkup",
+    "tm:bounce",
+    "tm:sharpen",
+    "tm:focusenergy ",
+    "tm:crunch",
+    "tm:slash",
+    "tm:psychup",
+    "tm:bodyslam",
+    "tm:megahorn",
+    "tm:swordsdance",
+    "tm:doubleedge",
+    "tm:irondefense",
+    "tm:dragondance",
+    "tm:superfang",
+    "tm:gigaimpact",
+    "tm:quiverdance",
+    "tm:zenheadbutt",
+    "tm:ironhead",
+    "tm:hyperbeam",
+    "tm:drillrun",
+    "tm:swagger",
+    "tm:wildcharge",
+    "tm:endeavor",
+    "tm:outrage",
+    "tm:jumpkick",
+    "tm:takedown",
+    "tm:hyperbeam",
+    "tm:minimize",
+    "tm:bide",
+    "tm:swift",
+    "tm:skullbash",
+    "tm:highjumpkick",
+    "tm:hyperfang",
+    "tm:scaryface",
+    "tm:detect",
+    "tm:endure",
+    "tm:rollout",
+    "tm:swagger",
+    "tm:meanlook",
+    "tm:hiddenpower",
+    "tm:memento",
+    "tm:slackoff",
+    "tm:lastresort",
+    "tm:nastyplot",
+    "tm:headsmash",
+    "tm:acrobatics",
+    "tm:finalgambit",
+    "tm:workup",
+    "tm:mudsport",
+    "tm:acid",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:firefang",
+    "tm:zenheadbutt",
+    "egg:thunderfang",
+    "egg:icefang",
+    "egg:firefang",
+    "egg:zenheadbutt",
+    "tutor:thunderfang",
+    "tutor:icefang",
+    "tutor:firefang",
+    "tutor:zenheadbutt",
+    "tm:snarl",
+    "tm:jawlock",
+    "tm:lashout",
+    "tm:hyperbeam",
+    "tm:wildcharge"
+  ],
+
+
+
+
+
+
+  "labels": [
+    "custom",
+    "cobblemario"
+  ],
+  "pokedex": [
+    "cobblemon.species.hyperspikedgoomba.desc1",
+    "cobblemon.species.hyperspikedgoomba.desc2"
+  ],
+  "preEvolution": "hypergoomba",
+  "baseScale": 1.25,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 30,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 2
+  },
+  "height": 45,
+  "weight": 200
+
+}

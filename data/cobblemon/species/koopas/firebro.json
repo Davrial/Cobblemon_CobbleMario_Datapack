@@ -1,0 +1,219 @@
+{
+  "implemented": true,
+  "name": "firebro",
+  "nationalPokedexNumber": 65026,
+  "primaryType": "dragon",
+  "secondaryType": "fire",
+  "abilities": [
+    "shellarmor",
+    "longreach",
+    "h:limber"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 40,
+    "defence": 80,
+    "special_attack": 60,
+    "special_defence": 80,
+    "speed": 75
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "avoidsWater": true,
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 200
+    }
+  },
+  "lightingData": {
+    "lightLevel": 3,
+    "liquidGlowMode": "LAND"
+  },
+  "catchRate": 100,
+  "maleRatio": 0.9,
+  "shoulderMountable": false,
+  "baseExperienceYield": 150,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 15,
+  "eggGroups": [
+    "dragon",
+    "human_like",
+    "monster"
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:iron_ingot",
+        "quantityRange": "1-1",
+        "percentage": 100
+      },
+      {
+        "item": "minecraft:iron_boots",
+        "quantityRange": "1-1",
+        "percentage": 10
+      },
+      {
+        "item": "minecraft:iron_ingot",
+        "quantityRange": "1-1",
+        "percentage": 25
+      }
+    ]
+  },
+
+
+  "moves": [
+    "egg:ember",
+    "1:flamethrower",
+    "1:fling",
+    "1:withdraw",
+    "9:rapidspin",
+    "12:endure",
+    "15:headbutt",
+    "20:swift",
+    "25:willowisp",
+    "egg:willowisp",
+    "30:irondefense",
+    "35:shellsmash",
+    "40:dragonclaw",
+    "45:fireblast",
+    "50:heatwave",
+    "55:firepledge",
+    "60:focusenergy",
+    "65:dragonpulse",
+    "70:outrage",
+    "75:doubleedge",
+    "77:dragonrush",
+    "tm:doublekick",
+    "tm:megakick",
+    "tm:jumpkick",
+    "tm:sandattack",
+    "tm:tailwhip",
+    "tm:leer",
+    "tm:counter",
+    "tm:growth",
+    "tm:dragonrage",
+    "tm:rockthrow",
+    "tm:agility",
+    "tm:quickattack",
+    "tm:harden",
+    "tm:defensecurl",
+    "tm:swift",
+    "egg:swift",
+    "tm:substitute",
+    "tm:flail",
+    "tm:spite",
+    "tm:mudslap",
+    "tm:detect",
+    "tm:return",
+    "tm:frustration",
+    "tm:twister",
+    "tm:sunnyday",
+    "tm:facade",
+    "tm:focuspunch",
+    "tm:assist",
+    "tm:superpower",
+    "tm:brickbreak",
+    "tm:endeavor",
+    "tm:secretpower",
+    "tm:blazekick",
+    "tm:bounce",
+    "tm:mudshot",
+    "tm:dragondance",
+    "tm:gyroball",
+    "tm:closecombat",
+    "tm:fling",
+    "egg:fling",
+    "tm:rockpolish",
+    "tm:acrobatics",
+    "tm:trailblaze",
+    "tm:firepunch",
+    "egg:ember",
+    "tm:firespin",
+    "tm:fireblast",
+    "tm:flamewheel",
+    "tm:heatwave",
+    "egg:willowisp",
+    "tm:eruption",
+    "tm:blastburn",
+    "tm:flameburst",
+    "tm:incinerate",
+    "tm:inferno",
+    "tm:firepledge",
+    "tm:fireydance",
+    "tm:burnup",
+    "tm:ragingfury",
+    "tutor:searingshot",
+    "tutor:firelash",
+    "tutor:shelltrap",
+    "tutor:torchsong"
+
+
+  ],
+
+
+
+  "labels": [
+    "custom",
+    "cobblemario",
+    "koopa"
+  ],
+  "pokedex": [
+    "cobblemon.species.firebro.desc1",
+    "cobblemon.species.firebro.desc2"
+  ],
+  "baseScale": 0.14,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 1,
+
+  "preEvolution": "koopa",
+
+  "evolutions": [
+
+    {"id": "firebro-bowser-level_up",
+      "variant": "level_up",
+      "result": "bowser",
+      "consumeHeldItem": false,
+      "learnableMoves": ["dragonbreath", "firepunch"],
+      "requirements": [
+        {"variant": "level", "minLevel": 75},
+        {"variant": "has_move_type", "type": "dragon"}
+      ]
+    }
+
+  ]
+
+}

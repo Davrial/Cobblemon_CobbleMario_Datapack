@@ -1,0 +1,55 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hyper_spiked_goomba-1",
+      "pokemon": "hyper_spiked_goomba",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "19-45",
+      "weight": 10.0,
+      "weightMultiplier": {
+        "multiplier": 2,
+        "condition": {
+          "maxLight": 11,
+          "minLight": 9,
+          "biomes": [
+            "#cobblemon:is_savanna",
+            "minecraft:dark_forest"
+          ]
+        }
+      },
+      "condition": {
+        "maxLight": 13,
+        "minLight": 6,
+        "biomes": [
+          "#cobblemon:is_plains",
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_savanna",
+          "#cobblemon:is_mushroom",
+          "minecraft:lush_caves",
+          "minecraft:dark_forest"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_volcanic",
+          "#cobblemon:is_sky",
+          "#cobblemon:is_island",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_deep_dark",
+          "#cobblemon:is_freezing",
+          "#forge:is_snowy",
+          "#c:snowy",
+          "#minecraft:is_nether",
+          "#minecraft:is_end"
+        ]
+      }
+    }
+  ]
+}

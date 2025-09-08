@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:jr_troopa_1",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sprite",
+      "model": "cobblemon:sprite.geo",
+      "texture": "cobblemon:textures/pokemon/jr_troopa_1/jr_troopa_1_sprite.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/jr_troopa_1/jr_troopa_1_shiny.png"
+    }
+  ]
+}

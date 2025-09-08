@@ -1,0 +1,243 @@
+{
+  "implemented": true,
+  "name": "gloomba",
+  "nationalPokedexNumber": 65007,
+  "primaryType": "dark",
+  "secondaryType": "normal",
+  "abilities": [
+    "innerfocus",
+    "merciless",
+    "h:guts"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 60,
+    "defence": 35,
+    "special_attack": 60,
+    "special_defence": 35,
+    "speed": 90
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "depth": "normal",
+      "light": "11-15",
+      "willSleepOnBed": false,
+      "times": "day"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 200
+    }
+  },
+  "catchRate": 125,
+  "maleRatio": 0.86,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 10,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:leather_boots",
+        "quantityRange": "1-1",
+        "percentage": 22
+      }
+    ]
+  },
+
+
+
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:quickattack",
+    "1:bite",
+    "1:headbutt",
+    "12:sandattack",
+    "13:beatup",
+    "15:astonish",
+    "17:torment",
+    "19:mudslap",
+    "21:taunt",
+    "23:flail",
+    "25:knockoff",
+    "27:bounce",
+    "29:snatch",
+    "31:crunch",
+    "33:payback",
+    "35:bodyslam",
+    "37:assurance",
+    "39:doubleedge",
+    "41:darkpulse",
+    "43:superfang",
+    "45:nastyplot",
+    "47:zenheadbutt",
+    "49:foulplay",
+    "51:focusenergy",
+    "55:endeavor",
+    "59:outrage",
+    "tm:quickattack",
+    "tm:bite",
+    "tm:headbutt",
+    "tm:sandattack",
+    "tm:beatup",
+    "tm:astonish",
+    "tm:torment",
+    "tm:mudslap",
+    "tm:taunt",
+    "tm:flail",
+    "tm:knockoff",
+    "tm:bounce",
+    "tm:snatch",
+    "tm:crunch",
+    "tm:payback",
+    "tm:bodyslam",
+    "tm:assurance",
+    "tm:doubleedge",
+    "tm:darkpulse",
+    "tm:superfang",
+    "tm:nastyplot",
+    "tm:zenheadbutt",
+    "tm:foulplay",
+    "tm:focusenergy",
+    "tm:endeavor",
+    "tm:outrage",
+    "tm:jumpkick",
+    "tm:takedown",
+    "tm:hyperbeam",
+    "tm:bide",
+    "tm:skullbash",
+    "tm:highjumpkick",
+    "tm:hyperfang",
+    "tm:scaryface",
+    "tm:detect",
+    "tm:endure",
+    "tm:rollout",
+    "tm:swagger",
+    "tm:meanlook",
+    "tm:hiddenpower",
+    "tm:memento",
+    "tm:lastresort",
+    "tm:nastyplot",
+    "tm:headsmash",
+    "tm:acrobatics",
+    "tm:finalgambit",
+    "tm:workup",
+    "tm:mudsport",
+    "tm:acid",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:firefang",
+    "tm:zenheadbutt",
+    "egg:thunderfang",
+    "egg:icefang",
+    "egg:firefang",
+    "egg:zenheadbutt",
+    "tutor:thunderfang",
+    "tutor:icefang",
+    "tutor:firefang",
+    "tutor:zenheadbutt",
+    "tm:snarl",
+    "tm:jawlock",
+    "tm:lashout",
+    "tm:partingshot"
+  ],
+
+
+
+
+
+  "labels": [
+    "custom",
+    "cobblemario"
+  ],
+  "pokedex": [
+    "cobblemon.species.gloomba.desc1",
+    "cobblemon.species.gloomba.desc2"
+  ],
+  "baseScale": 1.25,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 30,
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 40,
+  "weight": 180,
+
+  "evolutions": [
+    {
+      "id": "gloomba-spikedgloomba-level_up-vanilla",
+      "variant": "level_up",
+      "result": "spikedgloomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["hornattack"],
+      "requirements": [
+        {"variant": "level", "minLevel": 30}
+      ],
+      "requiredContext": "minecraft:iron_ingot"
+    },
+    {
+      "id": "gloomba-spikedgloomba-level_up-cobblemario",
+      "variant": "level_up",
+      "result": "spikedgoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["hornattack"],
+      "requirements": [
+        {"variant": "level", "minLevel": 25}
+      ],
+      "requiredContext": "cobblemario:spiked_helmet"
+    },
+
+    {
+      "id": "gloomba-spikedgloomba-level_up-vanilla",
+      "variant": "level_up",
+      "result": "paragloomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["bounce"],
+      "requirements": [
+        {"variant": "level", "minLevel": 30}
+      ],
+      "requiredContext": "minecraft:feather"
+    },
+
+    {
+      "id": "gloomba-paragloomba-level_up-cobblemario",
+      "variant": "level_up",
+      "result": "paragoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["bounce"],
+      "requirements": [
+        {"variant": "level", "minLevel": 25}
+      ],
+      "requiredContext": "cobblemario:stick_on_wings"
+    }
+  ]
+
+}

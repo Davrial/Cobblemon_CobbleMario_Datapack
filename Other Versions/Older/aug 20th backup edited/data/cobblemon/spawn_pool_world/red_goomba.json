@@ -1,0 +1,104 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "red_goomba-1",
+      "pokemon": "red_goomba",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 6.0,
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "minY": 60,
+          "maxY": 160,
+          "biomes": [
+            "#cobblemon:is_plains",
+            "#cobblemon:is_mushroom"
+          ]
+        }
+      },
+      "condition": {
+        "minY": 32,
+        "biomes": [
+          "#minecraft:is_overworld"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_volcanic",
+          "#cobblemon:is_sky",
+          "#cobblemon:is_island",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_deep_dark",
+          "#cobblemon:is_freezing",
+          "#forge:is_snowy",
+          "#c:snowy",
+          "#forge:is_peak",
+          "#c:mountain_peak",
+          "#minecraft:is_nether",
+          "#minecraft:is_end"
+        ]
+      }
+    },
+    {
+      "id": "red_goomba-2",
+      "pokemon": "red_goomba",
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "uncommon",
+      "level": "20-50",
+      "weight": 6.0,
+      "weightMultiplier": {
+        "multiplier": 1.5,
+        "condition": {
+          "biomes": [
+            "#cobblemon:is_plains",
+            "#cobblemon:is_mushroom"
+          ]
+        }
+      },
+      "condition": {
+        "canSeeSky": true,
+        "maxY": 0,
+        "neededBaseBlocks": [
+          "minecraft:grass_block",
+          "minecraft:dirt",
+          "minecraft:stone"
+        ],
+        "biomes": [
+          "#minecraft:is_overworld"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_spooky",
+          "#cobblemon:is_jungle",
+          "#cobblemon:is_magical",
+          "#cobblemon:is_volcanic",
+          "#cobblemon:is_sky",
+          "#cobblemon:is_island",
+          "#cobblemon:is_ocean",
+          "#cobblemon:is_deep_dark",
+          "#cobblemon:is_freezing",
+          "#forge:is_snowy",
+          "#c:snowy",
+          "#forge:is_peak",
+          "#c:mountain_peak",
+          "#minecraft:is_nether",
+          "#minecraft:is_end"
+        ]
+      }
+    }
+  ]
+}
