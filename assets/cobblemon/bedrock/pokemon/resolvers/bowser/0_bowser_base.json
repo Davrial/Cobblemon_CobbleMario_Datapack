@@ -4,9 +4,9 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:sprite",
-      "model": "cobblemon:sprite.geo",
-      "texture": "cobblemon:textures/pokemon/bowser/bowser_sprite.png",
+      "poser": "cobblemon:bowser",
+      "model": "cobblemon:bowser.geo",
+      "texture": "cobblemon:textures/pokemon/bowser/bowser.png",
       "layers": []
     },
     {
