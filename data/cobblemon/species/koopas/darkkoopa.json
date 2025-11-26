@@ -193,7 +193,7 @@
     "cobblemon.species.dark_koopa.desc1",
     "cobblemon.species.dark_koopa.desc2"
   ],
-  "baseScale": 0.75,
+  "baseScale": 0.77,
   "hitbox": {
     "width": 1,
     "height": 2,

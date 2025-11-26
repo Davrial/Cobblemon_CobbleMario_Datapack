@@ -202,7 +202,7 @@
     "cobblemon.species.koopatrol.desc1",
     "cobblemon.species.koopatrol.desc2"
   ],
-  "baseScale": 0.75,
+  "baseScale": 0.77,
   "hitbox": {
     "width": 1,
     "height": 2,

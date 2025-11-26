@@ -206,7 +206,7 @@
     "cobblemon.species.darkkoopatrol.desc1",
     "cobblemon.species.darkkoopatrol.desc2"
   ],
-  "baseScale": 0.8,
+  "baseScale": 0.79,
   "hitbox": {
     "width": 1,
     "height": 2,
