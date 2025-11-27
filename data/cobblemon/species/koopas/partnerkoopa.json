@@ -3,17 +3,17 @@
   "name": "partnerkoopa",
   "nationalPokedexNumber": 65010,
   "primaryType": "dragon",
-  "secondaryType": "normal",
+  "secondaryType": "fairy",
   "abilities": [
     "shellarmor",
     "h:steadfast"
   ],
   "baseStats": {
-    "hp": 40,
-    "attack": 40,
-    "defence": 80,
-    "special_attack": 30,
-    "special_defence": 60,
+    "hp": 125,
+    "attack": 75,
+    "defence": 55,
+    "special_attack": 75,
+    "special_defence": 55,
     "speed": 50
   },
   "behaviour": {
@@ -21,7 +21,7 @@
       "canSleep": true,
       "depth": "normal",
       "light": "0-4",
-      "willSleepOnBed": false,
+      "willSleepOnBed": true,
       "times": "night"
     },
     "moving": {
@@ -46,23 +46,13 @@
   "maleRatio": 0.67,
   "shoulderMountable": false,
   "baseExperienceYield": 100,
-  "experienceGroup": "medium_slow",
+  "experienceGroup": "medium",
   "eggCycles": 15,
   "eggGroups": [
     "dragon",
     "human_like",
     "monster"
   ],
-  "drops": {
-    "amount": 1,
-    "entries": [
-      {
-        "item": "minecraft:leather_boots",
-        "quantityRange": "1-1",
-        "percentage": 10
-      }
-    ]
-  },
 
   "moves": [
   "1:tackle",
@@ -185,18 +175,18 @@
     "koopa"
   ],
   "pokedex": [
-    "cobblemon.species.koopa.desc1",
-    "cobblemon.species.koopa.desc2"
+    "cobblemon.species.partnerkoopa.desc1",
+    "cobblemon.species.partnerkoopa.desc2"
   ],
-  "baseScale": 0.75,
+  "baseScale": 0.7,
   "hitbox": {
     "width": 1,
     "height": 2,
     "fixed": false
   },
-  "baseFriendship": 50,
+  "baseFriendship": 100,
   "evYield": {
-    "hp": 0,
+    "hp": 1,
     "attack": 0,
     "defence": 1,
     "special_attack": 0,
@@ -204,5 +194,7 @@
     "speed": 0
   },
   "height": 1,
-  "weight": 1
+  "weight": 1,
+
+  "preEvolution": "koopa"
 }

@@ -17,30 +17,59 @@
     "speed": 100
   },
   "behaviour": {
+    "combat":{
+      "willDefendOwner":true,
+      "willDefendSelf":true,
+      "willFlee":false
+    },
     "resting": {
       "canSleep": true,
+      "times": "night",
+      "light": "0-4",
       "depth": "normal",
-      "light": "0-5",
       "willSleepOnBed": false,
-      "times": "night"
+      "drowsyChance":0.0333,
+      "rouseChance":0.0042
     },
     "moving": {
       "canLook": true,
+      "looksAtEntities": true,
+      "stepHeight": 1.0,
+      "wanderChance": 120,
+      "wanderSpeed": 0.75,
       "walk": {
         "canWalk": true,
-        "avoidsLand": false
+        "walkSpeed": 0.4
       },
       "swim": {
-        "swimSpeed": 0.3,
+        "swimSpeed": 0.1,
         "canSwimInWater": true,
-        "canBreatheUnderwater": false
+        "canBreatheUnderwater": false,
+        "canWalkOnWater": false
       },
       "fly": {
         "canFly": false,
-        "flySpeedHorizontal": 0.3
+        "flySpeedHorizontal": 0.6
       },
-      "wanderChance": 120
-    }
+      "herd":{
+        "maxSize":"1",
+        "toleratedLeaders":[
+          {
+            "pokemon":"royalgoomba",
+            "tier":1
+          },
+          {
+            "pokemon":"bowser",
+            "tier":2
+          },
+          {
+            "pokemon":"invinshroom",
+            "tier":2
+          }
+        ]
+      }
+    },
+    "fireImmune":false
   },
   "catchRate": 50,
   "maleRatio": 0.86,
@@ -185,13 +214,13 @@
 
   "labels": [
     "custom",
-    "cobblemario"
+    "cobblemario",
+    "goomba"
   ],
   "pokedex": [
     "cobblemon.species.royalgoomba.desc1",
     "cobblemon.species.royalgoomba.desc2"
   ],
-  "preEvolution": "goomba",
   "baseScale": 2,
   "hitbox": {
     "width": 1.75,
@@ -208,5 +237,7 @@
     "speed": 0
   },
   "height": 128,
-  "weight": 640
+  "weight": 640,
+
+  "preEvolution": "goomba"
 }

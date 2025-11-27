@@ -1,33 +1,31 @@
 {
   "implemented": true,
-  "name": "spikedgloomba",
-  "nationalPokedexNumber": 65009,
-  "primaryType": "dark",
-  "secondaryType": "steel",
+  "name": "invinshroom",
+  "nationalPokedexNumber": 64039,
+  "primaryType": "normal",
+  "secondaryType": "ghost",
   "abilities": [
-    "innerfocus",
-    "merciless",
-    "h:guts"
+    "wonderguard"
   ],
   "baseStats": {
-    "hp": 75,
-    "attack": 85,
-    "defence": 25,
-    "special_attack": 85,
-    "special_defence": 25,
-    "speed": 110
+    "hp": 100,
+    "attack": 75,
+    "defence": 75,
+    "special_attack": 75,
+    "special_defence": 75,
+    "speed": 200
   },
   "behaviour": {
     "combat":{
       "willDefendOwner":true,
       "willDefendSelf":true,
-      "willFlee":true
+      "willFlee":false
     },
     "resting": {
-      "canSleep": true,
-      "times": "day",
-      "light": "0-2",
-      "depth": "comatose",
+      "canSleep": false,
+      "times": "night",
+      "light": "0-4",
+      "depth": "normal",
       "willSleepOnBed": false,
       "drowsyChance":0.0333,
       "rouseChance":0.0042
@@ -35,60 +33,44 @@
     "moving": {
       "canLook": true,
       "looksAtEntities": true,
-      "stepHeight": 0.6,
-      "wanderChance": 120,
-      "wanderSpeed": 0.75,
+      "stepHeight": 2,
+      "wanderChance": 100,
+      "wanderSpeed": 1.0,
       "walk": {
         "canWalk": true,
-        "walkSpeed": 0.5
+        "walkSpeed": 1.0
       },
       "swim": {
-        "swimSpeed": 0.3,
-        "canSwimInWater": false,
+        "swimSpeed": 1.0,
+        "canSwimInWater": true,
         "canBreatheUnderwater": true,
         "canWalkOnWater": true
       },
       "fly": {
-        "canFly": false,
-        "flySpeedHorizontal": 0.6
+        "canFly": true,
+        "flySpeedHorizontal": 1.0
       },
       "herd":{
-        "maxSize":"4",
+        "maxSize":"1",
         "toleratedLeaders":[
           {
-            "pokemon":"gloomba",
+            "pokemon":"bowser",
             "tier":1
           },
           {
-            "pokemon":"paragloomba",
+            "pokemon":"royalgoomba",
             "tier":2
           },
           {
-            "pokemon":"spikedgloomba",
-            "tier":3
-          },
-          {
-            "pokemon":"supergoomba",
-            "tier":4
-          },
-          {
-            "pokemon":"ultragoomba",
-            "tier":5
-          },
-          {
-            "pokemon":"royalgoomba",
-            "tier":5
-          },
-          {
             "pokemon":"invinshroom",
-            "tier":6
+            "tier":3
           }
         ]
       }
     },
-    "fireImmune":false
+    "fireImmune":true
   },
-  "catchRate": 75,
+  "catchRate": 1,
   "maleRatio": 0.86,
   "shoulderMountable": false,
   "baseExperienceYield": 100,
@@ -101,7 +83,7 @@
     "amount": 1,
     "entries": [
       {
-        "item": "minecraft:leather_boots",
+        "item": "minecraft:gold_boots",
         "quantityRange": "1-1",
         "percentage": 22
       }
@@ -117,76 +99,52 @@
     "1:bite",
     "1:headbutt",
     "12:sandattack",
-    "13:harden",
-    "14:beatup",
+    "13:sunnyday",
     "15:astonish",
-    "16:hornattack",
-    "18:torment",
+    "17:firefang",
     "19:mudslap",
-    "21:doubleedge",
-    "21:taunt",
+    "21:flamecharge",
     "23:flail",
-    "25:focusenergy",
-    "25:knockoff",
+    "25:jumpkick",
     "27:bounce",
-    "29:sharpen",
-    "29:snatch",
+    "29:temperflare",
     "31:crunch",
-    "33:slash",
-    "33:payback",
+    "33:stompingtantrum",
     "35:bodyslam",
-    "38:megahorn",
-    "38:assurance",
-    "41:doubleedge",
-    "44:irondefense",
-    "44:darkpulse",
-    "47:superfang",
-    "52:gigaimpact",
-    "52:nastyplot",
-    "55:zenheadbutt",
-    "58:ironhead",
-    "58:foulplay",
-    "61:drillrun",
-    "62:sharpen",
-    "65:memento",
-    "67:endeavor",
-    "73:outrage",
+    "37:blazekick",
+    "39:doubleedge",
+    "41:flareblitz",
+    "43:superfang",
+    "45:burnup",
+    "47:zenheadbutt",
+    "49:ragingfury",
+    "51:focusenergy",
+    "55:endeavor",
+    "59:outrage",
     "tm:quickattack",
     "tm:bite",
     "tm:headbutt",
     "tm:sandattack",
-    "tm:harden",
-    "tm:beatup",
+    "tm:sunnyday",
     "tm:astonish",
-    "tm:hornattack",
-    "tm:torment",
+    "tm:firefang",
     "tm:mudslap",
-    "tm:doubleedge",
-    "tm:taunt",
+    "tm:flamecharge",
     "tm:flail",
-    "tm:focusenergy",
-    "tm:knockoff",
+    "tm:jumpkick",
     "tm:bounce",
-    "tm:sharpen",
-    "tm:snatch",
+    "tm:temperflare",
     "tm:crunch",
-    "tm:slash",
-    "tm:payback",
+    "tm:stompingtantrum",
     "tm:bodyslam",
-    "tm:megahorn",
-    "tm:assurance",
+    "tm:blazekick",
     "tm:doubleedge",
-    "tm:irondefense",
-    "tm:darkpulse",
+    "tm:flareblitz",
     "tm:superfang",
-    "tm:gigaimpact",
-    "tm:nastyplot",
+    "tm:burnup",
     "tm:zenheadbutt",
-    "tm:ironhead",
-    "tm:foulplay",
-    "tm:drillrun",
-    "tm:sharpen",
-    "tm:memento",
+    "tm:ragingfury",
+    "tm:focusenergy",
     "tm:endeavor",
     "tm:outrage",
     "tm:jumpkick",
@@ -194,6 +152,7 @@
     "tm:hyperbeam",
     "tm:minimize",
     "tm:bide",
+    "tm:swift",
     "tm:skullbash",
     "tm:highjumpkick",
     "tm:hyperfang",
@@ -236,33 +195,32 @@
 
 
 
-
   "labels": [
     "custom",
     "cobblemario",
     "goomba"
   ],
   "pokedex": [
-    "cobblemon.species.spikedgloomba.desc1",
-    "cobblemon.species.spikedgloomba.desc2"
+    "cobblemon.species.invinshroom.desc1",
+    "cobblemon.species.invinshroom.desc2"
   ],
-  "baseScale": 1.25,
+  "baseScale": 1.5,
   "hitbox": {
-    "width": 1,
-    "height": 1,
+    "width": 1.5,
+    "height": 1.5,
     "fixed": false
   },
-  "baseFriendship": 30,
+  "baseFriendship": 50,
   "evYield": {
-    "hp": 0,
+    "hp": 1,
     "attack": 1,
     "defence": 0,
-    "special_attack": 1,
+    "special_attack": 0,
     "special_defence": 0,
     "speed": 1
   },
-  "height": 45,
-  "weight": 175,
+  "height": 48,
+  "weight": 210,
 
-  "preEvolution": "gloomba"
+  "preEvolution": "ultragoomba"
 }

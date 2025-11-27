@@ -18,30 +18,75 @@
     "speed": 130
   },
   "behaviour": {
+    "combat":{
+      "willDefendOwner":true,
+      "willDefendSelf":true,
+      "willFlee":true
+    },
     "resting": {
       "canSleep": true,
-      "depth": "normal",
+      "times": "night",
       "light": "0-4",
+      "depth": "normal",
       "willSleepOnBed": false,
-      "times": "night"
+      "drowsyChance":0.0333,
+      "rouseChance":0.0042
     },
     "moving": {
       "canLook": true,
+      "looksAtEntities": true,
+      "stepHeight": 0.7,
+      "wanderChance": 120,
+      "wanderSpeed": 0.75,
       "walk": {
         "canWalk": true,
-        "avoidsLand": false
+        "walkSpeed": 0.5
       },
       "swim": {
         "swimSpeed": 0.3,
         "canSwimInWater": true,
-        "canBreatheUnderwater": false
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
       },
       "fly": {
         "canFly": false,
-        "flySpeedHorizontal": 0.3
+        "flySpeedHorizontal": 0.6
       },
-      "wanderChance": 120
-    }
+      "herd":{
+        "maxSize":"2",
+        "toleratedLeaders":[
+          {
+            "pokemon":"bluegoomba",
+            "tier":1
+          },
+          {
+            "pokemon":"supergoomba",
+            "tier":2
+          },
+          {
+            "pokemon":"redgoomba",
+            "tier":2
+          },
+          {
+            "pokemon":"ultragoomba",
+            "tier":3
+          },
+          {
+            "pokemon":"bowser",
+            "tier":4
+          },
+          {
+            "pokemon":"royalgoomba",
+            "tier":5
+          },
+          {
+            "pokemon":"invinshroom",
+            "tier":5
+          }
+        ]
+      }
+    },
+    "fireImmune":false
   },
   "catchRate": 125,
   "maleRatio": 0.86,
@@ -170,13 +215,13 @@
 
   "labels": [
     "custom",
-    "cobblemario"
+    "cobblemario",
+    "goomba"
   ],
   "pokedex": [
     "cobblemon.species.redgoomba.desc1",
     "cobblemon.species.redgoomba.desc2"
   ],
-  "preEvolution": "goomba",
   "baseScale": 1.75,
   "hitbox": {
     "width": 1.25,
@@ -195,6 +240,7 @@
   "height": 48,
   "weight": 210,
 
+  "preEvolution": "goomba",
   "evolutions": [
     {
       "id": "redgoomba-royalgoomba-level_up",
@@ -208,6 +254,4 @@
       "requiredContext": ""
     }
   ]
-
-
 }

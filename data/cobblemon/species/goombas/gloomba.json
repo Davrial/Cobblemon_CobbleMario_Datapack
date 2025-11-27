@@ -18,30 +18,75 @@
     "speed": 90
   },
   "behaviour": {
+    "combat":{
+      "willDefendOwner":true,
+      "willDefendSelf":true,
+      "willFlee":false
+    },
     "resting": {
       "canSleep": true,
-      "depth": "normal",
-      "light": "11-15",
+      "times": "day",
+      "light": "0-2",
+      "depth": "comatose",
       "willSleepOnBed": false,
-      "times": "day"
+      "drowsyChance":0.0333,
+      "rouseChance":0.0042
     },
     "moving": {
       "canLook": true,
+      "looksAtEntities": true,
+      "stepHeight": 0.6,
+      "wanderChance": 120,
+      "wanderSpeed": 0.75,
       "walk": {
         "canWalk": true,
-        "avoidsLand": false
+        "walkSpeed": 0.5
       },
       "swim": {
-        "swimSpeed": 0.3,
+        "swimSpeed": 0.15,
         "canSwimInWater": true,
-        "canBreatheUnderwater": false
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
       },
       "fly": {
         "canFly": false,
-        "flySpeedHorizontal": 0.3
+        "flySpeedHorizontal": 0.6
       },
-      "wanderChance": 200
-    }
+      "herd":{
+        "maxSize":"5",
+        "toleratedLeaders":[
+          {
+            "pokemon":"gloomba",
+            "tier":1
+          },
+          {
+            "pokemon":"spikedgloomba",
+            "tier":2
+          },
+          {
+            "pokemon":"paragloomba",
+            "tier":2
+          },
+          {
+            "pokemon":"supergoomba",
+            "tier":3
+          },
+          {
+            "pokemon":"ultragoomba",
+            "tier":4
+          },
+          {
+            "pokemon":"royalgoomba",
+            "tier":4
+          },
+          {
+            "pokemon":"invinshroom",
+            "tier":5
+          }
+        ]
+      }
+    },
+    "fireImmune":false
   },
   "catchRate": 125,
   "maleRatio": 0.86,
@@ -167,7 +212,8 @@
 
   "labels": [
     "custom",
-    "cobblemario"
+    "cobblemario",
+    "goomba"
   ],
   "pokedex": [
     "cobblemon.species.gloomba.desc1",
@@ -203,6 +249,7 @@
       ],
       "requiredContext": "minecraft:iron_ingot"
     },
+
     {
       "id": "gloomba-spikedgloomba-level_up-cobblemario",
       "variant": "level_up",
@@ -239,5 +286,4 @@
       "requiredContext": "cobblemario:stick_on_wings"
     }
   ]
-
 }

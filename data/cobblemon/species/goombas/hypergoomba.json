@@ -18,30 +18,75 @@
     "speed": 120
   },
   "behaviour": {
+    "combat":{
+      "willDefendOwner":true,
+      "willDefendSelf":true,
+      "willFlee":true
+    },
     "resting": {
       "canSleep": true,
-      "depth": "comatose",
+      "times": "167-11834, 13702-22300",
       "light": "0-15",
+      "depth": "comatose",
       "willSleepOnBed": false,
-      "times": "167-11834, 13702-22300"
+      "drowsyChance":0.0333,
+      "rouseChance":0.0042
     },
     "moving": {
       "canLook": true,
+      "looksAtEntities": true,
+      "stepHeight": 0.6,
+      "wanderChance": 120,
+      "wanderSpeed": 0.75,
       "walk": {
         "canWalk": true,
-        "avoidsLand": false
+        "walkSpeed": 0.5
       },
       "swim": {
-        "swimSpeed": 0.3,
+        "swimSpeed": 0.15,
         "canSwimInWater": true,
-        "canBreatheUnderwater": false
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
       },
       "fly": {
         "canFly": false,
-        "flySpeedHorizontal": 0.3
+        "flySpeedHorizontal": 0.6
       },
-      "wanderChance": 100
-    }
+      "herd":{
+        "maxSize":"5",
+        "toleratedLeaders":[
+          {
+            "pokemon":"hypergoomba",
+            "tier":1
+          },
+          {
+            "pokemon":"hyperspikedgoomba",
+            "tier":2
+          },
+          {
+            "pokemon":"hyperparagoomba",
+            "tier":2
+          },
+          {
+            "pokemon":"supergoomba",
+            "tier":2
+          },
+          {
+            "pokemon":"ultragoomba",
+            "tier":3
+          },
+          {
+            "pokemon":"royalgoomba",
+            "tier":4
+          },
+          {
+            "pokemon":"invinshroom",
+            "tier":5
+          }
+        ]
+      }
+    },
+    "fireImmune":false
   },
   "catchRate": 125,
   "maleRatio": 0.86,
@@ -165,7 +210,8 @@
 
   "labels": [
     "custom",
-    "cobblemario"
+    "cobblemario",
+    "goomba"
   ],
   "pokedex": [
     "cobblemon.species.hypergoomba.desc1",
@@ -239,6 +285,4 @@
       "requiredContext": "cobblemario:stick_on_wings"
     }
   ]
-
-
 }

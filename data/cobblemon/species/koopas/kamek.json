@@ -177,7 +177,6 @@
     "tm:wildcharge",
     "tm:flipturn",
     "tm:trailblaze"
-
   ],
 
 
@@ -210,5 +209,4 @@
   "weight": 1,
 
   "preEvolution": "magikoopa"
-
 }

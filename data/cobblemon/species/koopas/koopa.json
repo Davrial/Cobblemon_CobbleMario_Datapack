@@ -380,7 +380,6 @@
   "weight": 1,
 
   "evolutions": [
-
     {"id": "koopa-hammer_bro-item_interact",
       "variant": "item_interact",
       "result": "hammer_bro",
@@ -389,6 +388,7 @@
       "requirements": [{"variant": "level", "minLevel": 16}],
       "requiredContext": "cobblemario:throwing_hammer"
     },
+
     {"id": "koopa-hammer_bro-level_up",
       "variant": "level_up",
       "result": "hammer_bro",
@@ -399,6 +399,7 @@
         {"variant": "held_item", "itemCondition": "#minecraft:logs"}
       ]
     },
+
     {"id": "koopa-parakoopa-item_interact",
       "variant": "item_interact",
       "result": "parakoopa",
@@ -407,6 +408,7 @@
       "requirements": [{"variant": "level", "minLevel": 11}],
       "requiredContext": "cobblemario:stick_on_wings"
     },
+
     {"id": "koopa-parakoopa-level_up",
       "variant": "level_up",
       "result": "parakoopa",
@@ -420,6 +422,7 @@
       ],
       "requiredContext": "minecraft:white_wool"
     },
+
     {"id": "koopa-dark_koopa-level_up",
       "variant": "level_up",
       "result": "dark_koopa",
@@ -432,6 +435,7 @@
         {"variant": "time_range", "range": "night"}
       ]
     },
+
     {"id": "koopa-koopatrol-level_up1",
       "variant": "level_up",
       "result": "koopatrol",
@@ -442,6 +446,7 @@
         {"variant": "level", "minLevel": 18}
       ]
     },
+
     {"id": "koopa-koopatrol-level_up2",
       "variant": "level_up",
       "result": "koopatrol",
@@ -452,6 +457,7 @@
         {"variant": "use_move", "move": "irondefense", "amount": 26}
       ]
     },
+
     {"id": "koopa-boomerang_bro-item_interact",
       "variant": "item_interact",
       "result": "boomerang_bro",
@@ -460,6 +466,7 @@
       "requirements": [{"variant": "level", "minLevel": 20}],
       "requiredContext": "cobblemario:boomerang"
     },
+
     {"id": "koopa-fire_bro-level_up",
       "variant": "level_up",
       "result": "fire_bro",
@@ -470,6 +477,7 @@
         {"variant": "level", "minLevel": 20}
       ]
     },
+
     {"id": "koopa-fire_bro-item_interact",
       "variant": "item_interact",
       "result": "fire_bro",
@@ -478,6 +486,7 @@
       "requirements": [],
       "requiredContext": "cobblemon:fire_stone"
     },
+
     {"id": "koopa-magikoopa-level_up1",
       "variant": "level_up",
       "result": "magikoopa",
@@ -488,6 +497,7 @@
         {"variant": "held_item", "itemCondition": "cobblemario:magikoopa_wand"}
       ]
     },
+
     {"id": "koopa-magikoopa-level_up2",
       "variant": "level_up",
       "result": "magikoopa",
@@ -499,6 +509,7 @@
         {"variant": "level", "minLevel": 32}
       ]
     },
+
     {"id": "koopa-kent_c_koopa-level_up1",
       "variant": "level_up",
       "result": "kent_c_koopa",
@@ -509,6 +520,7 @@
         {"variant": "held_item", "itemCondition": "cobblemon:wise_glasses"}
       ]
     },
+
     {"id": "koopa-kent_c_koopa-level_up2",
       "variant": "level_up",
       "result": "kent_c_koopa",
@@ -516,6 +528,7 @@
       "learnableMoves": ["superpower"],
       "requirements": [{"variant": "held_item", "ratio": "DEFENCE_HIGHER", "itemCondition": "cobblemario:thick_glasses"}]
     },
+
     {"id": "koopa-bowser-level_up",
       "variant": "level_up",
       "result": "bowser",
@@ -526,6 +539,7 @@
         {"variant": "has_move_type", "type": "dragon"}
       ]
     },
+
     {"id": "koopa-tutankoopa-level_up",
       "variant": "level_up",
       "result": "tutankoopa",

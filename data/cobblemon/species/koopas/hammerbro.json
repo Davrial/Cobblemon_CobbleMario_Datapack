@@ -222,7 +222,6 @@
   "weight": 1,
 
   "preEvolution": "koopa",
-
   "evolutions": [
     {"id": "hammerbro-kent_c_koopa-level_up1",
       "variant": "level_up",
@@ -234,6 +233,7 @@
         {"variant": "held_item", "itemCondition": "cobblemon:wise_glasses"}
       ]
     },
+
     {"id": "hammerbro-kent_c_koopa-level_up2",
       "variant": "level_up",
       "result": "kent_c_koopa",
@@ -241,6 +241,7 @@
       "learnableMoves": ["superpower"],
       "requirements": [{"variant": "held_item", "ratio": "DEFENCE_HIGHER", "itemCondition": "cobblemario:thick_glasses"}]
     },
+
     {"id": "hammerbro-bowser-level_up",
       "variant": "level_up",
       "result": "bowser",
@@ -251,7 +252,5 @@
         {"variant": "has_move_type", "type": "dragon"}
       ]
     }
-
   ]
-
 }

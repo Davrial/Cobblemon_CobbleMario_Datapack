@@ -200,9 +200,7 @@
   "weight": 1,
 
   "preEvolution": "koopa",
-
   "evolutions": [
-
     {"id": "firebro-bowser-level_up",
       "variant": "level_up",
       "result": "bowser",
@@ -213,7 +211,5 @@
         {"variant": "has_move_type", "type": "dragon"}
       ]
     }
-
   ]
-
 }

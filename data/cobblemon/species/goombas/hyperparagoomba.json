@@ -18,31 +18,77 @@
     "speed": 180
   },
   "behaviour": {
+    "combat":{
+      "willDefendOwner":true,
+      "willDefendSelf":true,
+      "willFlee":true
+    },
     "resting": {
       "canSleep": true,
-      "depth": "normal",
+      "times": "167-11834, 13702-22300",
       "light": "0-15",
+      "depth": "comatose",
       "willSleepOnBed": false,
-      "times": "167-11834,13702-22300"
+      "drowsyChance":0.0333,
+      "rouseChance":0.0042
     },
     "moving": {
       "canLook": true,
+      "looksAtEntities": true,
+      "stepHeight": 0.6,
+      "wanderChance": 120,
+      "wanderSpeed": 0.75,
       "walk": {
         "canWalk": true,
-        "avoidsLand": false
+        "walkSpeed": 0.5
       },
       "swim": {
-        "swimSpeed": 0.3,
+        "swimSpeed": 0.15,
         "canSwimInWater": true,
-        "canBreatheUnderwater": false
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
       },
       "fly": {
-        "canFly": true,
-        "flySpeedHorizontal": 1.0
+        "canFly": false,
+        "flySpeedHorizontal": 0.6
       },
-      "wanderChance": 100
-    }
+      "herd":{
+        "maxSize":"4",
+        "toleratedLeaders":[
+          {
+            "pokemon":"hypergoomba",
+            "tier":1
+          },
+          {
+            "pokemon":"hyperspikedgoomba",
+            "tier":1
+          },
+          {
+            "pokemon":"hyperparagoomba",
+            "tier":2
+          },
+          {
+            "pokemon":"supergoomba",
+            "tier":2
+          },
+          {
+            "pokemon":"ultragoomba",
+            "tier":4
+          },
+          {
+            "pokemon":"royalgoomba",
+            "tier":5
+          },
+          {
+            "pokemon":"invinshroom",
+            "tier":6
+          }
+        ]
+      }
+    },
+    "fireImmune":false
   },
+
   "catchRate": 75,
   "maleRatio": 0.86,
   "shoulderMountable": false,
@@ -196,13 +242,13 @@
 
   "labels": [
     "custom",
-    "cobblemario"
+    "cobblemario",
+    "goomba"
   ],
   "pokedex": [
     "cobblemon.species.hyperparagoomba.desc1",
     "cobblemon.species.hyperparagoomba.desc2"
   ],
-  "preEvolution": "hypergoomba",
   "baseScale": 1.25,
   "hitbox": {
     "width": 1,
@@ -219,6 +265,7 @@
     "speed": 3
   },
   "height": 45,
-  "weight": 150
+  "weight": 150,
 
+  "preEvolution": "hypergoomba"
 }

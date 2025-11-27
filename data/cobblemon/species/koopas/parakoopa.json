@@ -382,7 +382,6 @@
   "weight": 1,
 
   "preEvolution": "koopa",
-
   "evolutions": [
     {"id": "parakoopa-magikoopa-level_up1",
       "variant": "level_up",
@@ -394,6 +393,7 @@
         {"variant": "held_item", "itemCondition": "cobblemario:magikoopa_wand"}
       ]
     },
+
     {"id": "parakoopa-magikoopa-level_up2",
       "variant": "level_up",
       "result": "magikoopa",
@@ -405,6 +405,7 @@
         {"variant": "held_item", "itemCondition": "cobblemon:wise_glasses"}
       ]
     },
+
     {"id": "parakoopa-redmagikoopa-item_interact1",
       "variant": "item_interact",
       "result": "magikoopa magikoopa_color=red",
@@ -416,6 +417,7 @@
       ],
       "requiredContext": "cobblemon:red_wool"
     },
+
     {"id": "parakoopa-redmagikoopa-item_interact2",
       "variant": "item_interact",
       "result": "magikoopa magikoopa_color=red",
@@ -428,6 +430,7 @@
       ],
       "requiredContext": "minecraft:red_wool"
     },
+
     {"id": "parakoopa-greenmagikoopa-item_interact1",
       "variant": "item_interact",
       "result": "magikoopa magikoopa_color=green",
@@ -439,6 +442,7 @@
       ],
       "requiredContext": "cobblemon:green_wool"
     },
+
     {"id": "parakoopa-greenmagikoopa-item_interact2",
       "variant": "item_interact",
       "result": "magikoopa magikoopa_color=green",
@@ -451,6 +455,7 @@
       ],
       "requiredContext": "minecraft:green_wool"
     },
+
     {"id": "parakoopa-whitemagikoopa-item_interact1",
       "variant": "item_interact",
       "result": "magikoopa magikoopa_color=white",
@@ -462,6 +467,7 @@
       ],
       "requiredContext": "cobblemon:white_wool"
     },
+
     {"id": "parakoopa-whitemagikoopa-item_interact2",
       "variant": "item_interact",
       "result": "magikoopa magikoopa_color=white",
@@ -474,6 +480,7 @@
       ],
       "requiredContext": "minecraft:white_wool"
     },
+
     {"id": "parakoopa-yellowmagikoopa-item_interact1",
       "variant": "item_interact",
       "result": "magikoopa magikoopa_color=yellow",
@@ -485,6 +492,7 @@
       ],
       "requiredContext": "cobblemon:yellow_wool"
     },
+
     {"id": "parakoopa-yellowmagikoopa-item_interact2",
       "variant": "item_interact",
       "result": "magikoopa magikoopa_color=yellow",
@@ -497,6 +505,7 @@
       ],
       "requiredContext": "minecraft:yellow_wool"
     },
+
     {"id": "parakoopa-graymagikoopa-item_interact1",
       "variant": "item_interact",
       "result": "magikoopa magikoopa_color=gray",
@@ -508,6 +517,7 @@
       ],
       "requiredContext": "cobblemon:gray_wool"
     },
+
     {"id": "parakoopa-graymagikoopa-item_interact2",
       "variant": "item_interact",
       "result": "magikoopa magikoopa_color=gray",
@@ -520,6 +530,7 @@
       ],
       "requiredContext": "minecraft:gray_wool"
     },
+
     {"id": "parakoopa-purplemagikoopa-item_interact1",
       "variant": "item_interact",
       "result": "magikoopa magikoopa_color=purple",
@@ -531,6 +542,7 @@
       ],
       "requiredContext": "cobblemon:purple_wool"
     },
+
     {"id": "parakoopa-purplemagikoopa-item_interact2",
       "variant": "item_interact",
       "result": "magikoopa magikoopa_color=purple",
@@ -544,5 +556,4 @@
       "requiredContext": "minecraft:purple_wool"
     }
   ]
-
 }

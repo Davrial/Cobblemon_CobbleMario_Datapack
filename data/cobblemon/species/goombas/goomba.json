@@ -17,30 +17,87 @@
     "speed": 125
   },
   "behaviour": {
+    "combat":{
+      "willDefendOwner":true,
+      "willDefendSelf":true,
+      "willFlee":true
+    },
     "resting": {
       "canSleep": true,
-      "depth": "normal",
+      "times": "night",
       "light": "0-4",
+      "depth": "normal",
       "willSleepOnBed": false,
-      "times": "night"
+      "drowsyChance":0.0333,
+      "rouseChance":0.0042
     },
     "moving": {
       "canLook": true,
+      "looksAtEntities": true,
+      "stepHeight": 0.6,
+      "wanderChance": 120,
+      "wanderSpeed": 0.75,
       "walk": {
         "canWalk": true,
-        "avoidsLand": false
+        "walkSpeed": 0.5
       },
       "swim": {
-        "swimSpeed": 0.3,
+        "swimSpeed": 0.15,
         "canSwimInWater": true,
-        "canBreatheUnderwater": false
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
       },
       "fly": {
         "canFly": false,
-        "flySpeedHorizontal": 0.3
+        "flySpeedHorizontal": 0.6
       },
-      "wanderChance": 120
-    }
+      "herd":{
+        "maxSize":"8",
+        "toleratedLeaders":[
+          {
+            "pokemon":"goomba",
+            "tier":1
+          },
+          {
+            "pokemon":"spikedgoomba",
+            "tier":2
+          },
+          {
+            "pokemon":"paragoomba",
+            "tier":2
+          },
+          {
+            "pokemon":"redgoomba",
+            "tier":3
+          },
+          {
+            "pokemon":"bluegoomba",
+            "tier":3
+          },
+          {
+            "pokemon":"supergoomba",
+            "tier":4
+          },
+          {
+            "pokemon":"ultragoomba",
+            "tier":5
+          },
+          {
+            "pokemon":"royalgoomba",
+            "tier":5
+          },
+          {
+            "pokemon":"bowser",
+            "tier":5
+          },
+          {
+            "pokemon":"invinshroom",
+            "tier":6
+          }
+        ]
+      }
+    },
+    "fireImmune":false
   },
   "catchRate": 200,
   "maleRatio": 0.75,
@@ -148,7 +205,8 @@
 
   "labels": [
     "custom",
-    "cobblemario"
+    "cobblemario",
+    "goomba"
   ],
   "pokedex": [
     "cobblemon.species.goomba.desc1",
@@ -279,6 +337,7 @@
       "learnableMoves": ["bubble", "meanlook"],
       "requirements": [
         {"variant": "level", "minLevel": 15},
+        {"variant": "has_move_type", "type": "water"},
         {"variant": "weather", "isRaining": true, "isThundering": false}
       ],
       "requiredContext": ""
@@ -345,11 +404,21 @@
       "consumeHeldItem": false,
       "learnableMoves": ["thrash", "doubleedge"],
       "requirements": [
-        {"variant": "level", "minLevel": 30}
+        {"variant": "level", "minLevel": 36}
       ],
       "requiredContext": ""
+    },
+    {
+      "id": "goomba-supergoomba1",
+      "variant": "level_up",
+      "result": "supergoomba",
+      "consumeHeldItem": true,
+      "learnableMoves": ["thrash", "flareblitz"],
+      "requirements": [
+        {"variant": "level", "minLevel": 20},
+        {"variant": "held_item", "itemCondition": "minecraft:iron_block"}
+      ],
+      "requiredContext": "minecraft:lapis_block"
     }
-
   ]
-
 }

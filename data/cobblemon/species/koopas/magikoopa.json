@@ -180,8 +180,6 @@
     "tm:wildcharge",
     "tm:flipturn",
     "tm:trailblaze"
-
-
   ],
 
 
@@ -214,7 +212,6 @@
   "weight": 1,
 
   "preEvolution": "koopa",
-
   "evolutions": [
     {"id": "magikoopa-kamek-level_up",
       "variant": "level_up",
@@ -224,9 +221,9 @@
         {"variant": "has_move_type", "type": "psychic"},
         {"variant": "level", "minLevel": 64},
         {"variant": "properties", "target": "gender=male"}
-
       ]
     },
+
     {"id": "magikoopa-kammykoopa-level_up",
       "variant": "level_up",
       "result": "kammykoopa",
@@ -236,7 +233,16 @@
         {"variant": "level", "minLevel": 64},
         {"variant": "properties", "target": "gender=female"}
       ]
+    },
+
+    {"id": "magikoopa-tutankoopa-level_up",
+      "variant": "level_up",
+      "result": "tutankoopa",
+      "learnableMoves": ["sandstorm", "earthpower", "sandtomb"],
+      "requirements": [
+        {"variant": "has_move_type", "type": "ground"},
+        {"variant": "level", "minLevel": 64}
+      ]
     }
   ]
-
 }

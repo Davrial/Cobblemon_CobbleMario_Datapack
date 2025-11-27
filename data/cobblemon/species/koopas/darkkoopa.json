@@ -213,7 +213,6 @@
 
   "preEvolution": "koopa",
   "evolutions": [
-
     {"id": "darkkoopa-shadykoopa-level_up",
       "variant": "level_up",
       "result": "shadykoopa",
@@ -223,6 +222,7 @@
         {"variant": "level", "minLevel": 36}
       ]
     },
+
     {"id": "darkkoopa-darkkoopatrol-level_up",
       "variant": "level_up",
       "result": "darkkoopatrol",
@@ -233,7 +233,5 @@
         {"variant": "has_move_type", "type": "steel"}
       ]
     }
-
   ]
-
 }

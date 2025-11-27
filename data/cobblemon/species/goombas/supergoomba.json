@@ -1,33 +1,32 @@
 {
   "implemented": true,
-  "name": "spikedgloomba",
-  "nationalPokedexNumber": 65009,
-  "primaryType": "dark",
-  "secondaryType": "steel",
+  "name": "supergoomba",
+  "nationalPokedexNumber": 64029,
+  "primaryType": "normal",
   "abilities": [
-    "innerfocus",
-    "merciless",
-    "h:guts"
+    "klutz",
+    "simple",
+    "h:adaptability"
   ],
   "baseStats": {
-    "hp": 75,
-    "attack": 85,
-    "defence": 25,
-    "special_attack": 85,
-    "special_defence": 25,
-    "speed": 110
+    "hp": 90,
+    "attack": 40,
+    "defence": 35,
+    "special_attack": 40,
+    "special_defence": 35,
+    "speed": 135
   },
   "behaviour": {
     "combat":{
       "willDefendOwner":true,
       "willDefendSelf":true,
-      "willFlee":true
+      "willFlee":false
     },
     "resting": {
       "canSleep": true,
-      "times": "day",
-      "light": "0-2",
-      "depth": "comatose",
+      "times": "night",
+      "light": "0-4",
+      "depth": "normal",
       "willSleepOnBed": false,
       "drowsyChance":0.0333,
       "rouseChance":0.0042
@@ -56,39 +55,39 @@
         "maxSize":"4",
         "toleratedLeaders":[
           {
-            "pokemon":"gloomba",
+            "pokemon":"redgoomba",
             "tier":1
           },
           {
-            "pokemon":"paragloomba",
-            "tier":2
-          },
-          {
-            "pokemon":"spikedgloomba",
-            "tier":3
+            "pokemon":"bluegoomba",
+            "tier":1
           },
           {
             "pokemon":"supergoomba",
-            "tier":4
+            "tier":2
           },
           {
             "pokemon":"ultragoomba",
-            "tier":5
+            "tier":3
           },
           {
             "pokemon":"royalgoomba",
-            "tier":5
+            "tier":4
+          },
+          {
+            "pokemon":"bowser",
+            "tier":4
           },
           {
             "pokemon":"invinshroom",
-            "tier":6
+            "tier":5
           }
         ]
       }
     },
     "fireImmune":false
   },
-  "catchRate": 75,
+  "catchRate": 74,
   "maleRatio": 0.86,
   "shoulderMountable": false,
   "baseExperienceYield": 100,
@@ -101,7 +100,7 @@
     "amount": 1,
     "entries": [
       {
-        "item": "minecraft:leather_boots",
+        "item": "minecraft:iron_boots",
         "quantityRange": "1-1",
         "percentage": 22
       }
@@ -117,76 +116,52 @@
     "1:bite",
     "1:headbutt",
     "12:sandattack",
-    "13:harden",
-    "14:beatup",
+    "13:sunnyday",
     "15:astonish",
-    "16:hornattack",
-    "18:torment",
+    "17:firefang",
     "19:mudslap",
-    "21:doubleedge",
-    "21:taunt",
+    "21:flamecharge",
     "23:flail",
-    "25:focusenergy",
-    "25:knockoff",
+    "25:jumpkick",
     "27:bounce",
-    "29:sharpen",
-    "29:snatch",
+    "29:temperflare",
     "31:crunch",
-    "33:slash",
-    "33:payback",
+    "33:stompingtantrum",
     "35:bodyslam",
-    "38:megahorn",
-    "38:assurance",
-    "41:doubleedge",
-    "44:irondefense",
-    "44:darkpulse",
-    "47:superfang",
-    "52:gigaimpact",
-    "52:nastyplot",
-    "55:zenheadbutt",
-    "58:ironhead",
-    "58:foulplay",
-    "61:drillrun",
-    "62:sharpen",
-    "65:memento",
-    "67:endeavor",
-    "73:outrage",
+    "37:blazekick",
+    "39:doubleedge",
+    "41:flareblitz",
+    "43:superfang",
+    "45:burnup",
+    "47:zenheadbutt",
+    "49:ragingfury",
+    "51:focusenergy",
+    "55:endeavor",
+    "59:outrage",
     "tm:quickattack",
     "tm:bite",
     "tm:headbutt",
     "tm:sandattack",
-    "tm:harden",
-    "tm:beatup",
+    "tm:sunnyday",
     "tm:astonish",
-    "tm:hornattack",
-    "tm:torment",
+    "tm:firefang",
     "tm:mudslap",
-    "tm:doubleedge",
-    "tm:taunt",
+    "tm:flamecharge",
     "tm:flail",
-    "tm:focusenergy",
-    "tm:knockoff",
+    "tm:jumpkick",
     "tm:bounce",
-    "tm:sharpen",
-    "tm:snatch",
+    "tm:temperflare",
     "tm:crunch",
-    "tm:slash",
-    "tm:payback",
+    "tm:stompingtantrum",
     "tm:bodyslam",
-    "tm:megahorn",
-    "tm:assurance",
+    "tm:blazekick",
     "tm:doubleedge",
-    "tm:irondefense",
-    "tm:darkpulse",
+    "tm:flareblitz",
     "tm:superfang",
-    "tm:gigaimpact",
-    "tm:nastyplot",
+    "tm:burnup",
     "tm:zenheadbutt",
-    "tm:ironhead",
-    "tm:foulplay",
-    "tm:drillrun",
-    "tm:sharpen",
-    "tm:memento",
+    "tm:ragingfury",
+    "tm:focusenergy",
     "tm:endeavor",
     "tm:outrage",
     "tm:jumpkick",
@@ -194,6 +169,7 @@
     "tm:hyperbeam",
     "tm:minimize",
     "tm:bide",
+    "tm:swift",
     "tm:skullbash",
     "tm:highjumpkick",
     "tm:hyperfang",
@@ -236,33 +212,46 @@
 
 
 
-
   "labels": [
     "custom",
     "cobblemario",
     "goomba"
   ],
   "pokedex": [
-    "cobblemon.species.spikedgloomba.desc1",
-    "cobblemon.species.spikedgloomba.desc2"
+    "cobblemon.species.supergoomba.desc1",
+    "cobblemon.species.supergoomba.desc2"
   ],
   "baseScale": 1.25,
   "hitbox": {
-    "width": 1,
-    "height": 1,
+    "width": 1.25,
+    "height": 1.25,
     "fixed": false
   },
-  "baseFriendship": 30,
+  "baseFriendship": 50,
   "evYield": {
-    "hp": 0,
-    "attack": 1,
+    "hp": 1,
+    "attack": 0,
     "defence": 0,
-    "special_attack": 1,
+    "special_attack": 0,
     "special_defence": 0,
     "speed": 1
   },
-  "height": 45,
-  "weight": 175,
+  "height": 48,
+  "weight": 210,
 
-  "preEvolution": "gloomba"
+  "preEvolution": "goomba",
+  "evolutions": [
+    {
+      "id": "supergoomba-ultragoomba1",
+      "variant": "level_up",
+      "result": "ultragoomba",
+      "consumeHeldItem": true,
+      "learnableMoves": ["thrash", "flareblitz"],
+      "requirements": [
+        {"variant": "level", "minLevel": 40},
+        {"variant": "held_item", "itemCondition": "minecraft:gold_block"}
+      ],
+      "requiredContext": "minecraft:redstone_block"
+    }
+  ]
 }

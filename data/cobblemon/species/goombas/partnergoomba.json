@@ -3,50 +3,112 @@
   "name": "partnergoomba",
   "nationalPokedexNumber": 65001,
   "primaryType": "normal",
+  "secondaryType": "fairy",
   "abilities": [
     "klutz",
     "simple",
     "h:adaptability"
   ],
   "baseStats": {
-    "hp": 25,
-    "attack": 25,
+    "hp": 130,
+    "attack": 75,
     "defence": 25,
-    "special_attack": 25,
+    "special_attack": 75,
     "special_defence": 25,
-    "speed": 125
+    "speed": 100
   },
   "behaviour": {
+    "combat":{
+      "willDefendOwner":true,
+      "willDefendSelf":true,
+      "willFlee":false
+    },
     "resting": {
       "canSleep": true,
-      "depth": "normal",
+      "times": "night",
       "light": "0-4",
-      "willSleepOnBed": false,
-      "times": "night"
+      "depth": "comatose",
+      "willSleepOnBed": true,
+      "drowsyChance":0.0333,
+      "rouseChance":0.0042
     },
     "moving": {
       "canLook": true,
+      "looksAtEntities": true,
+      "stepHeight": 0.6,
+      "wanderChance": 170,
+      "wanderSpeed": 1.0,
       "walk": {
         "canWalk": true,
-        "avoidsLand": false
+        "walkSpeed": 0.6
       },
       "swim": {
         "swimSpeed": 0.3,
         "canSwimInWater": true,
-        "canBreatheUnderwater": false
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": false
       },
       "fly": {
         "canFly": false,
-        "flySpeedHorizontal": 0.3
+        "flySpeedHorizontal": 0.6
       },
-      "wanderChance": 120
-    }
+      "herd":{
+        "maxSize":"1",
+        "toleratedLeaders":[
+          {
+            "pokemon":"spikedgoomba",
+            "tier":1
+          },
+          {
+            "pokemon":"paragoomba",
+            "tier":1
+          },
+          {
+            "pokemon":"redgoomba",
+            "tier":1
+          },
+          {
+            "pokemon":"bluegoomba",
+            "tier":1
+          },
+          {
+            "pokemon":"supergoomba",
+            "tier":2
+          },
+          {
+            "pokemon":"ultragoomba",
+            "tier":3
+          },
+          {
+            "pokemon":"royalgoomba",
+            "tier":3
+          },
+          {
+            "pokemon":"bowser",
+            "tier":3
+          },
+          {
+            "pokemon":"partnergoomba",
+            "tier":4
+          },
+          {
+            "pokemon":"partnerkoopa",
+            "tier":5
+          },
+          {
+            "pokemon":"invinshroom",
+            "tier":6
+          }
+        ]
+      }
+    },
+    "fireImmune":false
   },
   "catchRate": 200,
   "maleRatio": 0.75,
   "shoulderMountable": false,
   "baseExperienceYield": 100,
-  "experienceGroup": "fluctuating",
+  "experienceGroup": "medium",
   "eggCycles": 10,
   "eggGroups": [
     "field"
@@ -141,18 +203,18 @@
     "cobblemario"
   ],
   "pokedex": [
-    "cobblemon.species.goomba.desc1",
-    "cobblemon.species.goomba.desc2"
+    "cobblemon.species.partnergoomba.desc1",
+    "cobblemon.species.partnergoomba.desc2"
   ],
-  "baseScale": 1,
+  "baseScale": 0.95,
   "hitbox": {
     "width": 1,
     "height": 1,
     "fixed": false
   },
-  "baseFriendship": 30,
+  "baseFriendship": 50,
   "evYield": {
-    "hp": 0,
+    "hp": 1,
     "attack": 0,
     "defence": 0,
     "special_attack": 0,
@@ -160,5 +222,7 @@
     "speed": 1
   },
   "height": 32,
-  "weight": 132
+  "weight": 132,
+
+  "preEvolution": "goomba"
 }

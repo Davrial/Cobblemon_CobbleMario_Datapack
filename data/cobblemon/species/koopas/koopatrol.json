@@ -221,10 +221,7 @@
   "weight": 1,
 
   "preEvolution": "koopa",
-
   "evolutions": [
-
-
     {"id": "darkkoopa-darkkoopatrol-level_up",
       "variant": "level_up",
       "result": "darkkoopatrol",
@@ -246,8 +243,5 @@
         {"variant": "has_move_type", "type": "dragon"}
       ]
     }
-
   ]
-
-
 }

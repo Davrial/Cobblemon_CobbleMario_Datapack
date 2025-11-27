@@ -18,30 +18,87 @@
     "speed": 135
   },
   "behaviour": {
+    "combat":{
+      "willDefendOwner":true,
+      "willDefendSelf":true,
+      "willFlee":true
+    },
     "resting": {
       "canSleep": true,
-      "depth": "normal",
+      "times": "night",
       "light": "0-4",
+      "depth": "normal",
       "willSleepOnBed": false,
-      "times": "night"
+      "drowsyChance":0.0333,
+      "rouseChance":0.0042
     },
     "moving": {
       "canLook": true,
+      "looksAtEntities": true,
+      "stepHeight": 0.6,
+      "wanderChance": 120,
+      "wanderSpeed": 0.75,
       "walk": {
         "canWalk": true,
-        "avoidsLand": false
+        "walkSpeed": 0.5
       },
       "swim": {
         "swimSpeed": 0.3,
-        "canSwimInWater": true,
-        "canBreatheUnderwater": false
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
       },
       "fly": {
         "canFly": false,
-        "flySpeedHorizontal": 0.3
+        "flySpeedHorizontal": 0.6
       },
-      "wanderChance": 120
-    }
+      "herd":{
+        "maxSize":"5",
+        "toleratedLeaders":[
+          {
+            "pokemon":"goomba",
+            "tier":1
+          },
+          {
+            "pokemon":"paragoomba",
+            "tier":2
+          },
+          {
+            "pokemon":"spikedgoomba",
+            "tier":3
+          },
+          {
+            "pokemon":"redgoomba",
+            "tier":3
+          },
+          {
+            "pokemon":"bluegoomba",
+            "tier":3
+          },
+          {
+            "pokemon":"supergoomba",
+            "tier":4
+          },
+          {
+            "pokemon":"ultragoomba",
+            "tier":5
+          },
+          {
+            "pokemon":"royalgoomba",
+            "tier":5
+          },
+          {
+            "pokemon":"bowser",
+            "tier":5
+          },
+          {
+            "pokemon":"invinshroom",
+            "tier":6
+          }
+        ]
+      }
+    },
+    "fireImmune":false
   },
   "catchRate": 125,
   "maleRatio": 0.86,
@@ -169,7 +226,8 @@
 
   "labels": [
     "custom",
-    "cobblemario"
+    "cobblemario",
+    "goomba"
   ],
   "pokedex": [
     "cobblemon.species.spikedgoomba.desc1",
@@ -195,7 +253,6 @@
 
   "preEvolution": "goomba",
   "evolutions": [
-
     {
       "id": "spikedgoomba-hyperspikedgoomba-item_interact-vanilla",
       "variant": "item_interact",
@@ -207,7 +264,6 @@
         {"variant": "time_range", "range": "twilight"}],
       "requiredContext": "minecraft:redstone_lamp"
     },
-
 
     {
       "id": "spikedgoomba-hyperspikedgoomba-item_interact-cobblemario",
@@ -234,7 +290,5 @@
       ],
       "requiredContext": ""
     }
-
   ]
-  
 }
