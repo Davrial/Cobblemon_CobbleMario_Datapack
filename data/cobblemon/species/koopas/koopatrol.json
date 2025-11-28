@@ -18,31 +18,67 @@
     "speed": 60
   },
   "behaviour": {
+    "combat":{
+      "willDefendOwner":true,
+      "willDefendSelf":true,
+      "willFlee":false
+    },
     "resting": {
       "canSleep": true,
+      "times": "night",
+      "light": "0-4",
       "depth": "normal",
-      "light": "0-3",
       "willSleepOnBed": false,
-      "times": "night"
+      "drowsyChance":0.0333,
+      "rouseChance":0.0042
     },
     "moving": {
       "canLook": true,
+      "looksAtEntities": true,
+      "stepHeight": 0.6,
+      "wanderChance": 120,
+      "wanderSpeed": 0.75,
       "walk": {
         "canWalk": true,
-        "avoidsLand": false
+        "walkSpeed": 0.5
       },
       "swim": {
-        "avoidsWater": true,
-        "swimSpeed": 0.2,
-        "canSwimInWater": false,
-        "canBreatheUnderwater": false
+        "swimSpeed": 0.15,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false,
+        "canWalkOnWater": false
       },
       "fly": {
         "canFly": false,
-        "flySpeedHorizontal": 0.3
+        "flySpeedHorizontal": 0.6
       },
-      "wanderChance": 200
-    }
+      "herd":{
+        "maxSize":"5",
+        "toleratedLeaders":[
+          {
+            "pokemon":"magikoopa",
+            "tier":1
+          },
+          {
+            "pokemon":"koopatrol",
+            "tier":2
+          },
+          {
+            "pokemon":"kamek",
+            "tier":3
+          },
+          {
+            "pokemon":"kammykoopa",
+            "tier":3
+          },
+          {
+            "pokemon":"bowser",
+            "tier":4
+          }
+        ]
+      }
+    },
+    "fireImmune":false
   },
   "catchRate": 100,
   "maleRatio": 0.86,

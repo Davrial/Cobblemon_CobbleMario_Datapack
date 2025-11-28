@@ -17,30 +17,99 @@
     "speed": 50
   },
   "behaviour": {
+    "combat":{
+      "willDefendOwner":true,
+      "willDefendSelf":true,
+      "willFlee":false
+    },
     "resting": {
       "canSleep": true,
-      "depth": "normal",
+      "times": "night",
       "light": "0-4",
+      "depth": "normal",
       "willSleepOnBed": false,
-      "times": "night"
+      "drowsyChance":0.0333,
+      "rouseChance":0.0042
     },
     "moving": {
       "canLook": true,
+      "looksAtEntities": true,
+      "stepHeight": 0.6,
+      "wanderChance": 120,
+      "wanderSpeed": 0.75,
       "walk": {
         "canWalk": true,
-        "avoidsLand": false
+        "walkSpeed": 0.5
       },
       "swim": {
-        "swimSpeed": 0.3,
+        "swimSpeed": 0.15,
         "canSwimInWater": true,
-        "canBreatheUnderwater": false
+        "canBreatheUnderwater": false,
+        "canWalkOnWater": false
       },
       "fly": {
         "canFly": false,
-        "flySpeedHorizontal": 0.3
+        "flySpeedHorizontal": 0.6
       },
-      "wanderChance": 120
-    }
+      "herd":{
+        "maxSize":"8",
+        "toleratedLeaders":[
+          {
+            "pokemon":"koopa",
+            "tier":1
+          },
+          {
+            "pokemon":"parakoopa",
+            "tier":2
+          },
+          {
+            "pokemon":"hammerbro",
+            "tier":3
+          },
+          {
+            "pokemon":"firebro",
+            "tier":3
+          },
+          {
+            "pokemon":"boomerangbro",
+            "tier":3
+          },
+          {
+            "pokemon":"icebro",
+            "tier":3
+          },
+          {
+            "pokemon":"magikoopa",
+            "tier":4
+          },
+          {
+            "pokemon":"kentckoopa",
+            "tier":4
+          },
+          {
+            "pokemon":"koopatrol",
+            "tier":5
+          },
+          {
+            "pokemon":"kamek",
+            "tier":6
+          },
+          {
+            "pokemon":"kammykoopa",
+            "tier":6
+          },
+          {
+            "pokemon":"partnerkoopa",
+            "tier":6
+          },
+          {
+            "pokemon":"bowser",
+            "tier":7
+          }
+        ]
+      }
+    },
+    "fireImmune":false
   },
   "catchRate": 180,
   "maleRatio": 0.67,

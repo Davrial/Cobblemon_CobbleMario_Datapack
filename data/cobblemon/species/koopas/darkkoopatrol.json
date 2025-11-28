@@ -18,31 +18,51 @@
     "speed": 50
   },
   "behaviour": {
+    "combat":{
+      "willDefendOwner":true,
+      "willDefendSelf":true,
+      "willFlee":false
+    },
     "resting": {
       "canSleep": true,
+      "times": "any",
+      "light": "0-2",
       "depth": "normal",
-      "light": "13-15",
       "willSleepOnBed": false,
-      "times": "day"
+      "drowsyChance":0.0014,
+      "rouseChance":0.0042
     },
     "moving": {
       "canLook": true,
+      "looksAtEntities": true,
+      "stepHeight": 0.6,
+      "wanderChance": 120,
+      "wanderSpeed": 0.75,
       "walk": {
         "canWalk": true,
-        "avoidsLand": false
+        "walkSpeed": 0.5
       },
       "swim": {
-        "avoidsWater": true,
-        "swimSpeed": 0.2,
-        "canSwimInWater": false,
-        "canBreatheUnderwater": false
+        "swimSpeed": 0.15,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false,
+        "canWalkOnWater": false
       },
       "fly": {
         "canFly": false,
-        "flySpeedHorizontal": 0.3
+        "flySpeedHorizontal": 0.6
       },
-      "wanderChance": 300
-    }
+      "herd":{
+        "maxSize":"3",
+        "toleratedLeaders":[
+          {
+            "pokemon":"darkkoopatrol",
+            "tier":1
+          }
+        ]
+      }
+    },
+    "fireImmune":false
   },
   "catchRate": 50,
   "maleRatio": 0.67,
