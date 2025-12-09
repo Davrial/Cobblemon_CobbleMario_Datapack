@@ -44,7 +44,7 @@
       },
       "swim": {
         "swimSpeed": 0.15,
-        "canSwimInWater": true,
+        "canSwimInWater": false,
         "canBreatheUnderwater": false,
         "canWalkOnWater": false
       },
@@ -62,7 +62,7 @@
         ]
       }
     },
-    "fireImmune":false
+    "fireImmune":true
   },
   "catchRate": 50,
   "maleRatio": 0.67,

@@ -618,6 +618,19 @@
         {"variant": "level", "minLevel": 55},
         {"variant": "biome", "biomeCondition": "#cobblemon:is_desert"}
       ]
+    },
+    {
+      "id":"koopa-partnerkoopa",
+      "variant":"level_up",
+      "result":"partnerkoopa",
+      "consumeHeldItem":false,
+      "learnableMoves":[],
+      "requirements":[
+        {
+          "variant":"friendship",
+          "amount":160
+        }
+      ]
     }
   ]
 }

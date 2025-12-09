@@ -419,6 +419,19 @@
         {"variant": "held_item", "itemCondition": "minecraft:iron_block"}
       ],
       "requiredContext": "minecraft:lapis_block"
+    },
+    {
+      "id":"goomba-partnergoomba",
+      "variant":"level_up",
+      "result":"partnergoomba",
+      "consumeHeldItem":false,
+      "learnableMoves":[],
+      "requirements":[
+        {
+          "variant":"friendship",
+          "amount":160
+        }
+      ]
     }
   ]
 }
