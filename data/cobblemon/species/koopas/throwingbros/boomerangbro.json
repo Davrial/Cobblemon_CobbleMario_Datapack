@@ -1,20 +1,21 @@
 {
   "implemented": true,
-  "name": "bowser",
-  "nationalPokedexNumber": 65041,
+  "name": "boomerangbro",
+  "nationalPokedexNumber": 65025,
   "primaryType": "dragon",
+  "secondaryType": "fighting",
   "abilities": [
-    "koopakonqueror",
-    "koopakonqueror",
-    "h:koopakonqueror"
+    "shellarmor",
+    "longreach",
+    "h:limber"
   ],
   "baseStats": {
-    "hp": 170,
+    "hp": 70,
     "attack": 70,
-    "defence": 110,
-    "special_attack": 70,
-    "special_defence": 110,
-    "speed": 70
+    "defence": 80,
+    "special_attack": 50,
+    "special_defence": 80,
+    "speed": 60
   },
   "behaviour": {
     "combat":{
@@ -25,8 +26,8 @@
     "resting": {
       "canSleep": true,
       "times": "night",
-      "light": "0-2",
-      "depth": "comatose",
+      "light": "0-4",
+      "depth": "normal",
       "willSleepOnBed": false,
       "drowsyChance":0.0333,
       "rouseChance":0.0042
@@ -34,7 +35,7 @@
     "moving": {
       "canLook": true,
       "looksAtEntities": true,
-      "stepHeight": 1.1,
+      "stepHeight": 0.6,
       "wanderChance": 120,
       "wanderSpeed": 0.75,
       "walk": {
@@ -52,122 +53,46 @@
         "flySpeedHorizontal": 0.6
       },
       "herd":{
-        "maxSize":"2",
+        "maxSize":"5",
         "toleratedLeaders":[
           {
-            "pokemon":"bowser",
+            "pokemon":"hammerbro",
             "tier":1
+          },
+          {
+            "pokemon":"firebro",
+            "tier":1
+          },
+          {
+            "pokemon":"boomerangbro",
+            "tier":1
+          },
+          {
+            "pokemon":"icebro",
+            "tier":1
+          },
+          {
+            "pokemon":"koopatrol",
+            "tier":2
+          },
+          {
+            "pokemon":"bowser",
+            "tier":3
           }
         ]
       }
     },
-    "fireImmune":true
+    "fireImmune":false
   },
-  "riding":{
-    "behaviours":{
-      "LAND":{
-        "key":"cobblemon:land/horse",
-        "rideSounds":[],
-        "stats":{
-          "ACCELERATION":"30-50",
-          "JUMP":"15-30",
-          "SKILL":"10-35",
-          "SPEED":"30-65",
-          "STAMINA":"15-35"
-        }
-      }
-    },
-    "seats":[
-      {
-        "offset":{
-          "x":0.0,
-          "y":0.0,
-          "z":0.0
-        },
-        "poseOffsets":[
-          {
-            "offset":{
-              "x":-0.000759989,
-              "y":-2.7762213,
-              "z":-0.08708589
-            },
-            "poseTypes":[
-              "STAND"
-            ]
-          },
-          {
-            "offset":{
-              "x":0.000713408,
-              "y":-2.888495,
-              "z":-0.031018771
-            },
-            "poseTypes":[
-              "WALK"
-            ]
-          },
-          {
-            "offset":{
-              "x":-0.031250015,
-              "y":-2.8524113,
-              "z":0.27662846
-            },
-            "poseTypes":[
-              "HOVER"
-            ]
-          },
-          {
-            "offset":{
-              "x":-0.031250015,
-              "y":-2.8524113,
-              "z":0.27662846
-            },
-            "poseTypes":[
-              "FLY"
-            ]
-          },
-          {
-            "offset":{
-              "x":0.021855652,
-              "y":-1.4104469,
-              "z":-0.49374536
-            },
-            "poseTypes":[
-              "FLOAT"
-            ]
-          },
-          {
-            "offset":{
-              "x":-0.030396074,
-              "y":-1.1050735,
-              "z":-0.6272919
-            },
-            "poseTypes":[
-              "SWIM"
-            ]
-          },
-          {
-            "offset":{
-              "x":-0.003324896,
-              "y":-2.741436,
-              "z":-0.37943092
-            },
-            "poseTypes":[
-              "GLIDE"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-
-  "catchRate": 50,
-  "maleRatio": 1.0,
+  "catchRate": 100,
+  "maleRatio": 0.9,
   "shoulderMountable": false,
-  "baseExperienceYield": 300,
-  "experienceGroup": "slow",
-  "eggCycles": 20,
+  "baseExperienceYield": 150,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 15,
   "eggGroups": [
     "dragon",
+    "human_like",
     "monster"
   ],
   "drops": {
@@ -191,23 +116,26 @@
     ]
   },
 
-
   "moves": [
-    "1:tackle",
-    "1:tailwhip",
+    "1:bonemerang",
+    "tm:bonemerang",
+    "1:fling",
+    "tm:fling",
     "1:bite",
     "1:withdraw",
     "9:rapidspin",
     "12:endure",
-    "15:headbutt",
+    "15:watergun",
+    "tm:watergun",
     "20:protect",
-    "25:raindance",
+    "25:swift",
+    "egg:swift",
     "30:irondefense",
-    "35:shellsmash",
+    "35:bubblebeam",
     "40:dragonclaw",
-    "45:dualchop",
-    "50:bodyslam",
-    "55:zenheadbutt",
+    "45:raindance",
+    "50:shellsmash",
+    "55:waterpledge",
     "60:focusenergy",
     "65:dragonpulse",
     "70:outrage",
@@ -298,35 +226,42 @@
     "tm:honeclaws",
     "tm:storedpower",
     "tm:acrobatics",
-    "tm:voltswitch",
-    "tm:wildcharge",
     "tm:flipturn",
-    "tm:trailblaze"
-
-
+    "tm:hydropump",
+    "tm:bubble",
+    "tm:raindance",
+    "tm:waterpulse",
+    "tm:aquaring",
+    "tm:aquajet",
+    "tm:scald",
+    "tm:chillingwater",
+    "tm:aquacutter",
+    "tutor:waterspout",
+    "tm:watergun"
   ],
+
+
 
 
 
   "labels": [
     "custom",
     "cobblemario",
-    "koopa",
-    "powerhouse"
+    "koopa"
   ],
   "pokedex": [
-    "cobblemon.species.bowser.desc1",
-    "cobblemon.species.bowser.desc2"
+    "cobblemon.species.boomerangbro.desc1",
+    "cobblemon.species.boomerangbro.desc2"
   ],
   "baseScale": 0.14,
   "hitbox": {
-    "width": 2,
-    "height": 3,
+    "width": 1,
+    "height": 2,
     "fixed": false
   },
   "baseFriendship": 50,
   "evYield": {
-    "hp": 1,
+    "hp": 0,
     "attack": 0,
     "defence": 2,
     "special_attack": 0,

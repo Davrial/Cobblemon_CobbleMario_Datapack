@@ -1,0 +1,29 @@
+{
+  "type": "choice",
+  "keys": ["festive_check"],
+  "default": "random",
+  "choices": [
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "no",
+    "yes",
+    "yes",
+    "yes",
+    "yes",
+    "onlychristmas",
+    "onlychristmas",
+    "onlychristmas",
+    "alwayschristmas",
+    "onlyhalloween",
+    "onlyhalloween",
+    "onlyhalloween",
+    "alwayshalloween"
+  ],
+  "isAspect": true,
+  "aspectFormat": "festive-check-{{choice}}"
+}

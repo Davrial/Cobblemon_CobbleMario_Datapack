@@ -1,9 +1,9 @@
 {
   "implemented": true,
-  "name": "firebro",
-  "nationalPokedexNumber": 65028,
+  "name": "hammerbro",
+  "nationalPokedexNumber": 65024,
   "primaryType": "dragon",
-  "secondaryType": "ice",
+  "secondaryType": "fighting",
   "abilities": [
     "shellarmor",
     "longreach",
@@ -11,11 +11,11 @@
   ],
   "baseStats": {
     "hp": 70,
-    "attack": 40,
+    "attack": 80,
     "defence": 80,
-    "special_attack": 60,
+    "special_attack": 40,
     "special_defence": 80,
-    "speed": 75
+    "speed": 60
   },
   "behaviour": {
     "combat":{
@@ -84,10 +84,6 @@
     },
     "fireImmune":false
   },
-  "lightingData": {
-    "lightLevel": 1,
-    "liquidGlowMode": "LAND"
-  },
   "catchRate": 100,
   "maleRatio": 0.9,
   "shoulderMountable": false,
@@ -122,93 +118,120 @@
 
 
   "moves": [
-    "egg:ember",
-    "1:flamethrower",
+    "1:woodhammer",
     "1:fling",
+    "1:bite",
     "1:withdraw",
     "9:rapidspin",
     "12:endure",
     "15:headbutt",
     "20:swift",
-    "25:willowisp",
-    "egg:willowisp",
+    "25:grasswhistle",
     "30:irondefense",
     "35:shellsmash",
     "40:dragonclaw",
-    "45:fireblast",
-    "50:heatwave",
-    "55:firepledge",
+    "45:dualchop",
+    "50:bodyslam",
+    "55:grasspledge",
     "60:focusenergy",
     "65:dragonpulse",
     "70:outrage",
     "75:doubleedge",
     "77:dragonrush",
+    "tm:stomp",
     "tm:doublekick",
     "tm:megakick",
     "tm:jumpkick",
+    "tm:rollingkick",
     "tm:sandattack",
+    "tm:takedown",
     "tm:tailwhip",
     "tm:leer",
+    "tm:lowkick",
     "tm:counter",
     "tm:growth",
     "tm:dragonrage",
     "tm:rockthrow",
+    "tm:meditate",
     "tm:agility",
     "tm:quickattack",
     "tm:harden",
     "tm:defensecurl",
+    "tm:barrier",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:bide",
     "tm:swift",
-    "egg:swift",
+    "tm:skullbash",
+    "tm:highjumpkick",
+    "tm:dizzypunch",
+    "tm:rest",
     "tm:substitute",
+    "tm:snore",
     "tm:flail",
     "tm:spite",
+    "tm:machpunch",
+    "tm:feintattack",
     "tm:mudslap",
     "tm:detect",
+    "tm:charm",
+    "tm:rollout",
+    "tm:falseswipe",
     "tm:return",
     "tm:frustration",
+    "tm:dynamicpunch",
+    "tm:encore",
+    "tm:hiddenpower",
+    "tm:crosschop",
     "tm:twister",
     "tm:sunnyday",
+    "tm:crunch",
+    "tm:mirrorcoat",
+    "tm:ancientpower",
+    "tm:rocksmash",
+    "tm:whirlpool",
+    "tm:stockpile",
+    "tm:flatter",
     "tm:facade",
     "tm:focuspunch",
+    "tm:followme",
+    "tm:naturepower",
     "tm:assist",
     "tm:superpower",
     "tm:brickbreak",
     "tm:endeavor",
     "tm:secretpower",
+    "tm:armthrust",
     "tm:blazekick",
+    "tm:iceball",
+    "tm:faketears",
+    "tm:odorsleuth",
     "tm:bounce",
     "tm:mudshot",
     "tm:dragondance",
     "tm:gyroball",
+    "tm:uturn",
     "tm:closecombat",
     "tm:fling",
-    "egg:fling",
+    "tm:lastresort",
+    "tm:suckerpunch",
     "tm:rockpolish",
+    "tm:gigaimpact",
+    "tm:rockclimb",
+    "tm:captivate",
+    "tm:headsmash",
+    "tm:honeclaws",
+    "tm:storedpower",
     "tm:acrobatics",
-    "tm:trailblaze",
-    "tm:firepunch",
-    "egg:ember",
-    "tm:firespin",
-    "tm:fireblast",
-    "tm:flamewheel",
-    "tm:heatwave",
-    "egg:willowisp",
-    "tm:eruption",
-    "tm:blastburn",
-    "tm:flameburst",
-    "tm:incinerate",
-    "tm:inferno",
-    "tm:firepledge",
-    "tm:fireydance",
-    "tm:burnup",
-    "tm:ragingfury",
-    "tutor:searingshot",
-    "tutor:firelash",
-    "tutor:shelltrap",
-    "tutor:torchsong"
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tm:flipturn",
+    "tm:trailblaze"
 
 
   ],
+
+
 
 
 
@@ -218,8 +241,8 @@
     "koopa"
   ],
   "pokedex": [
-    "cobblemon.species.icebro.desc1",
-    "cobblemon.species.icebro.desc2"
+    "cobblemon.species.hammerbro.desc1",
+    "cobblemon.species.hammerbro.desc2"
   ],
   "baseScale": 0.14,
   "hitbox": {
@@ -231,13 +254,44 @@
   "evYield": {
     "hp": 0,
     "attack": 0,
-    "defence": 1,
-    "special_attack": 1,
+    "defence": 2,
+    "special_attack": 0,
     "special_defence": 0,
     "speed": 0
   },
   "height": 1,
   "weight": 1,
 
-  "preEvolution": "koopa"
+  "preEvolution": "koopa",
+  "evolutions": [
+    {"id": "hammerbro-kent_c_koopa-level_up1",
+      "variant": "level_up",
+      "result": "kent_c_koopa",
+      "consumeHeldItem": true,
+      "learnableMoves": ["superpower"],
+      "requirements": [
+        {"variant": "level", "minLevel": 60},
+        {"variant": "held_item", "itemCondition": "cobblemon:wise_glasses"}
+      ]
+    },
+
+    {"id": "hammerbro-kent_c_koopa-level_up2",
+      "variant": "level_up",
+      "result": "kent_c_koopa",
+      "consumeHeldItem": true,
+      "learnableMoves": ["superpower"],
+      "requirements": [{"variant": "held_item", "ratio": "DEFENCE_HIGHER", "itemCondition": "cobblemario:thick_glasses"}]
+    },
+
+    {"id": "hammerbro-bowser-level_up",
+      "variant": "level_up",
+      "result": "bowser",
+      "consumeHeldItem": false,
+      "learnableMoves": ["dragonbreath", "firepunch"],
+      "requirements": [
+        {"variant": "level", "minLevel": 75},
+        {"variant": "has_move_type", "type": "dragon"}
+      ]
+    }
+  ]
 }

@@ -1,16 +1,29 @@
 {
+    onDamagingHitOrder: 1,
+    onDamagingHit(damage, target, source, move) {
+    const fromAboveMoves1 = [
+        		'stomp', 'bodyslam', 'flyingpress', 'heavyslam', 'maliciousmoonsault',  'jumpkick', 'highjumpkick', 'bounce', 'supersonicskystrike', 'acrobatics', 'floatyfall', 'fly', 'skyattack'
+        	];
+    	if (fromAboveMoves1.includes(move.id) || move.flags["fromabove"]) {
+    	    if (source.hasItem("heavydutyboots") ||  source.hasItem("protectivepads") || source.hasItem("spikeshieldbadgecobblemon")) {
+            return;
+            } else {
+            this.damage(source.baseMaxhp / 8, source, target);
+            }
+      }
+    },
     onSourceModifyDamage(damage, source, target, move) {
-    	const boostedMoves = [
+    	const fromAboveMoves2 = [
     		'stomp', 'bodyslam', 'flyingpress', 'heavyslam', 'maliciousmoonsault',  'jumpkick', 'highjumpkick', 'bounce', 'supersonicskystrike', 'acrobatics', 'floatyfall', 'fly', 'skyattack'
     	];
-    	if (boostedMoves.includes(move.id)) {
-    					return this.chainModify(2);
+    	if (fromAboveMoves2.includes(move.id) || move.flags["fromabove"]) {
+    	    if (source.hasItem("heavydutyboots") ||  source.hasItem("protectivepads") || source.hasItem("spikeshieldbadgecobblemon")) {
+    			return this.chainModify(1.5);
+    		}
+    		else {
+    		    return this.chainModify(0);
+    		}
     	}
-    },
-    onDamagingHit(damage, target, source, move) {
-      	if (boostedMoves.includes(move.id)) {
-      		this.damage(source.baseMaxhp / 6, source, target);
-      	}
     },
 	name: "Spiked Goomba Ability",
 	rating: 0.5

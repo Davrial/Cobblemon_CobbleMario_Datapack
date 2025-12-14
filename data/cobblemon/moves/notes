@@ -93,6 +93,7 @@ Only found under "addVolatile()":
 -rollout
 -shelltrap
 -throatchop
+-commanded
 
 
 
@@ -133,3 +134,5 @@ Flags:
 -noparentalbond
 -pledgecombo
 
+    ignoreDefensive: true,
+    ignoreEvasion: true,

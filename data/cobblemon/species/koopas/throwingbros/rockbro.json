@@ -1,20 +1,21 @@
 {
   "implemented": true,
-  "name": "bowser",
-  "nationalPokedexNumber": 65041,
+  "name": "rockbro",
+  "nationalPokedexNumber": 65024,
   "primaryType": "dragon",
+  "secondaryType": "fighting",
   "abilities": [
-    "koopakonqueror",
-    "koopakonqueror",
-    "h:koopakonqueror"
+    "shellarmor",
+    "longreach",
+    "h:limber"
   ],
   "baseStats": {
-    "hp": 170,
+    "hp": 70,
     "attack": 70,
-    "defence": 110,
-    "special_attack": 70,
-    "special_defence": 110,
-    "speed": 70
+    "defence": 80,
+    "special_attack": 50,
+    "special_defence": 80,
+    "speed": 60
   },
   "behaviour": {
     "combat":{
@@ -25,8 +26,8 @@
     "resting": {
       "canSleep": true,
       "times": "night",
-      "light": "0-2",
-      "depth": "comatose",
+      "light": "0-4",
+      "depth": "normal",
       "willSleepOnBed": false,
       "drowsyChance":0.0333,
       "rouseChance":0.0042
@@ -34,7 +35,7 @@
     "moving": {
       "canLook": true,
       "looksAtEntities": true,
-      "stepHeight": 1.1,
+      "stepHeight": 0.6,
       "wanderChance": 120,
       "wanderSpeed": 0.75,
       "walk": {
@@ -52,122 +53,46 @@
         "flySpeedHorizontal": 0.6
       },
       "herd":{
-        "maxSize":"2",
+        "maxSize":"5",
         "toleratedLeaders":[
           {
-            "pokemon":"bowser",
+            "pokemon":"hammerbro",
             "tier":1
+          },
+          {
+            "pokemon":"firebro",
+            "tier":1
+          },
+          {
+            "pokemon":"boomerangbro",
+            "tier":1
+          },
+          {
+            "pokemon":"icebro",
+            "tier":1
+          },
+          {
+            "pokemon":"koopatrol",
+            "tier":2
+          },
+          {
+            "pokemon":"bowser",
+            "tier":3
           }
         ]
       }
     },
-    "fireImmune":true
+    "fireImmune":false
   },
-  "riding":{
-    "behaviours":{
-      "LAND":{
-        "key":"cobblemon:land/horse",
-        "rideSounds":[],
-        "stats":{
-          "ACCELERATION":"30-50",
-          "JUMP":"15-30",
-          "SKILL":"10-35",
-          "SPEED":"30-65",
-          "STAMINA":"15-35"
-        }
-      }
-    },
-    "seats":[
-      {
-        "offset":{
-          "x":0.0,
-          "y":0.0,
-          "z":0.0
-        },
-        "poseOffsets":[
-          {
-            "offset":{
-              "x":-0.000759989,
-              "y":-2.7762213,
-              "z":-0.08708589
-            },
-            "poseTypes":[
-              "STAND"
-            ]
-          },
-          {
-            "offset":{
-              "x":0.000713408,
-              "y":-2.888495,
-              "z":-0.031018771
-            },
-            "poseTypes":[
-              "WALK"
-            ]
-          },
-          {
-            "offset":{
-              "x":-0.031250015,
-              "y":-2.8524113,
-              "z":0.27662846
-            },
-            "poseTypes":[
-              "HOVER"
-            ]
-          },
-          {
-            "offset":{
-              "x":-0.031250015,
-              "y":-2.8524113,
-              "z":0.27662846
-            },
-            "poseTypes":[
-              "FLY"
-            ]
-          },
-          {
-            "offset":{
-              "x":0.021855652,
-              "y":-1.4104469,
-              "z":-0.49374536
-            },
-            "poseTypes":[
-              "FLOAT"
-            ]
-          },
-          {
-            "offset":{
-              "x":-0.030396074,
-              "y":-1.1050735,
-              "z":-0.6272919
-            },
-            "poseTypes":[
-              "SWIM"
-            ]
-          },
-          {
-            "offset":{
-              "x":-0.003324896,
-              "y":-2.741436,
-              "z":-0.37943092
-            },
-            "poseTypes":[
-              "GLIDE"
-            ]
-          }
-        ]
-      }
-    ]
-  },
-
-  "catchRate": 50,
-  "maleRatio": 1.0,
+  "catchRate": 100,
+  "maleRatio": 0.9,
   "shoulderMountable": false,
-  "baseExperienceYield": 300,
-  "experienceGroup": "slow",
-  "eggCycles": 20,
+  "baseExperienceYield": 150,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 15,
   "eggGroups": [
     "dragon",
+    "human_like",
     "monster"
   ],
   "drops": {
@@ -193,21 +118,21 @@
 
 
   "moves": [
-    "1:tackle",
-    "1:tailwhip",
+    "1:woodhammer",
+    "1:fling",
     "1:bite",
     "1:withdraw",
     "9:rapidspin",
     "12:endure",
     "15:headbutt",
-    "20:protect",
-    "25:raindance",
+    "20:swift",
+    "25:grasswhistle",
     "30:irondefense",
     "35:shellsmash",
     "40:dragonclaw",
     "45:dualchop",
     "50:bodyslam",
-    "55:zenheadbutt",
+    "55:grasspledge",
     "60:focusenergy",
     "65:dragonpulse",
     "70:outrage",
@@ -308,25 +233,26 @@
 
 
 
+
+
   "labels": [
     "custom",
     "cobblemario",
-    "koopa",
-    "powerhouse"
+    "koopa"
   ],
   "pokedex": [
-    "cobblemon.species.bowser.desc1",
-    "cobblemon.species.bowser.desc2"
+    "cobblemon.species.hammerbro.desc1",
+    "cobblemon.species.hammerbro.desc2"
   ],
   "baseScale": 0.14,
   "hitbox": {
-    "width": 2,
-    "height": 3,
+    "width": 1,
+    "height": 2,
     "fixed": false
   },
   "baseFriendship": 50,
   "evYield": {
-    "hp": 1,
+    "hp": 0,
     "attack": 0,
     "defence": 2,
     "special_attack": 0,
@@ -336,5 +262,36 @@
   "height": 1,
   "weight": 1,
 
-  "preEvolution": "koopa"
+  "preEvolution": "koopa",
+  "evolutions": [
+    {"id": "hammerbro-kent_c_koopa-level_up1",
+      "variant": "level_up",
+      "result": "kent_c_koopa",
+      "consumeHeldItem": true,
+      "learnableMoves": ["superpower"],
+      "requirements": [
+        {"variant": "level", "minLevel": 60},
+        {"variant": "held_item", "itemCondition": "cobblemon:wise_glasses"}
+      ]
+    },
+
+    {"id": "hammerbro-kent_c_koopa-level_up2",
+      "variant": "level_up",
+      "result": "kent_c_koopa",
+      "consumeHeldItem": true,
+      "learnableMoves": ["superpower"],
+      "requirements": [{"variant": "held_item", "ratio": "DEFENCE_HIGHER", "itemCondition": "cobblemario:thick_glasses"}]
+    },
+
+    {"id": "hammerbro-bowser-level_up",
+      "variant": "level_up",
+      "result": "bowser",
+      "consumeHeldItem": false,
+      "learnableMoves": ["dragonbreath", "firepunch"],
+      "requirements": [
+        {"variant": "level", "minLevel": 75},
+        {"variant": "has_move_type", "type": "dragon"}
+      ]
+    }
+  ]
 }

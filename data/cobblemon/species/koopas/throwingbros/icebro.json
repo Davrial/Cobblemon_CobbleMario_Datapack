@@ -1,9 +1,9 @@
 {
   "implemented": true,
-  "name": "firebro",
-  "nationalPokedexNumber": 65026,
+  "name": "icebro",
+  "nationalPokedexNumber": 65028,
   "primaryType": "dragon",
-  "secondaryType": "fire",
+  "secondaryType": "ice",
   "abilities": [
     "shellarmor",
     "longreach",
@@ -11,11 +11,11 @@
   ],
   "baseStats": {
     "hp": 70,
-    "attack": 40,
+    "attack": 50,
     "defence": 80,
-    "special_attack": 60,
+    "special_attack": 70,
     "special_defence": 80,
-    "speed": 75
+    "speed": 60
   },
   "behaviour": {
     "combat":{
@@ -82,10 +82,10 @@
         ]
       }
     },
-    "fireImmune":true
+    "fireImmune":false
   },
   "lightingData": {
-    "lightLevel": 3,
+    "lightLevel": 1,
     "liquidGlowMode": "LAND"
   },
   "catchRate": 100,
@@ -218,8 +218,8 @@
     "koopa"
   ],
   "pokedex": [
-    "cobblemon.species.firebro.desc1",
-    "cobblemon.species.firebro.desc2"
+    "cobblemon.species.icebro.desc1",
+    "cobblemon.species.icebro.desc2"
   ],
   "baseScale": 0.14,
   "hitbox": {
@@ -231,25 +231,13 @@
   "evYield": {
     "hp": 0,
     "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
+    "defence": 1,
+    "special_attack": 1,
     "special_defence": 0,
     "speed": 0
   },
   "height": 1,
   "weight": 1,
 
-  "preEvolution": "koopa",
-  "evolutions": [
-    {"id": "firebro-bowser-level_up",
-      "variant": "level_up",
-      "result": "bowser",
-      "consumeHeldItem": false,
-      "learnableMoves": ["dragonbreath", "firepunch"],
-      "requirements": [
-        {"variant": "level", "minLevel": 75},
-        {"variant": "has_move_type", "type": "dragon"}
-      ]
-    }
-  ]
+  "preEvolution": "koopa"
 }

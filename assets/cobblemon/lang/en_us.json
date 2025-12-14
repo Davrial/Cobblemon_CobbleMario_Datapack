@@ -117,5 +117,11 @@
   "cobblemon.species.jrtroopa1.desc2": "",
   "cobblemon.species.kentckoopa.name": "Kent C. Koopa",
   "cobblemon.species.kentckoopa.desc1": "A very large Koopa with great defenses and equally-but-inversely awful eyesight",
-  "cobblemon.species.kentckoopa.desc2": ""
+  "cobblemon.species.kentckoopa.desc2": "",
+
+
+
+
+
+  "cobblemon.batte.singleturn.tattle": "Tattle Log: %1$s. Species: ${target.species.name}."
 }

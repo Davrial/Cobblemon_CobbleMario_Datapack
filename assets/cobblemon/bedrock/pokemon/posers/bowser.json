@@ -4,7 +4,7 @@
   "portraitTranslation": [ 0, 0.5, 0 ],
   "profileScale": 1,
   "profileTranslation": [ 0, 0.4, 0 ],
-  "faint": "bedrock(koopa, faint)",
+  "faint": "bedrock(bowser, faint)",
   "poses": {
     "standing": {
       "poseName": "standing",
@@ -17,14 +17,14 @@
       ],
       "animations": [
         "look",
-        "bedrock(koopa, ground_idle)"
+        "bedrock(bowser, ground_idle)"
       ]
     },
     "walking": {
       "poseName": "walking",
       "transformTicks": 10,
       "poseTypes": [ "WALK" ],
-      "animations": [ "bedrock(koopa, ground_walk)" ]
+      "animations": [ "bedrock(bowser, ground_walk)" ]
     },
     "sleeping": {
       "poseName": "sleeping",
@@ -33,7 +33,7 @@
         "SLEEP"
       ],
       "animations": [
-        "bedrock(koopa, sleep)"
+        "bedrock(bowser, sleep)"
       ]
     }
   }
