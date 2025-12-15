@@ -14,7 +14,7 @@
               if (lastMove.flags["failinstruct"] || lastMove.isZ || lastMove.isMax || lastMove.flags["charge"] || lastMove.flags["recharge"] || target.volatiles["beakblast"] || target.volatiles["focuspunch"] || target.volatiles["shelltrap"] || target.moveSlots[moveIndex] && target.moveSlots[moveIndex].pp <= 0) {
                 return false;
               }
-              this.add("-singleturn", target, "move: Instruct", "[of] " + source);
+              this.add("-singleturn", target, "move: Rally Wink", "[of] " + source);
               this.queue.prioritizeAction(this.queue.resolveAction({
                 choice: "move",
                 pokemon: target,
