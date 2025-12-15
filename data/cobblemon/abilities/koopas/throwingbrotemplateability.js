@@ -1,11 +1,18 @@
 {
     onSourceModifyDamage(damage, source, target, move) {
-      let mod = 1;
       if (move.type === "Fighting")
-        mod *= 2;
-      return this.chainModify(mod);
+      return this.chainModify(2);
     },
-
+    onModifyAtk(atk, attacker, defender, move) {
+      if (move.type === "Fighting") {
+        return this.chainModify(1.5);
+      }
+    },
+    onModifySpA(atk, attacker, defender, move) {
+      if (move.type === "Fighting") {
+        return this.chainModify(1.5);
+      }
+    },
 
     const nonContactMoves = [
         'woodhammer'

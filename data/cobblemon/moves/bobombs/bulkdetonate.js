@@ -10,9 +10,10 @@
  		name: "Bulk Detonate",
  		pp: 5,
  		priority: 0,
- 		flags: {charge: 1, protect: 1, mirror: 1, metronome: 1, explosive:1},
+ 		flags: {charge: 1, protect: 1, mirror: 1, metronome: 1,  sdexplosion:1, explosive:1},
  		onTryMove(attacker, defender, move) {
               if (attacker.removeVolatile(move.id)) {
+                selfdestruct: "always",
                 return;
               }
               this.add("-prepare", attacker, move.name);
