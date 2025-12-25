@@ -16,7 +16,7 @@
             }
         },
  		secondary: null,
- 		target: "normal",
+ 		target: "any",
  		type: "Psychic",
  		contestType: "Clever"
 })

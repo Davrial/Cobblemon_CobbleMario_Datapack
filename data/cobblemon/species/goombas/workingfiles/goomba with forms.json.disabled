@@ -59,11 +59,11 @@
             "tier":1
           },
           {
-            "pokemon":"goombaspikedgoomba",
+            "pokemon":"spikedgoomba",
             "tier":2
           },
           {
-            "pokemon":"goombaparagoombaflying",
+            "pokemon":"paragoomba",
             "tier":2
           },
           {
@@ -229,7 +229,7 @@
     {
       "id": "goomba-spikedgoomba-level_up-vanilla",
       "variant": "level_up",
-      "result": "goombaspikedgoomba",
+      "result": "spikedgoomba",
       "consumeHeldItem": false,
       "learnableMoves": ["hornattack"],
       "requirements": [
@@ -238,15 +238,39 @@
       "requiredContext": "minecraft:iron_ingot"
     },
     {
+      "id": "goomba-spikedgoomba-level_up-cobblemario",
+      "variant": "level_up",
+      "result": "spikedgoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["hornattack"],
+      "requirements": [
+        {"variant": "level", "minLevel": 10}
+      ],
+      "requiredContext": "cobblemario:spiked_helmet"
+    },
+
+    {
       "id": "goomba-paragoomba-level_up-vanilla",
       "variant": "level_up",
-      "result": "goombaparagoombaflying",
+      "result": "paragoomba",
       "consumeHeldItem": false,
       "learnableMoves": ["bounce"],
       "requirements": [
         {"variant": "level", "minLevel": 15}
       ],
       "requiredContext": "minecraft:feather"
+    },
+
+    {
+      "id": "goomba-paragoomba-level_up-cobblemario",
+      "variant": "level_up",
+      "result": "paragoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["bounce"],
+      "requirements": [
+        {"variant": "level", "minLevel": 10}
+      ],
+      "requiredContext": "cobblemario:stick_on_wings"
     },
 
     {
@@ -259,6 +283,18 @@
         {"variant": "level", "minLevel": 20},
         {"variant": "time_range", "range": "twilight"}],
       "requiredContext": "minecraft:redstone_lamp"
+    },
+
+    {
+      "id": "goomba-hypergoomba-item_interact-cobblemario",
+      "variant": "item_interact",
+      "result": "hypergoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["charge","swordsdance"],
+      "requirements": [
+        {"variant": "level", "minLevel": 15},
+        {"variant": "time_range", "range": "twilight"}],
+      "requiredContext": "cobblemario:hyper_powder"
     },
 
     {
@@ -388,7 +424,7 @@
       "requirements":[
         {
           "variant":"friendship",
-          "amount":250
+          "amount":160
         }
       ]
     }
@@ -474,11 +510,11 @@
                 "tier":1
               },
               {
-                "pokemon":"goombaspikedgoomba",
+                "pokemon":"spikedgoomba",
                 "tier":1
               },
               {
-                "pokemon":"goombaparagoomba",
+                "pokemon":"paragoomba",
                 "tier":3
               },
               {
@@ -620,7 +656,7 @@
         {
           "id": "paragoomba-hyperparagoomba-item_interact-vanilla",
           "variant": "item_interact",
-          "result": "hypergoombaparagoombaflying",
+          "result": "hyperparagoomba",
           "consumeHeldItem": false,
           "learnableMoves": ["charge","swordsdance"],
           "requirements": [
@@ -630,9 +666,21 @@
         },
 
         {
+          "id": "paragoomba-hyperparagoomba-item_interact-cobblemario",
+          "variant": "item_interact",
+          "result": "hyperparagoomba",
+          "consumeHeldItem": false,
+          "learnableMoves": ["charge","swordsdance"],
+          "requirements": [
+            {"variant": "level", "minLevel": 25},
+            {"variant": "time_range", "range": "twilight"}],
+          "requiredContext": "cobblemario:hyper_powder"
+        },
+
+        {
           "id": "paragoomba-paragloomba-level_up",
           "variant": "level_up",
-          "result": "gloombaparagoombaflying",
+          "result": "paragloomba",
           "consumeHeldItem": false,
           "learnableMoves": ["crunch", "nastyplot"],
           "requirements": [
@@ -722,7 +770,7 @@
       "battleOnly": true
     },
     {
-      "name": "Spiked-Goomba",
+      "name": "Spiked Goomba",
       "primaryType": "normal",
       "secondaryType": "steel",
       "maleRatio": 0.75,
@@ -800,11 +848,11 @@
                 "tier":1
               },
               {
-                "pokemon":"goombaparagoombaflying",
+                "pokemon":"paragoomba",
                 "tier":2
               },
               {
-                "pokemon":"goombaspikedgoomba",
+                "pokemon":"spikedgoomba",
                 "tier":3
               },
               {
@@ -941,7 +989,7 @@
         {
           "id": "spikedgoomba-hyperspikedgoomba-item_interact-vanilla",
           "variant": "item_interact",
-          "result": "hypergoombaspikedgoomba",
+          "result": "hyperspikedgoomba",
           "consumeHeldItem": false,
           "learnableMoves": ["charge","swordsdance"],
           "requirements": [
@@ -949,10 +997,23 @@
             {"variant": "time_range", "range": "twilight"}],
           "requiredContext": "minecraft:redstone_lamp"
         },
+
+        {
+          "id": "spikedgoomba-hyperspikedgoomba-item_interact-cobblemario",
+          "variant": "item_interact",
+          "result": "hyperspikedgoomba",
+          "consumeHeldItem": false,
+          "learnableMoves": ["charge","swordsdance"],
+          "requirements": [
+            {"variant": "level", "minLevel": 25},
+            {"variant": "time_range", "range": "twilight"}],
+          "requiredContext": "cobblemario:hyper_powder"
+        },
+
         {
           "id": "spikedgoomba-spikedgloomba-level_up",
           "variant": "level_up",
-          "result": "gloombaspikedgoomba",
+          "result": "spikedgloomba",
           "consumeHeldItem": false,
           "learnableMoves": ["crunch", "nastyplot"],
           "requirements": [

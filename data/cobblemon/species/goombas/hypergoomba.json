@@ -240,7 +240,7 @@
     {
       "id": "hypergoomba-hyperspikedgoomba-level_up-vanilla",
       "variant": "level_up",
-      "result": "hyperspikedgoomba",
+      "result": "hypergoombaspikedgoomba",
       "consumeHeldItem": false,
       "learnableMoves": ["hornattack", "hornleech"],
       "requirements": [
@@ -248,41 +248,562 @@
       ],
       "requiredContext": "minecraft:iron_ingot"
     },
-
-    {
-      "id": "hypergoomba-hyperspikedgoomba-level_up-cobblemario",
-      "variant": "level_up",
-      "result": "hyperspikedgoomba",
-      "consumeHeldItem": false,
-      "learnableMoves": ["hornattack", "hornleech"],
-      "requirements": [
-        {"variant": "level", "minLevel": 25}
-      ],
-      "requiredContext": "cobblemario:spiked_helmet"
-    },
-
     {
       "id": "hypergoomba-hyperparagoomba-level_up-vanilla",
       "variant": "level_up",
-      "result": "hyperparagoomba",
+      "result": "hypergoombaparagoombaflying",
       "consumeHeldItem": false,
       "learnableMoves": ["bounce"],
       "requirements": [
         {"variant": "level", "minLevel": 30}
       ],
       "requiredContext": "minecraft:feather"
-    },
-
+    }
+  ],
+  "forms": [
     {
-      "id": "hypergoomba-hyperparagoomba-level_up-cobblemario",
-      "variant": "level_up",
-      "result": "paragoomba",
-      "consumeHeldItem": false,
-      "learnableMoves": ["bounce"],
-      "requirements": [
-        {"variant": "level", "minLevel": 25}
+      "name": "Paragoomba-Flying",
+      "primaryType": "grass",
+      "secondaryType": "flying",
+      "maleRatio": 0.75,
+      "height": 32,
+      "weight": 132,
+      "pokedex": [
+        "cobblemon.species.hypergoomba-paragoomba.desc"
       ],
-      "requiredContext": "cobblemario:stick_on_wings"
+      "labels": [
+        "custom",
+        "cobblemario",
+        "goomba",
+        "paragoomba"
+      ],
+      "aspects": [
+        "paragoombaflying"
+      ],
+      "abilities": [
+        "angerpoint",
+        "berserk",
+        "h:defiant"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 40,
+        "defence": 35,
+        "special_attack": 40,
+        "special_defence": 35,
+        "speed": 120
+      },
+      "hitbox": {
+        "width": 1,
+        "height": 1,
+        "fixed": false
+      },
+      "behaviour": {
+        "combat":{
+          "willDefendOwner":true,
+          "willDefendSelf":true,
+          "willFlee":true
+        },
+        "resting": {
+          "canSleep": true,
+          "times": "167-11834, 13702-22300",
+          "light": "0-15",
+          "depth": "comatose",
+          "willSleepOnBed": false,
+          "drowsyChance":0.0333,
+          "rouseChance":0.0042
+        },
+        "moving": {
+          "canLook": true,
+          "looksAtEntities": true,
+          "stepHeight": 0.6,
+          "wanderChance": 120,
+          "wanderSpeed": 0.75,
+          "walk": {
+            "canWalk": true,
+            "walkSpeed": 0.5
+          },
+          "swim": {
+            "swimSpeed": 0.15,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true,
+            "canWalkOnWater": true
+          },
+          "fly": {
+            "canFly": false,
+            "flySpeedHorizontal": 0.6
+          },
+          "herd":{
+            "maxSize":"4",
+            "toleratedLeaders":[
+              {
+                "pokemon":"hypergoomba",
+                "tier":1
+              },
+              {
+                "pokemon":"hypergoombaspikedgoomba",
+                "tier":1
+              },
+              {
+                "pokemon":"hypergoombaparagoombaflying",
+                "tier":2
+              },
+              {
+                "pokemon":"supergoomba",
+                "tier":2
+              },
+              {
+                "pokemon":"ultragoomba",
+                "tier":4
+              },
+              {
+                "pokemon":"royalgoomba",
+                "tier":5
+              },
+              {
+                "pokemon":"invinshroom",
+                "tier":6
+              }
+            ]
+          }
+        },
+        "fireImmune":false
+      },
+      "moves": [
+        "1:tackle",
+        "1:leer",
+        "1:quickattack",
+        "1:bite",
+        "1:headbutt",
+        "12:sandattack",
+        "13:gust",
+        "14:growth",
+        "15:astonish",
+        "16:whirlwind",
+        "18:charge",
+        "19:mudslap",
+        "21:twister",
+        "21:hyperfang",
+        "23:flail",
+        "25:featherdance",
+        "25:bulkup",
+        "27:bounce",
+        "29:agility",
+        "29:focusenergy ",
+        "31:crunch",
+        "33:wingattack",
+        "33:psychup",
+        "35:bodyslam",
+        "38:roost",
+        "38:swordsdance",
+        "41:doubleedge",
+        "44:tailwind",
+        "44:dragondance",
+        "47:superfang",
+        "52:aerialace",
+        "52:quiverdance",
+        "55:zenheadbutt",
+        "58:airslash",
+        "58:hyperbeam",
+        "61:swagger",
+        "62:skyattack",
+        "65:wildcharge",
+        "67:endeavor",
+        "73:outrage",
+        "tm:quickattack",
+        "tm:bite",
+        "tm:headbutt",
+        "tm:sandattack",
+        "tm:gust",
+        "tm:growth",
+        "tm:astonish",
+        "tm:whirlwind",
+        "tm:charge",
+        "tm:mudslap",
+        "tm:twister",
+        "tm:hyperfang",
+        "tm:flail",
+        "tm:featherdance",
+        "tm:bulkup",
+        "tm:bounce",
+        "tm:agility",
+        "tm:focusenergy ",
+        "tm:crunch",
+        "tm:wingattack",
+        "tm:psychup",
+        "tm:bodyslam",
+        "tm:roost",
+        "tm:swordsdance",
+        "tm:doubleedge",
+        "tm:tailwind",
+        "tm:dragondance",
+        "tm:superfang",
+        "tm:aerialace",
+        "tm:quiverdance",
+        "tm:zenheadbutt",
+        "tm:airslash",
+        "tm:hyperbeam",
+        "tm:swagger",
+        "tm:skyattack",
+        "tm:wildcharge",
+        "tm:endeavor",
+        "tm:outrage",
+        "tm:jumpkick",
+        "tm:takedown",
+        "tm:hyperbeam",
+        "tm:minimize",
+        "tm:bide",
+        "tm:swift",
+        "tm:skullbash",
+        "tm:highjumpkick",
+        "tm:hyperfang",
+        "tm:scaryface",
+        "tm:detect",
+        "tm:endure",
+        "tm:rollout",
+        "tm:swagger",
+        "tm:meanlook",
+        "tm:hiddenpower",
+        "tm:memento",
+        "tm:slackoff",
+        "tm:lastresort",
+        "tm:nastyplot",
+        "tm:headsmash",
+        "tm:acrobatics",
+        "tm:finalgambit",
+        "tm:workup",
+        "tm:mudsport",
+        "tm:acid",
+        "tm:thunderfang",
+        "tm:icefang",
+        "tm:firefang",
+        "tm:zenheadbutt",
+        "egg:thunderfang",
+        "egg:icefang",
+        "egg:firefang",
+        "egg:zenheadbutt",
+        "tutor:thunderfang",
+        "tutor:icefang",
+        "tutor:firefang",
+        "tutor:zenheadbutt",
+        "tm:snarl",
+        "tm:jawlock",
+        "tm:lashout",
+        "tm:hyperbeam",
+        "tm:wildcharge"
+      ],
+      "battleOnly": false
+    },
+    {
+      "name": "Paragoomba-Grounded",
+      "primaryType": "grass",
+      "secondaryType": "electric",
+      "maleRatio": 0.75,
+      "height": 32,
+      "weight": 132,
+      "pokedex": [
+        "cobblemon.species.hypergoomba-paragoomba-grounded.desc"
+      ],
+      "labels": [
+        "custom",
+        "cobblemario",
+        "goomba",
+        "paragoomba"
+      ],
+      "aspects": [
+        "paragoombagrounded"
+      ],
+      "abilities": [
+        "angerpoint",
+        "berserk",
+        "h:defiant"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 40,
+        "defence": 35,
+        "special_attack": 40,
+        "special_defence": 35,
+        "speed": 120
+      },
+      "hitbox": {
+        "width": 1,
+        "height": 1,
+        "fixed": false
+      },
+      "behaviour": {
+        "combat":{
+          "willDefendOwner":true,
+          "willDefendSelf":true,
+          "willFlee":true
+        },
+        "resting": {
+          "canSleep": true,
+          "times": "167-11834, 13702-22300",
+          "light": "0-15",
+          "depth": "comatose",
+          "willSleepOnBed": false,
+          "drowsyChance":0.0333,
+          "rouseChance":0.0042
+        },
+        "moving": {
+          "canLook": true,
+          "looksAtEntities": true,
+          "stepHeight": 0.6,
+          "wanderChance": 120,
+          "wanderSpeed": 0.75,
+          "walk": {
+            "canWalk": true,
+            "walkSpeed": 0.5
+          },
+          "swim": {
+            "swimSpeed": 0.15,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true,
+            "canWalkOnWater": true
+          },
+          "fly": {
+            "canFly": false,
+            "flySpeedHorizontal": 0.6
+          }
+        },
+        "fireImmune":false
+      },
+      "battleOnly": true
+    },
+    {
+      "name": "Spiked-Goomba",
+      "primaryType": "grass",
+      "secondaryType": "steel",
+      "maleRatio": 0.75,
+      "height": 32,
+      "weight": 132,
+      "pokedex": [
+        "cobblemon.species.hypergoomba-spikedgoomba.name",
+        "cobblemon.species.hypergoomba-spikedgoomba.desc"
+      ],
+      "labels": [
+        "custom",
+        "cobblemario",
+        "goomba",
+        "spikedgoomba"
+      ],
+      "aspects": [
+        "spikedgoomba"
+      ],
+      "abilities": [
+        "angerpoint",
+        "berserk",
+        "h:defiant"
+      ],
+      "baseStats": {
+        "hp": 80,
+        "attack": 40,
+        "defence": 35,
+        "special_attack": 40,
+        "special_defence": 35,
+        "speed": 120
+      },
+      "hitbox": {
+        "width": 1,
+        "height": 1,
+        "fixed": false
+      },
+      "behaviour": {
+        "combat":{
+          "willDefendOwner":true,
+          "willDefendSelf":true,
+          "willFlee":true
+        },
+        "resting": {
+          "canSleep": true,
+          "times": "167-11834, 13702-22300",
+          "light": "0-15",
+          "depth": "comatose",
+          "willSleepOnBed": false,
+          "drowsyChance":0.0333,
+          "rouseChance":0.0042
+        },
+        "moving": {
+          "canLook": true,
+          "looksAtEntities": true,
+          "stepHeight": 0.6,
+          "wanderChance": 120,
+          "wanderSpeed": 0.75,
+          "walk": {
+            "canWalk": true,
+            "walkSpeed": 0.5
+          },
+          "swim": {
+            "swimSpeed": 0.15,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true,
+            "canWalkOnWater": true
+          },
+          "fly": {
+            "canFly": false,
+            "flySpeedHorizontal": 0.6
+          },
+          "herd":{
+            "maxSize":"4",
+            "toleratedLeaders":[
+              {
+                "pokemon":"hypergoomba",
+                "tier":1
+              },
+              {
+                "pokemon":"hypergoombaparagoombaflying",
+                "tier":1
+              },
+              {
+                "pokemon":"hypergoombaspikedgoomba",
+                "tier":2
+              },
+              {
+                "pokemon":"supergoomba",
+                "tier":3
+              },
+              {
+                "pokemon":"ultragoomba",
+                "tier":4
+              },
+              {
+                "pokemon":"royalgoomba",
+                "tier":5
+              },
+              {
+                "pokemon":"invinshroom",
+                "tier":6
+              }
+            ]
+          }
+        },
+        "fireImmune":false
+      },
+      "moves": [
+        "1:tackle",
+        "1:leer",
+        "1:quickattack",
+        "1:bite",
+        "1:headbutt",
+        "12:sandattack",
+        "13:harden",
+        "14:growth",
+        "15:astonish",
+        "16:hornattack",
+        "18:charge",
+        "19:mudslap",
+        "21:doubleedge",
+        "21:hyperfang",
+        "23:flail",
+        "25:focusenergy",
+        "25:bulkup",
+        "27:bounce",
+        "29:sharpen",
+        "29:focusenergy ",
+        "31:crunch",
+        "33:slash",
+        "33:psychup",
+        "35:bodyslam",
+        "38:megahorn",
+        "38:swordsdance",
+        "41:doubleedge",
+        "44:irondefense",
+        "44:dragondance",
+        "47:superfang",
+        "52:gigaimpact",
+        "52:quiverdance",
+        "55:zenheadbutt",
+        "58:ironhead",
+        "58:hyperbeam",
+        "61:drillrun",
+        "62:swagger",
+        "65:wildcharge",
+        "67:endeavor",
+        "73:outrage",
+        "tm:quickattack",
+        "tm:bite",
+        "tm:headbutt",
+        "tm:sandattack",
+        "tm:harden",
+        "tm:growth",
+        "tm:astonish",
+        "tm:hornattack",
+        "tm:charge",
+        "tm:mudslap",
+        "tm:doubleedge",
+        "tm:hyperfang",
+        "tm:flail",
+        "tm:focusenergy",
+        "tm:bulkup",
+        "tm:bounce",
+        "tm:sharpen",
+        "tm:focusenergy ",
+        "tm:crunch",
+        "tm:slash",
+        "tm:psychup",
+        "tm:bodyslam",
+        "tm:megahorn",
+        "tm:swordsdance",
+        "tm:doubleedge",
+        "tm:irondefense",
+        "tm:dragondance",
+        "tm:superfang",
+        "tm:gigaimpact",
+        "tm:quiverdance",
+        "tm:zenheadbutt",
+        "tm:ironhead",
+        "tm:hyperbeam",
+        "tm:drillrun",
+        "tm:swagger",
+        "tm:wildcharge",
+        "tm:endeavor",
+        "tm:outrage",
+        "tm:jumpkick",
+        "tm:takedown",
+        "tm:hyperbeam",
+        "tm:minimize",
+        "tm:bide",
+        "tm:swift",
+        "tm:skullbash",
+        "tm:highjumpkick",
+        "tm:hyperfang",
+        "tm:scaryface",
+        "tm:detect",
+        "tm:endure",
+        "tm:rollout",
+        "tm:swagger",
+        "tm:meanlook",
+        "tm:hiddenpower",
+        "tm:memento",
+        "tm:slackoff",
+        "tm:lastresort",
+        "tm:nastyplot",
+        "tm:headsmash",
+        "tm:acrobatics",
+        "tm:finalgambit",
+        "tm:workup",
+        "tm:mudsport",
+        "tm:acid",
+        "tm:thunderfang",
+        "tm:icefang",
+        "tm:firefang",
+        "tm:zenheadbutt",
+        "egg:thunderfang",
+        "egg:icefang",
+        "egg:firefang",
+        "egg:zenheadbutt",
+        "tutor:thunderfang",
+        "tutor:icefang",
+        "tutor:firefang",
+        "tutor:zenheadbutt",
+        "tm:snarl",
+        "tm:jawlock",
+        "tm:lashout",
+        "tm:hyperbeam",
+        "tm:wildcharge"
+      ],
+      "battleOnly": false
     }
   ]
 }

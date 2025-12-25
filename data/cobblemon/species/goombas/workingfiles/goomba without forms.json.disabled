@@ -1,0 +1,433 @@
+{
+  "implemented": true,
+  "name": "goomba",
+  "nationalPokedexNumber": 65001,
+  "primaryType": "normal",
+  "abilities": [
+    "klutz",
+    "simple",
+    "h:adaptability"
+  ],
+  "baseStats": {
+    "hp": 25,
+    "attack": 25,
+    "defence": 25,
+    "special_attack": 25,
+    "special_defence": 25,
+    "speed": 125
+  },
+  "behaviour": {
+    "combat":{
+      "willDefendOwner":true,
+      "willDefendSelf":true,
+      "willFlee":true
+    },
+    "resting": {
+      "canSleep": true,
+      "times": "night",
+      "light": "0-4",
+      "depth": "normal",
+      "willSleepOnBed": false,
+      "drowsyChance":0.0333,
+      "rouseChance":0.0042
+    },
+    "moving": {
+      "canLook": true,
+      "looksAtEntities": true,
+      "stepHeight": 0.6,
+      "wanderChance": 120,
+      "wanderSpeed": 0.75,
+      "walk": {
+        "canWalk": true,
+        "walkSpeed": 0.5
+      },
+      "swim": {
+        "swimSpeed": 0.15,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.6
+      },
+      "herd":{
+        "maxSize":"8",
+        "toleratedLeaders":[
+          {
+            "pokemon":"goomba",
+            "tier":1
+          },
+          {
+            "pokemon":"spikedgoomba",
+            "tier":2
+          },
+          {
+            "pokemon":"paragoomba",
+            "tier":2
+          },
+          {
+            "pokemon":"redgoomba",
+            "tier":3
+          },
+          {
+            "pokemon":"bluegoomba",
+            "tier":3
+          },
+          {
+            "pokemon":"supergoomba",
+            "tier":4
+          },
+          {
+            "pokemon":"ultragoomba",
+            "tier":5
+          },
+          {
+            "pokemon":"royalgoomba",
+            "tier":5
+          },
+          {
+            "pokemon":"bowser",
+            "tier":5
+          },
+          {
+            "pokemon":"invinshroom",
+            "tier":6
+          }
+        ]
+      }
+    },
+    "fireImmune":false
+  },
+  "catchRate": 200,
+  "maleRatio": 0.75,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 10,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:leather_boots",
+        "quantityRange": "1-1",
+        "percentage": 22
+      }
+    ]
+  },
+
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "3:quickattack",
+    "6:bite",
+    "9:headbutt",
+    "12:sandattack",
+    "15:astonish",
+    "18:mudslap",
+    "21:flail",
+    "24:bounce",
+    "27:crunch",
+    "30:bodyslam",
+    "32:doubleedge",
+    "33:superfang",
+    "36:zenheadbutt",
+    "40:focusenergy",
+    "45:endeavor",
+    "50:outrage",
+    "tm:quickattack",
+    "tm:bite",
+    "tm:headbutt",
+    "tm:sandattack",
+    "tm:astonish",
+    "tm:mudslap",
+    "tm:flail",
+    "tm:bounce",
+    "tm:crunch",
+    "tm:bodyslam",
+    "tm:doubleedge",
+    "tm:superfang",
+    "tm:zenheadbutt",
+    "tm:focusenergy",
+    "tm:endeavor",
+    "tm:outrage",
+    "tm:jumpkick",
+    "tm:takedown",
+    "tm:hyperbeam",
+    "tm:minimize",
+    "tm:bide",
+    "tm:swift",
+    "tm:skullbash",
+    "tm:highjumpkick",
+    "tm:hyperfang",
+    "tm:scaryface",
+    "tm:detect",
+    "tm:endure",
+    "tm:rollout",
+    "tm:swagger",
+    "tm:meanlook",
+    "tm:hiddenpower",
+    "tm:memento",
+    "tm:slackoff",
+    "tm:lastresort",
+    "tm:nastyplot",
+    "tm:headsmash",
+    "tm:acrobatics",
+    "tm:finalgambit",
+    "tm:workup",
+    "tm:mudsport",
+    "tm:acid",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:firefang",
+    "tm:zenheadbutt",
+    "egg:thunderfang",
+    "egg:icefang",
+    "egg:firefang",
+    "egg:zenheadbutt",
+    "tutor:thunderfang",
+    "tutor:icefang",
+    "tutor:firefang",
+    "tutor:zenheadbutt",
+    "tm:snarl",
+    "tm:jawlock",
+    "tm:lashout",
+    "tm:hyperbeam"
+  ],
+
+  "labels": [
+    "custom",
+    "cobblemario",
+    "goomba"
+  ],
+  "pokedex": [
+    "cobblemon.species.goomba.desc1",
+    "cobblemon.species.goomba.desc2"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 30,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 32,
+  "weight": 132,
+
+  "evolutions": [
+    {
+      "id": "goomba-spikedgoomba-level_up-vanilla",
+      "variant": "level_up",
+      "result": "spikedgoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["hornattack"],
+      "requirements": [
+        {"variant": "level", "minLevel": 15}
+      ],
+      "requiredContext": "minecraft:iron_ingot"
+    },
+    {
+      "id": "goomba-spikedgoomba-level_up-cobblemario",
+      "variant": "level_up",
+      "result": "spikedgoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["hornattack"],
+      "requirements": [
+        {"variant": "level", "minLevel": 10}
+      ],
+      "requiredContext": "cobblemario:spiked_helmet"
+    },
+
+    {
+      "id": "goomba-paragoomba-level_up-vanilla",
+      "variant": "level_up",
+      "result": "paragoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["bounce"],
+      "requirements": [
+        {"variant": "level", "minLevel": 15}
+      ],
+      "requiredContext": "minecraft:feather"
+    },
+
+    {
+      "id": "goomba-paragoomba-level_up-cobblemario",
+      "variant": "level_up",
+      "result": "paragoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["bounce"],
+      "requirements": [
+        {"variant": "level", "minLevel": 10}
+      ],
+      "requiredContext": "cobblemario:stick_on_wings"
+    },
+
+    {
+      "id": "goomba-hypergoomba-item_interact-vanilla",
+      "variant": "item_interact",
+      "result": "hypergoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["charge","swordsdance"],
+      "requirements": [
+        {"variant": "level", "minLevel": 20},
+        {"variant": "time_range", "range": "twilight"}],
+      "requiredContext": "minecraft:redstone_lamp"
+    },
+
+    {
+      "id": "goomba-hypergoomba-item_interact-cobblemario",
+      "variant": "item_interact",
+      "result": "hypergoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["charge","swordsdance"],
+      "requirements": [
+        {"variant": "level", "minLevel": 15},
+        {"variant": "time_range", "range": "twilight"}],
+      "requiredContext": "cobblemario:hyper_powder"
+    },
+
+    {
+      "id": "goomba-gloomba-level_up",
+      "variant": "level_up",
+      "result": "gloomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["crunch", "nastyplot"],
+      "requirements": [
+        {"variant": "level", "minLevel": 15},
+        {"variant": "has_move_type", "type": "dark"},
+        {"variant": "biome", "biomeCondition": "#cobblemon:is_cave"}
+      ],
+      "requiredContext": ""
+    },
+
+    {
+      "id": "goomba-bluegoomba-level_up-biome",
+      "variant": "level_up",
+      "result": "bluegoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["bubble", "meanlook"],
+      "requirements": [
+        {"variant": "level", "minLevel": 15},
+        {"variant": "biome", "biomeCondition": "#cobblemon:is_cold"}
+      ],
+      "requiredContext": ""
+    },
+
+    {
+      "id": "goomba-bluegoomba-level_up-rain",
+      "variant": "level_up",
+      "result": "bluegoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["bubble", "meanlook"],
+      "requirements": [
+        {"variant": "level", "minLevel": 15},
+        {"variant": "has_move_type", "type": "water"},
+        {"variant": "weather", "isRaining": true, "isThundering": false}
+      ],
+      "requiredContext": ""
+    },
+
+    {
+      "id": "goomba-redgoomba-level_up-move_type",
+      "variant": "level_up",
+      "result": "redgoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["ember", "meanlook"],
+      "requirements": [
+        {"variant": "level", "minLevel": 15},
+        {"variant": "has_move_type", "type": "fire"},
+        {"variant": "weather", "isRaining": false, "isThundering": false}
+      ],
+      "requiredContext": ""
+    },
+
+    {
+      "id": "goomba-redgoomba-level_up-biome1",
+      "variant": "level_up",
+      "result": "redgoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["ember", "meanlook"],
+      "requirements": [
+        {"variant": "level", "minLevel": 15},
+        {"variant": "biome", "biomeCondition": "#cobblemon:is_thermal"}
+      ],
+      "requiredContext": ""
+    },
+
+    {
+      "id": "goomba-redgoomba-level_up-biome2",
+      "variant": "level_up",
+      "result": "redgoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["ember", "meanlook"],
+      "requirements": [
+        {"variant": "level", "minLevel": 15},
+        {"variant": "biome", "biomeCondition": "#cobblemon:is_volcanic"}
+      ],
+      "requiredContext": ""
+    },
+
+    {
+      "id": "goomba-redgoomba-level_up-biome3",
+      "variant": "level_up",
+      "result": "redgoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["ember", "meanlook"],
+      "requirements": [
+        {"variant": "level", "minLevel": 15},
+        {"variant": "biome", "biomeCondition": "#cobblemon:is_arid"},
+        {"variant": "weather", "isRaining": false, "isThundering": false}
+      ],
+      "requiredContext": ""
+    },
+
+    {
+      "id": "goomba-royalgoomba-level_up",
+      "variant": "level_up",
+      "result": "royalgoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["thrash", "doubleedge"],
+      "requirements": [
+        {"variant": "level", "minLevel": 36}
+      ],
+      "requiredContext": ""
+    },
+    {
+      "id": "goomba-supergoomba1",
+      "variant": "level_up",
+      "result": "supergoomba",
+      "consumeHeldItem": true,
+      "learnableMoves": ["thrash", "flareblitz"],
+      "requirements": [
+        {"variant": "level", "minLevel": 20},
+        {"variant": "held_item", "itemCondition": "minecraft:iron_block"}
+      ],
+      "requiredContext": "minecraft:lapis_block"
+    },
+    {
+      "id":"goomba-partnergoomba",
+      "variant":"level_up",
+      "result":"partnergoomba",
+      "consumeHeldItem":false,
+      "learnableMoves":[],
+      "requirements":[
+        {
+          "variant":"friendship",
+          "amount":160
+        }
+      ]
+    }
+  ]
+
+}

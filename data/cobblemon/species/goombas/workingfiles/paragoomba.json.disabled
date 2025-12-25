@@ -5,8 +5,7 @@
   "primaryType": "normal",
   "secondaryType": "flying",
   "abilities": [
-    "klutz",
-    "simple",
+    "paragoombaability",
     "h:adaptability"
   ],
   "baseStats": {
@@ -235,6 +234,10 @@
     "cobblemario",
     "goomba"
   ],
+  "aspects": [
+    "paragoombaaspect",
+    "paragoombaflying"
+  ],
   "pokedex": [
     "cobblemon.species.paragoomba.desc1",
     "cobblemon.species.paragoomba.desc2"
@@ -295,6 +298,85 @@
         {"variant": "biome", "biomeCondition": "#cobblemon:is_cave"}
       ],
       "requiredContext": ""
+    }
+  ],
+  "forms": [
+    {
+      "name": "Paragoomba-Grounded",
+      "primaryType": "normal",
+      "maleRatio": 0.75,
+      "height": 32,
+      "weight": 132,
+      "pokedex": [
+        "cobblemon.species.goomba-paragoomba-grounded.desc"
+      ],
+      "labels": [
+        "custom",
+        "cobblemario",
+        "goomba",
+        "paragoomba"
+      ],
+      "aspects": [
+        "paragoombaaspect",
+        "paragoombagrounded"
+      ],
+      "abilities": [
+        "klutz",
+        "h:klutz"
+      ],
+      "baseStats": {
+        "hp": 25,
+        "attack": 25,
+        "defence": 25,
+        "special_attack": 25,
+        "special_defence": 25,
+        "speed": 125
+      },
+      "hitbox": {
+        "width": 1,
+        "height": 1,
+        "fixed": false
+      },
+      "behaviour": {
+        "combat":{
+          "willDefendOwner":false,
+          "willDefendSelf":false,
+          "willFlee":true
+        },
+        "resting": {
+          "canSleep": true,
+          "times": "night",
+          "light": "0-4",
+          "depth": "normal",
+          "willSleepOnBed": false,
+          "drowsyChance":0.0333,
+          "rouseChance":0.0042
+        },
+        "moving": {
+          "canLook": true,
+          "looksAtEntities": true,
+          "stepHeight": 1.6,
+          "wanderChance": 100,
+          "wanderSpeed": 0.75,
+          "walk": {
+            "canWalk": true,
+            "walkSpeed": 0.7
+          },
+          "swim": {
+            "avoidsWater": true,
+            "swimSpeed": 0.5,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false,
+            "canWalkOnWater": true
+          },
+          "fly": {
+            "canFly": false,
+            "flySpeedHorizontal": 0.7
+          }
+        },
+        "fireImmune":false
+      },
+      "battleOnly": true
     }
   ]
 }
