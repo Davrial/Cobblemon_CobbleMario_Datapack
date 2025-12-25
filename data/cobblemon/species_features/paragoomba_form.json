@@ -1,0 +1,1 @@
+{"type":"choice","keys":["paragoomba_form"],"default":"paragoombaflying","choices":["paragoombaflying","paragoombagrounded"],"isAspect":true,"aspectFormat":"{{choice}}-form"}
