@@ -1,0 +1,109 @@
+{
+  "species": "cobblemon:goomba",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["male", "goomba-eastereggs-goombario", "citizen-form"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/goombas/goomba/goombario.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["female", "goomba-eastereggs-goombaria", "citizen-form"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/goombas/goomba/goombaria.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "goomba-eastereggs-goompa", "citizen-form"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/goombas/goomba/goompa.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "goomba-eastereggs-goompapa", "citizen-form"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/goombas/goomba/goompapa.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["female", "goomba-eastereggs-gooma", "citizen-form"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/goombas/goomba/gooma.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["female", "goomba-eastereggs-goomama", "citizen-form"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/goombas/goomba/goomama.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["female", "goomba-eastereggs-goombella", "citizen-form"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/goombas/goomba/goombella.png"
+        },
+        {
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/goombella_hat_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "goomba-eastereggs-proffrankly", "citizen-form"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/goombas/goomba/proffrankly.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["female", "goomba-eastereggs-goombette"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/goombas/goomba/goombette.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["goomba-eastereggs-rogueportcitizen", "citizen-form"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/goombas/goomba/rogueportcitizen.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["goomba-eastereggs-mushroom"],
+      "layers": [
+        {
+          "name": "overlay",
+          "texture": "cobblemon:textures/pokemon/goombas/goomba/mushroom.png"
+        }
+      ]
+    }
+  ]
+}

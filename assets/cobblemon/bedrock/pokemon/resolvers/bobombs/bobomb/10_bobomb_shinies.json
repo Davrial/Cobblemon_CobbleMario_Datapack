@@ -1,0 +1,16 @@
+{
+  "species": "cobblemon:bobomb",
+  "order": 9,
+  "variations": [
+    {
+      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-charactersadmiralbobbery"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersadmiralbobbery.png",
+          "emissive": false
+        }
+      ]
+    }
+  ]
+}

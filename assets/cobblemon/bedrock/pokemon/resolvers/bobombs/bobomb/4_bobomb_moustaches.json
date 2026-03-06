@@ -1,0 +1,202 @@
+{
+  "species": "cobblemon:bobomb",
+  "order": 4,
+  "variations": [
+    {
+      "aspects": ["male", "bobomb-moustache-bobberyblack"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_bobberyblack.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-moustache-bobberybrown"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_bobberybrown.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-moustache-bobberywhite"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_bobberywhite.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-moustache-bobberycream"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_bobberycream.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-moustache-mayorblack"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_mayorblack.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-moustache-mayorbrown"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_mayorbrown.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-moustache-mayorwhite"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_mayorwhite.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-moustache-mayorcream"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_mayorcream.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-moustache-pointedblack"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pointedblack.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-moustache-pointedbrown"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pointedbrown.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-moustache-pointedwhite"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pointedwhite.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-moustache-pointedcream"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pointedcream.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-moustache-pencilblack"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pencilblack.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-moustache-pencilbrown"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pencilbrown.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-moustache-pencilwhite"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pencilwhite.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-moustache-pointedcream"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pointedcream.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-easteregg-color-charactersadmiralbobbery"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_bobberywhite.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-easteregg-color-charactersfahrmayor"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_mayorcream.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-easteregg-color-charactersgeneralwhite"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pointedblack.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-easteregg-color-charactersgoldbob"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pencilblack.png"
+        }
+      ]
+    }
+  ]
+}

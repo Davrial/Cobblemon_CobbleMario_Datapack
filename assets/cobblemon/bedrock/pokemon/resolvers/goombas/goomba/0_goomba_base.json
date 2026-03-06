@@ -6,6 +6,7 @@
       "aspects": [],
       "poser": "cobblemon:goomba",
       "model": "cobblemon:goomba.geo",
+      "name": "base",
       "texture": "cobblemon:textures/pokemon/goombas/goomba/goomba.png",
       "layers": []
     },

@@ -1,6 +1,6 @@
 {
     onModifyMove(move) {
-        if (move.flags["explosive"]){
+        if (move.flags["explosive"] || move.flags["sdexplosion"]){
           move.forceSTAB = true;
         }
     },

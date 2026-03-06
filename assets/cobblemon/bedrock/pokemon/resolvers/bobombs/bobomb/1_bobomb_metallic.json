@@ -1,0 +1,142 @@
+{
+  "species": "cobblemon:bobomb",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-gold"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_gold.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-silver"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_silver.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-iron"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_iron.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-steel"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_steel.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-createindustrialiron"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_createindustrialiron.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-copper"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_copper.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-exposedcopper"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_exposedcopper.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-weatheredcopper"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_weatheredcopper.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-oxidizedcopper"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_oxidizedcopper.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-bronze"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_bronze.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-brass"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_brass.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-createbrass"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_createbrass.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-platinum"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_platinum.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-rosegold"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_rosegold.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-uranium"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_uranium.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

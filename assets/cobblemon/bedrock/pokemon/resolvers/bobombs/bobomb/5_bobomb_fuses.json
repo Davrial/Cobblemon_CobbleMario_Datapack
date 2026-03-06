@@ -1,0 +1,69 @@
+{
+  "species": "cobblemon:bobomb",
+  "order": 5,
+  "variations": [
+    {
+      "aspects": ["bobomb-fuse-white"],
+      "layers": [
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_white.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-fuse-whitenobase"],
+      "layers": [
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_whitenobase.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-fuse-black"],
+      "layers": [
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_black.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-fuse-yellow"],
+      "layers": [
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_yellow.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-fuse-basenofuse"],
+      "layers": [
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_basenofuse.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-fuse-none"],
+      "layers": [
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-fuse-bombetteponytail"],
+      "layers": [
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_bombetteponytail.png"
+        }
+      ]
+    }
+  ]
+}

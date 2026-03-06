@@ -5,7 +5,7 @@
               const bp = move.basePower + pokemon.maxhp;
               this.debug("BP: " + bp);
               return bp;
-            },
+        },
  		category: "Special",
  		name: "Bulk Detonate",
  		pp: 5,
@@ -13,7 +13,7 @@
  		flags: {charge: 1, protect: 1, mirror: 1, metronome: 1,  sdexplosion:1, explosive:1},
  		onTryMove(attacker, defender, move) {
               if (attacker.removeVolatile(move.id)) {
-                selfdestruct: "always",
+                selfdestruct: "always";
                 return;
               }
               this.add("-prepare", attacker, move.name);

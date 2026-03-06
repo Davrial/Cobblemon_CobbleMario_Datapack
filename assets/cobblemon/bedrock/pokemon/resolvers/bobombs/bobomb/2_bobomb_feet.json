@@ -1,0 +1,132 @@
+{
+  "species": "cobblemon:bobomb",
+  "order": 4,
+  "variations": [
+    {
+      "aspects": ["bobomb-feet-fancyshoes1"],
+      "layers": [
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_fancyshoes1.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-feet-fancyshoes2"],
+      "layers": [
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_fancyshoes2.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-feet-fancyshoes3"],
+      "layers": [
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_fancyshoes3.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-feet-shoes1"],
+      "layers": [
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-feet-shoes2"],
+      "layers": [
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes2.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-feet-shoes3"],
+      "layers": [
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes3.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-feet-shoes4"],
+      "layers": [
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes4.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-feet-shoes5"],
+      "layers": [
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes5.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-feet-shoes6"],
+      "layers": [
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes6.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-feet-shoes7"],
+      "layers": [
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes7.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-feet-shoes8"],
+      "layers": [
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes8.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-feet-shoes9"],
+      "layers": [
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes9.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-feet-retro"],
+      "layers": [
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_retro.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-easteregg-color-marioretro"],
+      "layers": [
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_retro.png"
+        }
+      ]
+    }
+  ]
+}

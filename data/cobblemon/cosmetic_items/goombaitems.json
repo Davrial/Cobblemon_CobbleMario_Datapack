@@ -1,0 +1,45 @@
+{
+  "pokemon": ["goomba", "paragoomba", "spikedgoomba", "gloomba", "paragloomba", "spikedgloomba", "hypergoomba", "hyperparagoomba", "hyperspikedgoomba", "supergoomba", "ultragoomba", "invinshroom"],
+  "cosmeticItems": [
+    {
+      "consumedItem": "cobblemon:wise_glasses",
+      "aspects": ["cosmetic_item-wise_glasses"]
+    },
+    {
+      "consumedItem": "minecraft:white_terracotta",
+      "aspects": ["cosmetic_item-white_terracotta"]
+    },
+    {
+      "consumedItem": "minecraft:red_wool",
+      "aspects": ["cosmetic_item-red_wool"]
+    },
+    {
+      "consumedItem": "minecraft:blue_wool",
+      "aspects": ["cosmetic_item-blue_wool"]
+    },
+    {
+      "consumedItem": "minecraft:orange_wool",
+      "aspects": ["cosmetic_item-orange_wool"]
+    },
+    {
+      "consumedItem": "minecraft:lime_wool",
+      "aspects": ["cosmetic_item-lime_wool"]
+    },
+    {
+      "consumedItem": "minecraft:green_wool",
+      "aspects": ["cosmetic_item-green_wool"]
+    },
+    {
+      "consumedItem": "minecraft:pink_wool",
+      "aspects": ["cosmetic_item-pink_wool"]
+    },
+    {
+      "consumedItem": "minecraft:white_wool",
+      "aspects": ["cosmetic_item-white_wool"]
+    },
+    {
+      "consumedItem": "minecraft:black_wool",
+      "aspects": ["cosmetic_item-black_wool"]
+    }
+  ]
+}

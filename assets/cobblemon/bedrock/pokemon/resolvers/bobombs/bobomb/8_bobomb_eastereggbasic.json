@@ -1,0 +1,114 @@
+{
+  "species": "cobblemon:bobomb",
+  "order": 8,
+  "variations": [
+    {
+      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-createandesitealloy"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_createandesitealloy.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-gray", "bobomb-easteregg-color-createandesitealloy"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_createandesitealloy.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-createacoppercasing"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_createacoppercasing.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-copper", "bobomb-easteregg-color-createacoppercasing"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_createacoppercasing.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-createbrass"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_createbrass.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-brass", "bobomb-easteregg-color-createbrass"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_createbrass.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-createbrass"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_createbrass.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-brass", "bobomb-easteregg-color-createbrasscasing"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_createbrasscasing.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-createtraincasing"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_createtraincasing.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-black", "bobomb-metallic-color-brass", "bobomb-easteregg-color-createtraincasing"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_createtraincasing.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-createzinc"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_createzinc.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-gray", "bobomb-easteregg-color-createzinc"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_createzinc.png"
+        }
+      ]
+    }
+  ]
+}

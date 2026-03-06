@@ -1,0 +1,69 @@
+{
+  "species": "cobblemon:bobomb",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["cosmetic_item-light_gray_wool"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_bobberycap.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-white_wool"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fancycap.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-orange_wool"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fahrcap1.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-brown_wool"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fahrcap2.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-black_wool"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fancytophat.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-pink_wool"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fancypinkhat.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-easteregg-color-characterspapatch"],
+      "layers": [
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pencilblack.png"
+        }
+      ]
+    }
+  ]
+}

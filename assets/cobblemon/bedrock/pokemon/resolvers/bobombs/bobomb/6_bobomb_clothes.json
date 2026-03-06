@@ -1,0 +1,123 @@
+{
+  "species": "cobblemon:bobomb",
+  "order": 6,
+  "variations": [
+    {
+      "aspects": ["bobomb-clothes-righteyepatch"],
+      "layers": [
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_righteyepatch.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-clothes-lefteyepatch"],
+      "layers": [
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_lefteyepatch.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-clothes-yellowpurplebandana"],
+      "layers": [
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_yellowpurplebandana.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-clothes-yellowpurplebandanarep"],
+      "layers": [
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_yellowpurplebandanarep.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-clothes-yellowpurplebandanalep"],
+      "layers": [
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_yellowpurplebandanalep.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-clothes-redgreenbandana"],
+      "layers": [
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_redgreenbandana.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-clothes-redgreenbandanarep"],
+      "layers": [
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_redgreenbandanarep.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-clothes-redgreenbandanalep"],
+      "layers": [
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_redgreenbandanalep.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-clothes-blueorangebandana"],
+      "layers": [
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_blueorangebandana.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-clothes-blueorangebandanarep"],
+      "layers": [
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_blueorangebandanarep.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-clothes-blueorangebandanalep"],
+      "layers": [
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_blueorangebandanalep.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-easteregg-color-characterspapatch"],
+      "layers": [
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_papatch.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-clothes-none"],
+      "layers": [
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"type":"choice","keys":["cobbblemario_citizen"],"default":"minion","choices":["minion","citizen", "neutral"],"isAspect":true,"aspectFormat":"{{choice}}-form"}

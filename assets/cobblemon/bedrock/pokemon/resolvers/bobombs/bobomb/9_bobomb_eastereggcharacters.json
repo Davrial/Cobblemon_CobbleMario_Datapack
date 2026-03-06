@@ -1,0 +1,1317 @@
+{
+  "species": "cobblemon:bobomb",
+  "order": 9,
+  "variations": [
+    {
+      "aspects": ["male", "bobomb-color-easteregg", "bobomb-easteregg-color-charactersadmiralbobbery"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersadmiralbobbery.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_bobberywhite.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_sailorwheel.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_bobberycap.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes5.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_yellow.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-brown", "bobomb-easteregg-color-charactersadmiralbobbery"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersadmiralbobbery.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_bobberywhite.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_sailorwheel.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_bobberycap.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes5.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_yellow.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-metallic", "bobomb-metallic-color-bronze", "bobomb-easteregg-color-charactersadmiralbobbery"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersadmiralbobbery.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_bobberywhite.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_sailorwheel.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_bobberycap.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes5.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_yellow.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-easteregg", "bobomb-easteregg-color-characterspapatch"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_characterspapatch.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_bonewheel.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_fancyshoes1.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_none.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_papatch.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-purple", "bobomb-easteregg-color-characterspapatch"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_characterspapatch.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_bonewheel.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_fancyshoes1.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_none.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_papatch.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-easteregg", "bobomb-easteregg-color-charactersbub"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_bronze.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_gold.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_fancyshoes2.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_none.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-metallic", "bobomb-metallic-bronze", "bobomb-easteregg-color-charactersbub"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_bronze.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_gold.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_fancyshoes2.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_none.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-metallic", "bobomb-metallic-copper", "bobomb-easteregg-color-charactersbub"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_bronze.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_gold.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_fancyshoes2.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_none.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-orange", "bobomb-metallic-copper", "bobomb-easteregg-color-charactersbub"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_bronze.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_gold.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_fancyshoes2.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_none.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-orange", "bobomb-metallic-copper", "bobomb-easteregg-color-charactersbub"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/metallic/bobomb_base_metallic_bronze.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_gold.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_fancyshoes2.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_none.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-easteregg", "bobomb-easteregg-color-charactersfahrmayor"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersfahrmayor.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_mayorcream.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fahrcap2.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes3.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_yellow.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-green", "bobomb-easteregg-color-charactersfahrmayor"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersfahrmayor.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_mayorcream.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fahrcap2.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes3.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_yellow.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-metallic", "bobomb-metallic-color-uranium", "bobomb-easteregg-color-charactersfahrmayor"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersfahrmayor.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_mayorcream.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fahrcap2.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes3.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_yellow.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-easteregg", "bobomb-easteregg-color-charactersfahrsoldier"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersfahrsoldier.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fahrcap1.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-blue", "bobomb-easteregg-color-charactersfahrsoldier"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersfahrsoldier.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fahrcap1.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-lightblue", "bobomb-easteregg-color-charactersfahrsoldier"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersfahrsoldier.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fahrcap1.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-cyan", "bobomb-easteregg-color-charactersfahrsoldier"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersfahrsoldier.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fahrcap1.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-blue", "cosmetic_item-brown_wool"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersfahrsoldier.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fahrcap1.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-lightblue", "cosmetic_item-brown_wool"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersfahrsoldier.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fahrcap1.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-cyan", "cosmetic_item-brown_wool"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersfahrsoldier.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fahrcap1.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-blue", "cosmetic_item-yellow_wool"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersfahrsoldier.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fahrcap1.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-lightblue", "cosmetic_item-yellow_wool"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersfahrsoldier.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fahrcap1.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-cyan", "cosmetic_item-yellow_wool"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersfahrsoldier.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fahrcap1.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-easteregg", "bobomb-easteregg-color-charactersgeneralwhite"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersgeneralwhite.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pointedblack.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_gold.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fancycap.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes4.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_white.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-white", "bobomb-easteregg-color-charactersgeneralwhite"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersgeneralwhite.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pointedblack.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_gold.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fancycap.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes4.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_white.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-lightgray", "bobomb-easteregg-color-charactersgeneralwhite"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersgeneralwhite.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pointedblack.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_gold.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fancycap.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes4.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_white.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-metallic", "bobomb-metallic-color-silver", "bobomb-easteregg-color-charactersgeneralwhite"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersgeneralwhite.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pointedblack.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_gold.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fancycap.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes4.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_white.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-metallic", "bobomb-metallic-color-platinum", "bobomb-easteregg-color-charactersgeneralwhite"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersgeneralwhite.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pointedblack.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_gold.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fancycap.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes4.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_white.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-easteregg", "bobomb-easteregg-color-charactersgoldbob"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersgoldbob.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pencilblack.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_iron.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fancytophat.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_fancyshoes3.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_yellow.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-metallic", "bobomb-metallic-color-gold", "bobomb-easteregg-color-charactersgoldbob"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersgoldbob.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pencilblack.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_iron.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fancytophat.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_fancyshoes3.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_yellow.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-yellow", "bobomb-metallic-color-gold", "bobomb-easteregg-color-charactersgoldbob"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersgoldbob.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pencilblack.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_iron.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fancytophat.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_fancyshoes3.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_yellow.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-easteregg", "bobomb-easteregg-color-charactersjerry"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersjerry.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_none.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_none.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_fancyshoes7.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_jerrycherrystem.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["male", "bobomb-color-red", "bobomb-easteregg-color-charactersjerry"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_charactersjerry.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_none.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_none.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_fancyshoes7.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_jerrycherrystem.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-characterslucky"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_brown.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_brass.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_none.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_basenofuse.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-brown", "bobomb-easteregg-color-characterslucky"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_brown.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_brass.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_none.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_basenofuse.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-characterslucky"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_brown.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_brass.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_none.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_basenofuse.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["female", "bobomb-color-easteregg", "bobomb-easteregg-color-characterssylvia"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_characterssylvia.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fancypinkhat.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes8.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_none.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["female", "bobomb-color-lightgray", "bobomb-easteregg-color-characterssylvia"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_characterssylvia.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fancypinkhat.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes8.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_none.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["female", "bobomb-color-metallic", "bobomb-metallic-color-silver", "bobomb-easteregg-color-characterssylvia"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_characterssylvia.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fancypinkhat.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes8.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_none.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["female", "bobomb-color-metallic", "bobomb-metallic-color-silver", "cosmetic_item-pink_wool"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/easteregg/bobomb_base_easteregg_characterssylvia.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fancypinkhat.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes8.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_none.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["female", "bobomb-color-easteregg", "bobomb-easteregg-color-charactersbombette"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_easteregg_charactersbombette.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_bombetteheart.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_none.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_bombetteponytail.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["female", "bobomb-color-pink", "bobomb-easteregg-color-charactersbombette"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_easteregg_charactersbombette.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_bombetteheart.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_none.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_bombetteponytail.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["female", "bobomb-color-metallic", "bobomb-metallic-color-rosegold", "bobomb-easteregg-color-charactersbombette"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_easteregg_charactersbombette.png"
+        },
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_none.png"
+        },
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_bombetteheart.png"
+        },
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_none.png"
+        },
+        {
+          "name": "feet",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/feet/bobomb_feet_shoes1.png"
+        },
+        {
+          "name": "fuse",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/fuse/bobomb_fuse_bombetteponytail.png"
+        },
+        {
+          "name": "clothes",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/clothes/bobomb_clothes_none.png"
+        }
+      ]
+    }
+  ]
+}

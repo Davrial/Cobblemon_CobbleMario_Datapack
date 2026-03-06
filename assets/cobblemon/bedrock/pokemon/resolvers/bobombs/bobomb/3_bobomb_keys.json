@@ -1,0 +1,96 @@
+{
+  "species": "cobblemon:bobomb",
+  "order": 3,
+  "variations": [
+    {
+      "aspects": ["bobomb-key-gold"],
+      "layers": [
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_gold.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-key-silver"],
+      "layers": [
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_silver.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-key-iron"],
+      "layers": [
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_iron.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-key-copper"],
+      "layers": [
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_copper.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-key-bronze"],
+      "layers": [
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_bronze.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-key-brass"],
+      "layers": [
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_brass.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-key-bombetteheart"],
+      "layers": [
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_bombetteheart.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-key-sailorwheel"],
+      "layers": [
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_sailorwheel.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-key-bonewheel"],
+      "layers": [
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_bonewheel.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-key-none"],
+      "layers": [
+        {
+          "name": "key",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/key/bobomb_key_none.png"
+        }
+      ]
+    }
+  ]
+}

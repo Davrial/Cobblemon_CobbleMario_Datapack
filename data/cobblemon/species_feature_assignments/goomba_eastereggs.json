@@ -1,0 +1,4 @@
+{
+  "pokemon": ["goomba", "paragoomba", "spikedgoomba", "gloomba", "paragloomba", "spikedgloomba", "hypergoomba", "hyperparagoomba", "hyperspikedgoomba", "supergoomba", "ultragoomba", "invinshroom"],
+  "features": ["goomba_eastereggs"]
+}

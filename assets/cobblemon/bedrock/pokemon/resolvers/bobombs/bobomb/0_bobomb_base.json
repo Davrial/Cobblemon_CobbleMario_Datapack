@@ -1,0 +1,179 @@
+{
+  "species": "cobblemon:bobomb",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:substitute",
+      "model": "cobblemon:bobomb.geo",
+      "texture": "cobblemon:textures/pokemon/bobombs/bobomb/bobomb_base_pm.png",
+      "layers": [
+        {
+        "name": "base",
+        "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_pm.png",
+        "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-black"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_black.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-blue"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_blue.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-lightblue"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_lightblue.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-cyan"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_cyan.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-purple"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_purple.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-red"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_red.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-green"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_green.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-lime"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_lime.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-yellow"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_yellow.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-magenta"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_magenta.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-white"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_white.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-gray"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_gray.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-lightgray"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_lightgray.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-brown"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_brown.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-orange"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_orange.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": ["bobomb-color-pink"],
+      "layers": [
+        {
+          "name": "base",
+          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/base/bobomb_base_pink.png",
+          "emissive": false
+        }
+      ]
+    }
+  ]
+}
