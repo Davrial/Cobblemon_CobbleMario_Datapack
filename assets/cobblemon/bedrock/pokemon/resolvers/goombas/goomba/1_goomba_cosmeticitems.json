@@ -95,6 +95,24 @@
           "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/goompapa_moustache.png"
         }
       ]
+    },
+    {
+      "aspects": ["cosmetic_item-redstone"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/mariohat.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-emerald"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/luigihat.png"
+        }
+      ]
     }
   ]
 }

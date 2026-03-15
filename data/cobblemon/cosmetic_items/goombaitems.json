@@ -40,6 +40,14 @@
     {
       "consumedItem": "minecraft:black_wool",
       "aspects": ["cosmetic_item-black_wool"]
+    },
+    {
+      "consumedItem": "minecraft:redstone_block",
+      "aspects": ["cosmetic_item-redstone"]
+    },
+    {
+      "consumedItem": "minecraft:emerald_block",
+      "aspects": ["cosmetic_item-emerald"]
     }
   ]
 }
