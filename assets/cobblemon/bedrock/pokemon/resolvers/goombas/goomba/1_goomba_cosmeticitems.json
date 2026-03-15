@@ -38,7 +38,7 @@
       "layers": [
         {
           "name": "hat",
-          "texture": "cobblemon:textures/pokemon/goombas/goomba/goombario_hat.png"
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/goombario_hat.png"
         }
       ]
     },
