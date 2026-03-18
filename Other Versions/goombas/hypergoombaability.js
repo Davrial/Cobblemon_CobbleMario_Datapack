@@ -33,7 +33,7 @@
     },
     onEnd(pokemon) {
       usedBoost = 1;
-    }
+    },
 
 	name: "Hypergoomba Ability",
 	rating: 2,

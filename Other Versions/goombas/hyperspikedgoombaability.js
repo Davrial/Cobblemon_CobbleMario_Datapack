@@ -63,7 +63,7 @@
     },
     onEnd(pokemon) {
       usedBoost = 1;
-    }
+    },
 
 	name: "Hyper Spiked Goomba Ability",
 	rating: 2,
