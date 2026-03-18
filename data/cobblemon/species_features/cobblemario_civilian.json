@@ -1,0 +1,17 @@
+{"type":"choice","keys":["cobbblemario_civilian"],
+  "default":"random",
+  "choices":[
+    "minion",
+    "minion",
+    "minion",
+    "minion",
+    "minion",
+    "minion",
+    "minion",
+    "minion",
+    "minion",
+    "civilian"
+  ],
+  "isAspect":true,
+  "aspectFormat":"{{choice}}"
+}

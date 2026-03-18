@@ -1,0 +1,2 @@
+{"type":"choice","keys":["goomba_form"],"default":"basegoomba","choices":["basegoomba","paragoombaflying",
+  "paragoombagrounded", "spikedgoomba"],"isAspect":true,"aspectFormat":"{{choice}}"}

@@ -203,6 +203,9 @@
     "cobblemario",
     "goomba"
   ],
+  "aspects": [
+    "basegoomba"
+  ],
   "pokedex": [
     "cobblemon.species.goomba.desc1",
     "cobblemon.species.goomba.desc2"

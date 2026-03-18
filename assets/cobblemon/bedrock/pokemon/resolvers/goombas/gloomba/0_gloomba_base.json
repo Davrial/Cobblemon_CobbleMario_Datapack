@@ -6,14 +6,37 @@
       "aspects": [],
       "poser": "cobblemon:goomba",
       "model": "cobblemon:goomba.geo",
+      "name": "base",
       "texture": "cobblemon:textures/pokemon/goombas/gloomba/gloomba.png",
       "layers": []
     },
     {
-      "aspects": [
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/gloomba/gloomba_shiny.png"
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/goombas/gloomba/gloomba_shiny.png"
+    },
+    {
+      "aspects": ["paragoombaflying"],
+      "poser": "cobblemon:paragoomba",
+      "model": "cobblemon:goomba.geo",
+      "name": "base",
+      "texture": "cobblemon:textures/pokemon/goombas/gloomba/paragloomba.png",
+      "layers": []
+    },
+    {
+      "aspects": ["paragoombagrounded"],
+      "poser": "cobblemon:goomba",
+      "model": "cobblemon:goomba.geo",
+      "name": "base",
+      "texture": "cobblemon:textures/pokemon/goombas/gloomba/gloomba.png",
+      "layers": []
+    },
+    {
+      "aspects": ["spikedgoomba"],
+      "poser": "cobblemon:goomba",
+      "model": "cobblemon:goomba.geo",
+      "name": "base",
+      "texture": "cobblemon:textures/pokemon/goombas/gloomba/spikedgloomba.png",
+      "layers": []
     }
   ]
 }

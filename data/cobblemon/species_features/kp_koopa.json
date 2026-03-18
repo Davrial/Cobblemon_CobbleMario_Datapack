@@ -3,6 +3,7 @@
   "keys": ["kp_koopa"],
   "default": "false",
   "choices": [
+    "false",
     "true",
     "gold"
   ],

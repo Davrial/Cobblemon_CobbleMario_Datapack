@@ -3,7 +3,7 @@
   "order": 2,
   "variations": [
     {
-      "aspects": ["male", "goomba-eastereggs-goombario", "citizen-form"],
+      "aspects": ["male", "goomba-eastereggs-goombario", "citizen", "basegoomba"],
       "layers": [
         {
           "name": "base",
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "aspects": ["female", "goomba-eastereggs-goombaria", "citizen-form"],
+      "aspects": ["female", "goomba-eastereggs-goombaria", "citizen", "basegoomba"],
       "layers": [
         {
           "name": "base",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "aspects": ["male", "goomba-eastereggs-goompa", "citizen-form"],
+      "aspects": ["male", "goomba-eastereggs-goompa", "citizen", "basegoomba"],
       "layers": [
         {
           "name": "base",
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "aspects": ["male", "goomba-eastereggs-goompapa", "citizen-form"],
+      "aspects": ["male", "goomba-eastereggs-goompapa", "citizen", "basegoomba"],
       "layers": [
         {
           "name": "base",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "aspects": ["female", "goomba-eastereggs-gooma", "citizen-form"],
+      "aspects": ["female", "goomba-eastereggs-gooma", "citizen", "basegoomba"],
       "layers": [
         {
           "name": "base",
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "aspects": ["female", "goomba-eastereggs-goomama", "citizen-form"],
+      "aspects": ["female", "goomba-eastereggs-goomama", "citizen", "basegoomba"],
       "layers": [
         {
           "name": "base",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "aspects": ["female", "goomba-eastereggs-goombella", "citizen-form"],
+      "aspects": ["female", "goomba-eastereggs-goombella", "citizen", "basegoomba"],
       "layers": [
         {
           "name": "base",
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "aspects": ["male", "goomba-eastereggs-proffrankly", "citizen-form"],
+      "aspects": ["male", "goomba-eastereggs-proffrankly", "citizen", "basegoomba"],
       "layers": [
         {
           "name": "base",
@@ -79,7 +79,7 @@
       ]
     },
     {
-      "aspects": ["female", "goomba-eastereggs-goombette"],
+      "aspects": ["female", "goomba-eastereggs-goombette", "basegoomba"],
       "layers": [
         {
           "name": "base",
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "aspects": ["goomba-eastereggs-rogueportcitizen", "citizen-form"],
+      "aspects": ["goomba-eastereggs-rogueportcitizen", "citizen"],
       "layers": [
         {
           "name": "base",
