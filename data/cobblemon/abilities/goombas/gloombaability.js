@@ -1,4 +1,8 @@
 {
+	name: "Gloomba Ability",
+	rating: 1,
+    flags: { breakable: 1 },
+
     onSourceModifyDamage(damage, source, target, move) {
     	const boostedMoves = [
     		'stomp', 'bodyslam', 'flyingpress', 'heavyslam', 'maliciousmoonsault',  'jumpkick', 'highjumpkick', 'bounce', 'supersonicskystrike', 'acrobatics', 'floatyfall', 'fly', 'skyattack',  'headbonk', 'multibonk', 'divekick'
@@ -17,9 +21,5 @@
         delete boost.atk;
         this.add("-fail", target, "unboost", "Attack", "[from] ability: Gloomba Ability", "[of] " + target);
       }
-    },
-
-	name: "Gloomba Ability",
-	rating: 1,
-    flags: { breakable: 1 }
+    }
 }

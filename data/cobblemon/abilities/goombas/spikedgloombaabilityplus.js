@@ -1,7 +1,7 @@
 {
  	name: "Spiked Gloomba Ability Plus",
  	rating: 2,
-    flags: {},
+    flags: { breakable: 1 },
 
     onDamagingHitOrder: 1,
     flags: { breakable: 1 },

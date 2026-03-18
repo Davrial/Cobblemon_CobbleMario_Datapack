@@ -3,6 +3,9 @@
     rating: 3.5,
     flags: {},
 
+    onStart(source) {
+        let c;
+    },
     onBasePowerPriority: 19,
     onBasePower(basePower, attacker, defender, move) {
         const boostedMoves = [
@@ -13,43 +16,59 @@
             return this.chainModify(1.3);
         }
     },
-    onAfterEachBoost(boost, target, source, effect) {
-      let usedBoost = 1;
-      let i;
-      let boostStep = true;
-      for (i in boost) {
-        if (source === target && boost[i] >= 1 && usedBoost <= 1) {
-            if (effect.name != source.lastMove) {
-                usedBoost + 1;
-                return;
-            }
-            if (boostStep) {
-                this.boost({ spa: 1 }, target, target, null, false, true);
+    onAfterBoost(boost, target, source, effect) {
+        let usedBoost1 = 1;
+        let usedBoost2 = 1;
+        let i;
+        let n = 0;
+        for (i in boost) {
+            if (source === target && boost[i] >= 1 && usedBoost1 <= 1) {
+                if (effect.name != source.lastMove) {
+                    usedBoost1 + 1;
+                    return;
+                }
+                n++;
                 if (boost[i] >= 2){
-                    this.boost({ atk: 1 }, target, target, null, false, true);
+                    n++;
                     if (boost[i] >= 3){
-                        this.boost({ spa: 1 }, target, target, null, false, true);
+                        n++;
                     }
                 }
-                boostStep = !boostStep;
-            } else {
-                this.boost({ atk: 1 }, target, target, null, false, true);
-                if (boost[i] >= 2){
-                    this.boost({ spa: 1 }, target, target, null, false, true);
-                    if (boost[i] >= 3){
-                        this.boost({ atk: 1 }, target, target, null, false, true);
-                    }
+                if (usedBoost1 >= 2) {
+                    usedBoost1 + 1;
                 }
-                boostStep = !boostStep;
-            }
-            if (usedBoost >= 2) {
-                usedBoost + 1;
-                return;
             }
         }
-      }
+        if (this.effectState.c !== 0 && this.effectState.c !== 1){
+            this.effectState.c = 0;
+        }
+        for (let m = 1; m <= n; m++) {
+            if (source === target && boost[i] >= 1 && usedBoost2 <= 1) {
+                if (effect.name != source.lastMove) {
+                    usedBoost2 + 1;
+                    return;
+                }
+                if (n + m + this.effectState.c === 2) {
+                    this.boost({ atk: 1 }, target, target, null, false, true);
+                } else if (n + m + this.effectState.c === 3) {
+                    this.boost({ spa: 1 }, target, target, null, false, true);
+                } else if (n + m + this.effectState.c === 4) {
+                 this.boost({ atk: 1 }, target, target, null, false, true);
+                } else if (n + m + this.effectState.c === 5) {
+                 this.boost({ spa: 1 }, target, target, null, false, true);
+                } else if (n + m + this.effectState.c >= 6) {
+                 this.boost({ atk: 1 }, target, target, null, false, true);
+                }
+                if (usedBoost2 >= 2) {
+                    usedBoost2 + 1;
+                    return;
+                }
+            }
+        }
     },
-    onEnd(pokemon) {
-      usedBoost = 1;
+    onAfterMove(pokemon) {
+      if (this.effectState.c === 1){
+        this.effectState.c = 0
+      } else {this.effectState.c = 1}
     }
 }

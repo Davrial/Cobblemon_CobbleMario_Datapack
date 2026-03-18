@@ -1,4 +1,8 @@
 {
+	name: "Koopa Ability",
+	rating: -1,
+    flags: {},
+
     onHit(target, source, move) {
       const fromAboveMoves1 = [
         'stomp', 'bodyslam', 'flyingpress', 'heavyslam', 'maliciousmoonsault',  'jumpkick', 'highjumpkick', 'bounce', 'supersonicskystrike', 'acrobatics', 'floatyfall', 'fly', 'skyattack'
@@ -31,8 +35,5 @@
       onEnd(target) {
         this.add("-end", target, "Koopa Ability");
       }
-    },
-    flags: {},
-	name: "Koopa Ability",
-	rating: -1
+    }
 }

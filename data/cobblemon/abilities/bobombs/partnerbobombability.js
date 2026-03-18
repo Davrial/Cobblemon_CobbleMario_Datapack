@@ -1,4 +1,8 @@
 {
+	name: "Partner Bobomb Ability",
+	rating: 3,
+    flags: {},
+
     onModifyMove(move) {
         if (move.flags["explosive"]){
           move.forceSTAB = true;
@@ -42,14 +46,11 @@
       }
     },
     onDamagingHitOrder: 1,
-        onDamagingHit(damage, target, source, move) {
-          if (!target.hp && this.checkMoveMakesContact(move, source, target, true)) {
-            this.damage(target.baseMaxhp / 4, source, target);
-          } else if (!target.hp && target.isAdjacent(move, source, target, true)) {
-             this.damage(target.baseMaxhp / 4, source, target);
-           }
-        },
-    flags: {},
-	name: "Partner Bobomb Ability",
-	rating: 3
+    onDamagingHit(damage, target, source, move) {
+      if (!target.hp && this.checkMoveMakesContact(move, source, target, true)) {
+        this.damage(target.baseMaxhp / 4, source, target);
+      } else if (!target.hp && target.isAdjacent(move, source, target, true)) {
+         this.damage(target.baseMaxhp / 4, source, target);
+       }
+    }
 }

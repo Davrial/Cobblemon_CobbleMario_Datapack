@@ -1,8 +1,4 @@
 {
-	name: "Hypergoomba Ability",
-	rating: 2,
-    flags: {},
-
     onStart(source) {
         let c;
     },
@@ -68,5 +64,9 @@
       if (this.effectState.c === 1){
         this.effectState.c = 0
       } else {this.effectState.c = 1}
-    }
+    },
+
+	name: "Test Ability 3",
+	rating: 2,
+    flags: {}
 }
