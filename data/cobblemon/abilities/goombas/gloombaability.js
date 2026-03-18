@@ -4,12 +4,12 @@
     		'stomp', 'bodyslam', 'flyingpress', 'heavyslam', 'maliciousmoonsault',  'jumpkick', 'highjumpkick', 'bounce', 'supersonicskystrike', 'acrobatics', 'floatyfall', 'fly', 'skyattack',  'headbonk', 'multibonk', 'divekick'
     	];
     	if (boostedMoves.includes(move.id) || move.flags["fromabove"]) {
-    					return this.chainModify(1.5);
+            return this.chainModify(1.5);
     	}
     },
     onDamagingHit(damage, target, source, move) {
       if (move.type === "Dark") {
-        this.boost({ atk: 1 });
+        this.boost({ atk: 2 });
       }
     },
     onTryBoost(boost, target, source, effect) {
@@ -18,7 +18,8 @@
         this.add("-fail", target, "unboost", "Attack", "[from] ability: Gloomba Ability", "[of] " + target);
       }
     },
-    flags: { breakable: 1 },
+
 	name: "Gloomba Ability",
-	rating: 1
+	rating: 1,
+    flags: { breakable: 1 }
 }

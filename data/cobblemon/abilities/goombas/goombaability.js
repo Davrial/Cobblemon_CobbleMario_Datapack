@@ -7,7 +7,8 @@
     					return this.chainModify(1.5);
     	}
     },
-    flags: {},
+
 	name: "Goomba Ability",
-	rating: -1
+	rating: -1,
+    flags: {}
 }

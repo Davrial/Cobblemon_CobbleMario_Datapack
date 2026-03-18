@@ -1,6 +1,6 @@
 {
  	name: "Hypergoomba Ability Plus",
- 	rating: 4
+ 	rating: 4,
     flags: {},
 
     onBasePowerPriority: 19,

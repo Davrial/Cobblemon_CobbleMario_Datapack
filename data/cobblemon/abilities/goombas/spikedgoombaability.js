@@ -25,6 +25,8 @@
     		}
     	}
     },
+
 	name: "Spiked Goomba Ability",
-	rating: 0.5
+	rating: 0.5,
+    flags: {}
 }

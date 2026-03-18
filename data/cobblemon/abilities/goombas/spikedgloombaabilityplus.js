@@ -1,5 +1,10 @@
 {
+ 	name: "Spiked Gloomba Ability Plus",
+ 	rating: 2,
+    flags: {},
+
     onDamagingHitOrder: 1,
+    flags: { breakable: 1 },
     onDamagingHit(damage, target, source, move) {
     const fromAboveMoves1 = [
                 'stomp', 'bodyslam', 'flyingpress', 'heavyslam', 'maliciousmoonsault',  'jumpkick', 'highjumpkick', 'bounce', 'supersonicskystrike', 'acrobatics', 'floatyfall', 'fly', 'skyattack', 'headbonk', 'multibonk', 'divekick'
@@ -12,18 +17,14 @@
             }
       }
     },
-    onSourceModifyDamage(damage, source, target, move) {
-        const fromAboveMoves2 = [
-            'stomp', 'bodyslam', 'flyingpress', 'heavyslam', 'maliciousmoonsault',  'jumpkick', 'highjumpkick', 'bounce', 'supersonicskystrike', 'acrobatics', 'floatyfall', 'fly', 'skyattack', 'headbonk', 'multibonk', 'divekick'
-        ];
-        if (fromAboveMoves2.includes(move.id) || move.flags["fromabove"]) {
-            if (source.hasItem("heavydutyboots") ||  source.hasItem("protectivepads") || source.hasItem("spikeshieldbadgecobblemon")) {
-                return this.chainModify(1.5);
-            }
-            else {
-                return this.chainModify(0);
-            }
-        }
+    onBasePowerPriority: 19,
+    onBasePower(basePower, attacker, defender, move) {
+    	const spikedMoves = [
+    		'bodyslam', 'flyingpress', 'heavyslam', 'bounce', 'acrobatics', 'headbonk', 'multibonk'
+    	];
+    	if (spikedMoves.includes(move.id)) {
+            return this.chainModify(1.5);
+    	}
     },
     onDamagingHit(damage, target, source, move) {
       if (move.type === "Dark") {
@@ -36,8 +37,4 @@
         this.add("-fail", target, "unboost", "Attack", "[from] ability: Gloomba Ability", "[of] " + target);
       }
     }
-
-	name: "Spiked Gloomba Ability",
-	rating: 2,
-    flags: { breakable: 1 }
 }

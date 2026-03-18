@@ -1,28 +1,30 @@
 {
-    onSourceModifyDamage(damage, source, target, move) {
-        const boostedMoves = [
-            'stomp', 'bodyslam', 'flyingpress', 'heavyslam', 'maliciousmoonsault',
-            'jumpkick', 'highjumpkick', 'bounce', 'supersonicskystrike', 'acrobatics',
-            'floatyfall', 'fly', 'skyattack', 'headbonk', 'multibonk', 'divekick'
-        ];
-        if (boostedMoves.includes(move.id) || move.flags['fromabove']) {
-            this.debug('Paragoomba Ability boost');
-            return this.chainModify(1.5);
-        }
-    },
+	name: "Hyper Spiked Goomba Ability Plus",
+	rating: 2,
+    flags: {},
+
+    onDamagingHitOrder: 1,
     onDamagingHit(damage, target, source, move) {
-        if (target.species.id === 'goombaparagoombaflying') {
-            this.add('-activate', target, 'ability: Paragoomba Ability');
-            this.effectState.paragoombagrounded = true;
-        }
+        const fromAboveMoves1 = [
+        		'stomp', 'bodyslam', 'flyingpress', 'heavyslam', 'maliciousmoonsault',  'jumpkick', 'highjumpkick', 'bounce', 'supersonicskystrike', 'acrobatics', 'floatyfall', 'fly', 'skyattack', 'headbonk', 'multibonk', 'divekick'
+        	];
+    	if (fromAboveMoves1.includes(move.id) || move.flags["fromabove"]) {
+    	    if (source.hasItem("heavydutyboots") ||  source.hasItem("protectivepads") || source.hasItem("spikeshieldbadgecobblemon")) {
+            return;
+            } else {
+            this.damage(source.baseMaxhp / 8, source, target);
+            }
+      }
     },
-    onUpdate(pokemon) {
-        if (pokemon.species.id === 'goombaparagoombaflying' && this.effectState.paragoombagrounded) {
-            this.hint('Paragoomba is now grounded!');
-            const speciesid = pokemon.species.id === "goomba" ? "Goomba-Paragoomba-Grounded" : "Goomba-Paragoomba-Grounded";
-            pokemon.formeChange(speciesid, this.effect, true);
-        }
-    }
+    onBasePowerPriority: 19,
+    onBasePower(basePower, attacker, defender, move) {
+    	const spikedMoves = [
+    		'bodyslam', 'flyingpress', 'heavyslam', 'bounce', 'acrobatics', 'headbonk', 'multibonk'
+    	];
+    	if (spikedMoves.includes(move.id)) {
+            return this.chainModify(1.5);
+    	}
+    },
     onAfterEachBoost(boost, target, source, effect) {
       let usedBoost = 1;
       let i;
@@ -62,8 +64,4 @@
     onEnd(pokemon) {
       usedBoost = 1;
     }
-
-    name: "Hyper Paragoomba Ability",
-    rating: 2,
-    flags: {}
 }

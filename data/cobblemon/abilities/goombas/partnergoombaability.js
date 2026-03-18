@@ -8,7 +8,8 @@
         return this.chainModify(1.5);
       }
     },
-    flags: {},
+
 	name: "Partner Goomba Ability",
-	rating: 4
+	rating: 4,
+    flags: {}
 }
