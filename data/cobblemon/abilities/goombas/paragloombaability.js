@@ -1,4 +1,8 @@
 {
+    name: "Paragloomba Ability",
+    rating: -1,
+    flags: {},
+
     onSourceModifyDamage(damage, source, target, move) {
         const boostedMoves = [
             'stomp', 'bodyslam', 'flyingpress', 'heavyslam', 'maliciousmoonsault',
@@ -31,9 +35,5 @@
         delete boost.atk;
         this.add("-fail", target, "unboost", "Attack", "[from] ability: Gloomba Ability", "[of] " + target);
       }
-    },
-
-    name: "Paragloomba Ability",
-    rating: -1,
-    flags: {}
+    }
 }

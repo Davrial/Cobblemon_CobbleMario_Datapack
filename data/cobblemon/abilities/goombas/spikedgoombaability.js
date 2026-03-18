@@ -1,4 +1,8 @@
 {
+	name: "Spiked Goomba Ability",
+	rating: 0.5,
+    flags: { breakable: 1 },
+
     onDamagingHitOrder: 1,
     onDamagingHit(damage, target, source, move) {
     const fromAboveMoves1 = [
@@ -24,9 +28,5 @@
     		    return this.chainModify(0);
     		}
     	}
-    },
-
-	name: "Spiked Goomba Ability",
-	rating: 0.5,
-    flags: {}
+    }
 }

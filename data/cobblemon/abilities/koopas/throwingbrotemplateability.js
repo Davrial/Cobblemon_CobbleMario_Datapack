@@ -1,4 +1,8 @@
 {
+	name: "Throwing Bro Template Ability",
+	rating: 3,
+    flags: {},
+
     onStart(pokemon) {
         this.effectState.nonContactMoves = [
             'woodhammer'
@@ -116,8 +120,5 @@
         if (move.type === "Fighting") {
           move.forceSTAB = true;
         }
-    },
-    flags: {},
-	name: "Throwing Bro Template Ability",
-	rating: 3
+    }
 }

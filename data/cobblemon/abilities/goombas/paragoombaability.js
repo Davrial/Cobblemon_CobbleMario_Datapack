@@ -1,4 +1,8 @@
 {
+    name: "Paragoomba Ability",
+    rating: -1,
+    flags: {},
+
     onSourceModifyDamage(damage, source, target, move) {
         const boostedMoves = [
             'stomp', 'bodyslam', 'flyingpress', 'heavyslam', 'maliciousmoonsault',
@@ -22,9 +26,5 @@
             const speciesid = pokemon.species.id === "goomba" ? "Goomba-Paragoomba-Grounded" : "Goomba-Paragoomba-Grounded";
             pokemon.formeChange(speciesid, this.effect, true);
         }
-    },
-
-    name: "Paragoomba Ability",
-    rating: -1,
-    flags: {}
+    }
 }

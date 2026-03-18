@@ -1,4 +1,8 @@
 {
+	name: "Spiked Gloomba Ability",
+	rating: 2,
+    flags: { breakable: 1 },
+
     onDamagingHitOrder: 1,
     onDamagingHit(damage, target, source, move) {
     const fromAboveMoves1 = [
@@ -35,9 +39,5 @@
         delete boost.atk;
         this.add("-fail", target, "unboost", "Attack", "[from] ability: Gloomba Ability", "[of] " + target);
       }
-    },
-
-	name: "Spiked Gloomba Ability",
-	rating: 2,
-    flags: { breakable: 1 }
+    }
 }

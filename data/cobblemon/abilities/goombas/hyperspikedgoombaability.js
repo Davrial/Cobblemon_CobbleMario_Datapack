@@ -1,4 +1,8 @@
 {
+	name: "Hyper Spiked Goomba Ability",
+	rating: 2,
+    flags: { breakable: 1 },
+
     onDamagingHitOrder: 1,
     onDamagingHit(damage, target, source, move) {
     const fromAboveMoves1 = [
@@ -63,9 +67,5 @@
     },
     onEnd(pokemon) {
       usedBoost = 1;
-    },
-
-	name: "Hyper Spiked Goomba Ability",
-	rating: 2,
-    flags: {}
+    }
 }

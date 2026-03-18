@@ -1,4 +1,8 @@
 {
+    name: "Hyper Paragoomba Ability",
+    rating: 2,
+    flags: {},
+
     onSourceModifyDamage(damage, source, target, move) {
         const boostedMoves = [
             'stomp', 'bodyslam', 'flyingpress', 'heavyslam', 'maliciousmoonsault',
@@ -61,9 +65,5 @@
     },
     onEnd(pokemon) {
       usedBoost = 1;
-    },
-
-    name: "Hyper Paragoomba Ability",
-    rating: 2,
-    flags: {}
+    }
 }

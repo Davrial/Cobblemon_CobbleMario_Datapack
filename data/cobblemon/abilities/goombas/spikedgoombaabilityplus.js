@@ -1,7 +1,7 @@
 {
  	name: "Spiked Goomba Ability Plus",
  	rating: 0.5,
-    flags: {},
+    flags: { breakable: 1 },
 
     onDamagingHitOrder: 1,
     onDamagingHit(damage, target, source, move) {

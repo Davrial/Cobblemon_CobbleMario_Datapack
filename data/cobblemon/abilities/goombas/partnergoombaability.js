@@ -1,4 +1,8 @@
 {
+	name: "Partner Goomba Ability",
+	rating: 4,
+    flags: {},
+
     onBasePowerPriority: 19,
     onBasePower(basePower, attacker, defender, move) {
         const boostedMoves = [
@@ -7,9 +11,5 @@
       if (move.flags["bite"] || boostedMoves.includes(move.id)) {
         return this.chainModify(1.5);
       }
-    },
-
-	name: "Partner Goomba Ability",
-	rating: 4,
-    flags: {}
+    }
 }
