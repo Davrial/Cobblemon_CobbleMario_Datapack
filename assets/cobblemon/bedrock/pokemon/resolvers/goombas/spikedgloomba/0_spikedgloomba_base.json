@@ -6,14 +6,14 @@
       "aspects": [],
       "poser": "cobblemon:goomba",
       "model": "cobblemon:goomba.geo",
-      "texture": "cobblemon:textures/pokemon/goombas/spikedgloomba/spikedgloomba.png",
+      "texture": "cobblemon:textures/pokemon/goombas/gloomba/spikedgloomba.png",
       "layers": []
     },
     {
       "aspects": [
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/spikedgloomba/spikedgloomba_shiny.png"
+      "texture": "cobblemon:textures/pokemon/gloomba/spikedgloomba_shiny.png"
     }
   ]
 }

@@ -3,6 +3,10 @@
     rating: 3.5,
     flags: {},
 
+    onStart(pokemon) {
+      this.boost({ evasion: 1 }, pokemon);
+      this.boost({ spd: 1 }, pokemon);
+    },
     onBasePowerPriority: 19,
     onBasePower(basePower, attacker, defender, move) {
         const boostedMoves = [

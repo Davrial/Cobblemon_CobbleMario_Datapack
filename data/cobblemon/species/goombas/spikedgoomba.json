@@ -1,0 +1,295 @@
+{
+  "implemented": true,
+  "name": "spikedgoomba",
+  "nationalPokedexNumber": 65003,
+  "primaryType": "normal",
+  "secondaryType": "steel",
+  "abilities": [
+    "spikedgoombaability",
+    "h:spikedgoombaabilityplus"
+  ],
+  "baseStats": {
+    "hp": 25,
+    "attack": 45,
+    "defence": 25,
+    "special_attack": 45,
+    "special_defence": 25,
+    "speed": 135
+  },
+  "behaviour": {
+    "combat":{
+      "willDefendOwner":true,
+      "willDefendSelf":true,
+      "willFlee":true
+    },
+    "resting": {
+      "canSleep": true,
+      "times": "night",
+      "light": "0-4",
+      "depth": "normal",
+      "willSleepOnBed": false,
+      "drowsyChance":0.0333,
+      "rouseChance":0.0042
+    },
+    "moving": {
+      "canLook": true,
+      "looksAtEntities": true,
+      "stepHeight": 0.6,
+      "wanderChance": 120,
+      "wanderSpeed": 0.75,
+      "walk": {
+        "canWalk": true,
+        "walkSpeed": 0.5
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": true,
+        "canWalkOnWater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.6
+      },
+      "herd":{
+        "maxSize":"5",
+        "toleratedLeaders":[
+          {
+            "pokemon":"goomba",
+            "tier":1
+          },
+          {
+            "pokemon":"paragoomba",
+            "tier":2
+          },
+          {
+            "pokemon":"spikedgoomba",
+            "tier":3
+          },
+          {
+            "pokemon":"redgoomba",
+            "tier":3
+          },
+          {
+            "pokemon":"bluegoomba",
+            "tier":3
+          },
+          {
+            "pokemon":"supergoomba",
+            "tier":4
+          },
+          {
+            "pokemon":"ultragoomba",
+            "tier":5
+          },
+          {
+            "pokemon":"royalgoomba",
+            "tier":5
+          },
+          {
+            "pokemon":"bowser",
+            "tier":5
+          },
+          {
+            "pokemon":"invinshroom",
+            "tier":6
+          }
+        ]
+      }
+    },
+    "fireImmune":false
+  },
+  "catchRate": 125,
+  "maleRatio": 0.86,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "fluctuating",
+  "eggCycles": 10,
+  "eggGroups": [
+    "field"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:leather_boots",
+        "quantityRange": "1-1",
+        "percentage": 22
+      }
+    ]
+  },
+
+
+
+  "moves": [
+    "1:tackle",
+    "1:leer",
+    "1:quickattack",
+    "1:bite",
+    "1:headbutt",
+    "12:sandattack",
+    "13:harden",
+    "15:astonish",
+    "17:hornattack",
+    "19:mudslap",
+    "21:doubleedge",
+    "23:flail",
+    "25:focusenergy",
+    "27:bounce",
+    "29:sharpen",
+    "31:crunch",
+    "33:slash",
+    "35:bodyslam",
+    "37:megahorn",
+    "39:doubleedge",
+    "41:irondefense",
+    "43:superfang",
+    "45:gigaimpact",
+    "47:zenheadbutt",
+    "49:ironhead",
+    "51:drillrun",
+    "55:endeavor",
+    "59:outrage",
+    "tm:quickattack",
+    "tm:bite",
+    "tm:headbutt",
+    "tm:sandattack",
+    "tm:harden",
+    "tm:astonish",
+    "tm:hornattack",
+    "tm:mudslap",
+    "tm:doubleedge",
+    "tm:flail",
+    "tm:focusenergy",
+    "tm:bounce",
+    "tm:sharpen",
+    "tm:crunch",
+    "tm:slash",
+    "tm:bodyslam",
+    "tm:megahorn",
+    "tm:doubleedge",
+    "tm:irondefense",
+    "tm:superfang",
+    "tm:gigaimpact",
+    "tm:zenheadbutt",
+    "tm:ironhead",
+    "tm:drillrun",
+    "tm:endeavor",
+    "tm:outrage",
+    "tm:jumpkick",
+    "tm:takedown",
+    "tm:hyperbeam",
+    "tm:minimize",
+    "tm:bide",
+    "tm:skullbash",
+    "tm:highjumpkick",
+    "tm:hyperfang",
+    "tm:scaryface",
+    "tm:detect",
+    "tm:endure",
+    "tm:rollout",
+    "tm:swagger",
+    "tm:meanlook",
+    "tm:hiddenpower",
+    "tm:memento",
+    "tm:slackoff",
+    "tm:lastresort",
+    "tm:nastyplot",
+    "tm:headsmash",
+    "tm:acrobatics",
+    "tm:finalgambit",
+    "tm:workup",
+    "tm:mudsport",
+    "tm:acid",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:firefang",
+    "tm:zenheadbutt",
+    "egg:thunderfang",
+    "egg:icefang",
+    "egg:firefang",
+    "egg:zenheadbutt",
+    "tutor:thunderfang",
+    "tutor:icefang",
+    "tutor:firefang",
+    "tutor:zenheadbutt",
+    "tm:snarl",
+    "tm:jawlock",
+    "tm:lashout",
+    "tm:hyperbeam"
+  ],
+
+
+
+
+
+  "labels": [
+    "custom",
+    "cobblemario",
+    "goomba"
+  ],
+  "aspects": [
+    "spikedgoomba"
+  ],
+  "pokedex": [
+    "cobblemon.species.spikedgoomba.desc"
+  ],
+  "baseScale": 1.1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 30,
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "height": 40,
+  "weight": 164,
+
+  "preEvolution": "goomba",
+  "evolutions": [
+    {
+      "id": "spikedgoomba-hyperspikedgoomba-item_interact-vanilla",
+      "variant": "item_interact",
+      "result": "hyperspikedgoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["charge","swordsdance"],
+      "requirements": [
+        {"variant": "level", "minLevel": 30},
+        {"variant": "time_range", "range": "twilight"}],
+      "requiredContext": "minecraft:redstone_lamp"
+    },
+
+    {
+      "id": "spikedgoomba-hyperspikedgoomba-item_interact-cobblemario",
+      "variant": "item_interact",
+      "result": "hyperspikedgoomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["charge","swordsdance"],
+      "requirements": [
+        {"variant": "level", "minLevel": 25},
+        {"variant": "time_range", "range": "twilight"}],
+      "requiredContext": "cobblemario:hyper_powder"
+    },
+
+    {
+      "id": "spikedgoomba-spikedgloomba-level_up",
+      "variant": "level_up",
+      "result": "spikedgloomba",
+      "consumeHeldItem": false,
+      "learnableMoves": ["crunch", "nastyplot"],
+      "requirements": [
+        {"variant": "level", "minLevel": 25},
+        {"variant": "has_move_type", "type": "dark"},
+        {"variant": "biome", "biomeCondition": "#cobblemon:is_cave"}
+      ],
+      "requiredContext": ""
+    }
+  ]
+}

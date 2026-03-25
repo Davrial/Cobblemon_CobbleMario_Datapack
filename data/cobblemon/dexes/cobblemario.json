@@ -1,0 +1,22 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:cobblemario",
+  "sortOrder": 64,
+  "entries": [
+  "cobblemon:goomba",
+  "cobblemon:paragoomba",
+  "cobblemon:spikedgoomba",
+  "cobblemon:gloomba",
+  "cobblemon:paragloomba",
+  "cobblemon:spikedgloomba",
+  "cobblemon:hypergoomba",
+  "cobblemon:hyperparagoomba",
+  "cobblemon:hyperspikedgoomba",
+  "cobblemon:bluegoomba",
+  "cobblemon:redgoomba",
+  "cobblemon:royalgoomba",
+  "cobblemon:supergoomba",
+  "cobblemon:ultragoomba",
+  "cobblemon:invinshroom"
+  ]
+}

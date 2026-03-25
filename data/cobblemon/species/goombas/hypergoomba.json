@@ -5,9 +5,8 @@
   "primaryType": "grass",
   "secondaryType": "electric",
   "abilities": [
-    "klutz",
-    "berserk",
-    "h:defiant"
+    "hypergoombaability",
+    "h:hypergoombaabilityplus"
   ],
   "baseStats": {
     "hp": 80,
@@ -281,9 +280,8 @@
         "paragoombaflying"
       ],
       "abilities": [
-        "angerpoint",
-        "berserk",
-        "h:defiant"
+        "hyperparagoombaability",
+        "h:hyperparagoombaabilityplus"
       ],
       "baseStats": {
         "hp": 80,
@@ -514,9 +512,8 @@
         "paragoombagrounded"
       ],
       "abilities": [
-        "angerpoint",
-        "berserk",
-        "h:defiant"
+        "hyperparagoombaability",
+        "h:hyperparagoombaabilityplus"
       ],
       "baseStats": {
         "hp": 80,
@@ -592,9 +589,8 @@
         "spikedgoomba"
       ],
       "abilities": [
-        "angerpoint",
-        "berserk",
-        "h:defiant"
+        "hyperspikedgoombaability",
+        "h:hyperspikedgoombaability"
       ],
       "baseStats": {
         "hp": 80,

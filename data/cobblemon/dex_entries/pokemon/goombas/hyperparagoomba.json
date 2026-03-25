@@ -1,0 +1,21 @@
+{
+  "id": "cobblemon:hyperparagoomba",
+  "speciesId": "cobblemon:hyperparagoomba",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Paragoomba-Grounded",
+      "unlockForms": [
+        "Paragoomba-Grounded"
+      ]
+    }
+  ],
+  "variations": []
+}

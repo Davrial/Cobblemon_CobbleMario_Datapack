@@ -6,8 +6,8 @@
   "secondaryType": "water",
   "abilities": [
     "klutz",
-    "simple",
-    "h:adaptability"
+    "goombaabilityplus",
+    "h:torrent"
   ],
   "baseStats": {
     "hp": 80,

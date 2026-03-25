@@ -1,34 +1,33 @@
 {
   "implemented": true,
-  "name": "partnergoomba",
-  "nationalPokedexNumber": 65001,
-  "primaryType": "normal",
-  "secondaryType": "fairy",
+  "name": "hyperspikedgoomba",
+  "nationalPokedexNumber": 65006,
+  "primaryType": "grass",
+  "secondaryType": "steel",
   "abilities": [
-    "klutz",
-    "simple",
-    "h:adaptability"
+    "hyperspikedgoombaability",
+    "h:hyperspikedgoombaabilityplus"
   ],
   "baseStats": {
-    "hp": 130,
-    "attack": 75,
+    "hp": 85,
+    "attack": 65,
     "defence": 25,
-    "special_attack": 75,
+    "special_attack": 65,
     "special_defence": 25,
-    "speed": 100
+    "speed": 140
   },
   "behaviour": {
     "combat":{
       "willDefendOwner":true,
       "willDefendSelf":true,
-      "willFlee":false
+      "willFlee":true
     },
     "resting": {
       "canSleep": true,
-      "times": "night",
-      "light": "0-4",
+      "times": "167-11834, 13702-22300",
+      "light": "0-15",
       "depth": "comatose",
-      "willSleepOnBed": true,
+      "willSleepOnBed": false,
       "drowsyChance":0.0333,
       "rouseChance":0.0042
     },
@@ -36,63 +35,47 @@
       "canLook": true,
       "looksAtEntities": true,
       "stepHeight": 0.6,
-      "wanderChance": 170,
-      "wanderSpeed": 1.0,
+      "wanderChance": 120,
+      "wanderSpeed": 0.75,
       "walk": {
         "canWalk": true,
-        "walkSpeed": 0.6
+        "walkSpeed": 0.5
       },
       "swim": {
-        "swimSpeed": 0.3,
+        "swimSpeed": 0.15,
         "canSwimInWater": true,
         "canBreatheUnderwater": true,
-        "canWalkOnWater": false
+        "canWalkOnWater": true
       },
       "fly": {
         "canFly": false,
         "flySpeedHorizontal": 0.6
       },
       "herd":{
-        "maxSize":"1",
+        "maxSize":"4",
         "toleratedLeaders":[
           {
-            "pokemon":"spikedgoomba",
+            "pokemon":"hypergoomba",
             "tier":1
           },
           {
-            "pokemon":"paragoomba",
+            "pokemon":"hyperparagoomba",
             "tier":1
           },
           {
-            "pokemon":"redgoomba",
-            "tier":1
-          },
-          {
-            "pokemon":"bluegoomba",
-            "tier":1
-          },
-          {
-            "pokemon":"supergoomba",
+            "pokemon":"hyperspikedgoomba",
             "tier":2
           },
           {
+            "pokemon":"supergoomba",
+            "tier":3
+          },
+          {
             "pokemon":"ultragoomba",
-            "tier":3
-          },
-          {
-            "pokemon":"royalgoomba",
-            "tier":3
-          },
-          {
-            "pokemon":"bowser",
-            "tier":3
-          },
-          {
-            "pokemon":"partnergoomba",
             "tier":4
           },
           {
-            "pokemon":"partnerkoopa",
+            "pokemon":"royalgoomba",
             "tier":5
           },
           {
@@ -104,51 +87,106 @@
     },
     "fireImmune":false
   },
-  "catchRate": 200,
-  "maleRatio": 0.75,
+
+  "catchRate": 75,
+  "maleRatio": 0.86,
   "shoulderMountable": false,
   "baseExperienceYield": 100,
-  "experienceGroup": "medium",
+  "experienceGroup": "fluctuating",
   "eggCycles": 10,
   "eggGroups": [
     "field"
   ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:leather_boots",
+        "quantityRange": "1-1",
+        "percentage": 22
+      }
+    ]
+  },
 
 
 
   "moves": [
     "1:tackle",
     "1:leer",
-    "3:quickattack",
-    "6:bite",
-    "9:headbutt",
+    "1:quickattack",
+    "1:bite",
+    "1:headbutt",
     "12:sandattack",
+    "13:harden",
+    "14:growth",
     "15:astonish",
-    "18:mudslap",
-    "21:flail",
-    "24:bounce",
-    "27:crunch",
-    "30:bodyslam",
-    "32:doubleedge",
-    "33:superfang",
-    "36:zenheadbutt",
-    "40:focusenergy",
-    "45:endeavor",
-    "50:outrage",
+    "16:hornattack",
+    "18:charge",
+    "19:mudslap",
+    "21:doubleedge",
+    "21:hyperfang",
+    "23:flail",
+    "25:focusenergy",
+    "25:bulkup",
+    "27:bounce",
+    "29:sharpen",
+    "29:focusenergy ",
+    "31:crunch",
+    "33:slash",
+    "33:psychup",
+    "35:bodyslam",
+    "38:megahorn",
+    "38:swordsdance",
+    "41:doubleedge",
+    "44:irondefense",
+    "44:dragondance",
+    "47:superfang",
+    "52:gigaimpact",
+    "52:quiverdance",
+    "55:zenheadbutt",
+    "58:ironhead",
+    "58:hyperbeam",
+    "61:drillrun",
+    "62:swagger",
+    "65:wildcharge",
+    "67:endeavor",
+    "73:outrage",
     "tm:quickattack",
     "tm:bite",
     "tm:headbutt",
     "tm:sandattack",
+    "tm:harden",
+    "tm:growth",
     "tm:astonish",
+    "tm:hornattack",
+    "tm:charge",
     "tm:mudslap",
-    "tm:flail",
-    "tm:bounce",
-    "tm:crunch",
-    "tm:bodyslam",
     "tm:doubleedge",
-    "tm:superfang",
-    "tm:zenheadbutt",
+    "tm:hyperfang",
+    "tm:flail",
     "tm:focusenergy",
+    "tm:bulkup",
+    "tm:bounce",
+    "tm:sharpen",
+    "tm:focusenergy ",
+    "tm:crunch",
+    "tm:slash",
+    "tm:psychup",
+    "tm:bodyslam",
+    "tm:megahorn",
+    "tm:swordsdance",
+    "tm:doubleedge",
+    "tm:irondefense",
+    "tm:dragondance",
+    "tm:superfang",
+    "tm:gigaimpact",
+    "tm:quiverdance",
+    "tm:zenheadbutt",
+    "tm:ironhead",
+    "tm:hyperbeam",
+    "tm:drillrun",
+    "tm:swagger",
+    "tm:wildcharge",
     "tm:endeavor",
     "tm:outrage",
     "tm:jumpkick",
@@ -192,37 +230,43 @@
     "tm:snarl",
     "tm:jawlock",
     "tm:lashout",
-    "tm:hyperbeam"
+    "tm:hyperbeam",
+    "tm:wildcharge"
   ],
+
+
 
 
 
 
   "labels": [
     "custom",
-    "cobblemario"
+    "cobblemario",
+    "goomba"
+  ],
+  "aspects": [
+    "spikedgoomba"
   ],
   "pokedex": [
-    "cobblemon.species.partnergoomba.desc1",
-    "cobblemon.species.partnergoomba.desc2"
+    "cobblemon.species.hyperspikedgoomba.desc"
   ],
-  "baseScale": 0.95,
+  "baseScale": 1.25,
   "hitbox": {
     "width": 1,
     "height": 1,
     "fixed": false
   },
-  "baseFriendship": 50,
+  "baseFriendship": 30,
   "evYield": {
-    "hp": 1,
-    "attack": 0,
+    "hp": 0,
+    "attack": 1,
     "defence": 0,
     "special_attack": 0,
     "special_defence": 0,
-    "speed": 1
+    "speed": 2
   },
-  "height": 32,
-  "weight": 132,
+  "height": 45,
+  "weight": 200,
 
-  "preEvolution": "goomba"
+  "preEvolution": "hypergoomba"
 }

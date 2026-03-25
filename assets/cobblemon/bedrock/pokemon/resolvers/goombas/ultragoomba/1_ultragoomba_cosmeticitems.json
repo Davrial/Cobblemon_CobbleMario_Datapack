@@ -1,0 +1,118 @@
+{
+  "species": "cobblemon:ultragoomba",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["cosmetic_item-wise_glasses"],
+      "layers": [
+        {
+          "name": "glasses",
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/frankly_glasses.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-white_terracotta"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/goombella_hat.png"
+        },
+        {
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/goombella_hat_emissive.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-red_wool"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/goombette_hat.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-blue_wool"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/goombario_hat.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-orange_wool"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/goombaria_bow.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-lime_wool"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/rogueport_citizen_hat.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-green_wool"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/goompa_hat.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-pink_wool"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/goomama_towel.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-white_wool"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/gooma_hat.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-black_wool"],
+      "layers": [
+        {
+          "name": "moustache",
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/goompapa_moustache.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-redstone"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/mariohat.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["cosmetic_item-emerald"],
+      "layers": [
+        {
+          "name": "hat",
+          "texture": "cobblemon:textures/pokemon/goombas/cosmeticitems/luigihat.png"
+        }
+      ]
+    }
+  ]
+}

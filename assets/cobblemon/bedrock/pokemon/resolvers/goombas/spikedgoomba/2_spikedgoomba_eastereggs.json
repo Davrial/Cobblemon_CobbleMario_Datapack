@@ -1,0 +1,15 @@
+{
+  "species": "cobblemon:spikedgoomba",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["goomba-eastereggs-mushroom"],
+      "layers": [
+        {
+          "name": "overlay",
+          "texture": "cobblemon:textures/pokemon/goombas/goomba/mushroom.png"
+        }
+      ]
+    }
+  ]
+}

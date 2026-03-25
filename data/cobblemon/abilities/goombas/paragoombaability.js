@@ -3,6 +3,10 @@
     rating: -1,
     flags: {},
 
+    onStart(pokemon) {
+      this.boost({ evasion: 1 }, pokemon);
+      this.boost({ spd: 1 }, pokemon);
+    },
     onSourceModifyDamage(damage, source, target, move) {
         const boostedMoves = [
             'stomp', 'bodyslam', 'flyingpress', 'heavyslam', 'maliciousmoonsault',

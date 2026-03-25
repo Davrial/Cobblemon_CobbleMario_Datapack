@@ -45,27 +45,6 @@
         "canSwimInWater": true,
         "canBreatheUnderwater": true,
         "canWalkOnWater": true
-      },
-      "fly": {
-        "canFly": true,
-        "flySpeedHorizontal": 1.0
-      },
-      "herd":{
-        "maxSize":"1",
-        "toleratedLeaders":[
-          {
-            "pokemon":"bowser",
-            "tier":1
-          },
-          {
-            "pokemon":"royalgoomba",
-            "tier":2
-          },
-          {
-            "pokemon":"invinshroom",
-            "tier":3
-          }
-        ]
       }
     },
     "fireImmune":true
@@ -201,8 +180,7 @@
     "goomba"
   ],
   "pokedex": [
-    "cobblemon.species.invinshroom.desc1",
-    "cobblemon.species.invinshroom.desc2"
+    "cobblemon.species.invinshroom.desc"
   ],
   "baseScale": 1.5,
   "hitbox": {
@@ -222,5 +200,5 @@
   "height": 48,
   "weight": 210,
 
-  "preEvolution": "ultragoomba"
+  "preEvolution": "goomba"
 }

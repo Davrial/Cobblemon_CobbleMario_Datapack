@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:supergoomba",
+  "speciesId": "cobblemon:supergoomba",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

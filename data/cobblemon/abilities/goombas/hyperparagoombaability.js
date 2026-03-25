@@ -3,8 +3,10 @@
     rating: 2,
     flags: {},
 
-    onStart(source) {
+    onStart(pokemon) {
         let c;
+      this.boost({ evasion: 1 }, pokemon);
+      this.boost({ spd: 1 }, pokemon);
     },
     onSourceModifyDamage(damage, source, target, move) {
         const boostedMoves = [

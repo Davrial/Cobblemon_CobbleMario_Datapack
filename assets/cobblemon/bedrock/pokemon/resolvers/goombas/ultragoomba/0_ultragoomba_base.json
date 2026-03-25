@@ -1,0 +1,23 @@
+{
+  "species": "cobblemon:ultragoomba",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:paragoomba",
+      "model": "cobblemon:goomba.geo",
+      "name": "base",
+      "texture": "cobblemon:textures/pokemon/goombas/ultragoomba/ultragoomba.png",
+      "layers": [
+        {
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/goombas/ultragoomba/ultragoomba_eyeglow.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/goombas/goomba/goomba_shiny.png"
+    }
+  ]
+}

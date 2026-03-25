@@ -3,7 +3,13 @@
     rating: 2,
     flags: {},
 
-    onSourceModifyDamage(damage, source, target, move) {
+    onStart(pokemon) {
+      this.boost({ evasion: 1 }, pokemon);
+      this.boost({ spd: 1 }, pokemon);
+    },
+
+    onBasePowerPriority: 19,
+    onBasePower(basePower, attacker, defender, move) {
         const boostedMoves = [
             'highjumpkick', 'bounce', 'supersonicskystrike', 'acrobatics',
             'floatyfall', 'fly', 'skyattack', 'divekick'

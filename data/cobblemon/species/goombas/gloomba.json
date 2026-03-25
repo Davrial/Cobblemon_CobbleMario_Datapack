@@ -5,9 +5,8 @@
   "primaryType": "dark",
   "secondaryType": "normal",
   "abilities": [
-    "innerfocus",
-    "merciless",
-    "h:guts"
+    "gloombaability",
+    "h:gloombaabilityplus"
   ],
   "baseStats": {
     "hp": 70,
@@ -283,8 +282,8 @@
         "paragoombaflying"
       ],
       "abilities": [
-        "klutz",
-        "h:klutz"
+        "paragloombaability",
+        "h:paragloombaabilityplus"
       ],
       "baseStats": {
         "hp": 70,
@@ -516,8 +515,8 @@
         "paragoombagrounded"
       ],
       "abilities": [
-        "klutz",
-        "h:klutz"
+        "paragloombaability",
+        "h:paragloombaabilityplus"
       ],
       "baseStats": {
         "hp": 70,
@@ -594,8 +593,8 @@
         "spikedgoomba"
       ],
       "abilities": [
-        "klutz",
-        "h:klutz"
+        "spikedgloombaability",
+        "h:spikedgloombaability"
       ],
       "baseStats": {
         "hp": 70,

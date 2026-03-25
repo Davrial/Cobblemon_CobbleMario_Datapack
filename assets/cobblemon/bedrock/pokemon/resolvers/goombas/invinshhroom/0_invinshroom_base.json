@@ -1,0 +1,23 @@
+{
+  "species": "cobblemon:invinshroom",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:goomba",
+      "model": "cobblemon:goomba.geo",
+      "name": "base",
+      "texture": "cobblemon:textures/pokemon/goombas/invinshroom/invinshroom.png",
+      "layers": [
+        {
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/goombas/invinshroom/invinshroom.png"
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/goombas/goomba/goomba_shiny.png"
+    }
+  ]
+}

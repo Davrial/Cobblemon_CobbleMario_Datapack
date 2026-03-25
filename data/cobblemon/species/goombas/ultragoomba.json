@@ -4,9 +4,8 @@
   "nationalPokedexNumber": 64039,
   "primaryType": "normal",
   "abilities": [
-    "klutz",
-    "simple",
-    "h:adaptability"
+    "ultragoombaability",
+    "h:ultragoombaability"
   ],
   "baseStats": {
     "hp": 100,
