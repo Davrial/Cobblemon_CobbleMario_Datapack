@@ -140,6 +140,98 @@
 
 
 
+  "cobblemon.ability.template":"Template",
+  "cobblemon.ability.template.desc":"Template",
+  "cobblemon.ability.templateplus":"Template Plus",
+  "cobblemon.ability.templateplus.desc":"Template Plus",
+
+  "cobblemon.ability.goombaability":"Minor Minion",
+  "cobblemon.ability.goombaability.desc":"Most common Goombas take extra damage from attacks that strike from above, squashing them.",
+  "cobblemon.ability.goombaabilityplus":"Mighty Mushroom",
+  "cobblemon.ability.goombaabilityplus.desc":"Some Goombas have harder heads than most, and not only dont get squashed, but deal extra damage with bites and head-based attacks.",
+  "cobblemon.ability.paragoombaability":"Flying Flunky",
+  "cobblemon.ability.paragoombaability.desc":"Most Paragoombas are regular Goombas with magic stick-on wings, attack them from above and they get knocked to the ground.",
+  "cobblemon.ability.paragoombaabilityplus":"Feathered Fighter",
+  "cobblemon.ability.paragoombaabilityplus.desc":"Stronger Paragoombas can resist having their wings knocked off, and use their stronger wings to deal more damage with attacks which swoop in from above, and are more maneuverable than one would expect.",
+  "cobblemon.ability.spikedgoombaability":"Harmful Helmet",
+  "cobblemon.ability.spikedgoombaability.desc":"These goombas have obtained a spiked helmet which protects them from attacks from above, unless the attacker has adequate protection, in which case they get squashed all the same. Makes their head attacks hurt more too.",
+  "cobblemon.ability.spikedgoombaabilityplus":"Headstrong Henchling",
+  "cobblemon.ability.spikedgoombaabilityplus.desc":"All the pain of a regular Spiked Goomba, none of the squishiness. And that spike's even sharper now.",
+
+  "cobblemon.ability.partnergoombaability":"Gregarious Goomba",
+  "cobblemon.ability.partnergoombaability.desc":"A much less violent Goomba than most, also not susceptible to squashing. Does more damage with their head and with bites.",
+
+  "cobblemon.ability.gloombaability":"Darkness Denizen",
+  "cobblemon.ability.gloombaability.desc":"Raises Attack when hit with a Dark-type move, resists being Intimidated, and is squashible",
+  "cobblemon.ability.gloombaabilityplus":"Durable Darkness",
+  "cobblemon.ability.gloombaabilityplus.desc":"Raises Attack when hit with a Dark-type move, resists being Intimidated, and deals extra damage with bites and head-based attacks",
+  "cobblemon.ability.paragloombaability":"Soaring Stooge",
+  "cobblemon.ability.paragloombaability.desc":"A combination of Darkness Denizen and Flying Flunky",
+  "cobblemon.ability.paragloombaabilityplus":"Shadey Soarer",
+  "cobblemon.ability.paragloombaabilityplus.desc":"A combination of Durable Darkness and Feathered Fighter",
+  "cobblemon.ability.spikedgloombaaiblity":"Helmeted Hider",
+  "cobblemon.ability.spikedgloombaaiblity.desc":"A combination of Darkness Denizen and Harmful Helmet",
+  "cobblemon.ability.spikedgloombaaiblityplus":"Hermit's Helmet",
+  "cobblemon.ability.spikedgloombaaiblityplus.desc":"A combination of Durable Darkness and Headstrong Henchling",
+
+  "cobblemon.ability.hypergoombaability":"Charging Chump",
+  "cobblemon.ability.hypergoombaability.desc":"Boosts Attack or Special Attack, alternating, for each boost used. Squashable.",
+  "cobblemon.ability.hypergoombaabilityplus":"Concentrated Charge",
+  "cobblemon.ability.hypergoombaabilityplus.desc":"Boosts Attack or Special Attack, alternating, for each boost used. Extra bite and head-based damage.",
+  "cobblemon.ability.hyperparagoombaability":"Hyper Hover",
+  "cobblemon.ability.hyperparagoombaability.desc":"A combination of Charging Chump and Flying Flunky",
+  "cobblemon.ability.hyperparagoombaabilityplus":"Amped Airstrike",
+  "cobblemon.ability.hyperparagoombaabilityplus.desc":"A combination of Concentrated Charge and Feathered Fighter",
+  "cobblemon.ability.hyperspikedgoombaability":"Impulsive Impaler ",
+  "cobblemon.ability.hyperspikedgoombaability.desc":"A combination of Charging Chump and Harmful Helmet",
+  "cobblemon.ability.hyperspikedgoombaabilityplus":"Supercharged Spike",
+  "cobblemon.ability.hyperspikedgoombaabilityplus.desc":"A combination of Concentrated Charge and Headstrong Henchling",
+
+  "cobblemon.ability.bluegoombaability":"Template",
+  "cobblemon.ability.bluegoombaability.desc":"Template",
+  "cobblemon.ability.redgoombaability":"Template",
+  "cobblemon.ability.redgoombaability.desc":"Template",
+  "cobblemon.ability.royalgoombaability":"Template",
+  "cobblemon.ability.royalgoombaability.desc":"Template",
+  "cobblemon.ability.royalgoombaabilityplus":"Template Plus",
+  "cobblemon.ability.royalgoombaabilityplus.desc":"Template Plus",
+
+  "cobblemon.ability.supergoombaability":"Template",
+  "cobblemon.ability.supergoombaability.desc":"Template",
+  "cobblemon.ability.ultragoombaability":"Template",
+  "cobblemon.ability.ultragoombaability.desc":"Template",
+  "cobblemon.ability.invinshroomability":"Template",
+  "cobblemon.ability.invinshroomability.desc":"Template",
+
+
+
+  "cobblemon.move.template":"Template",
+  "cobblemon.move.template.desc":"Template",
+
+  "cobblemon.move.headbonk":"Headbonk",
+  "cobblemon.move.headbonk.desc":"The user jumps in the air and bonks their head down upon their target.",
+  "cobblemon.move.divekick":"Divekick",
+  "cobblemon.move.divekick.desc":"The user flies over to their target and delivers a swift diving kick form above.",
+  "cobblemon.move.multibonk":"Multibonk",
+  "cobblemon.move.multibonk.desc":"The user preforms a skillful repeated headbonking to their victim.",
+  "cobblemon.move.spikebonk":"Spike-bonk",
+  "cobblemon.move.spikebonk.desc":"The user jumps in the air and plummets towards their opponent with their dangerous spiked head.",
+  "cobblemon.move.rallywink":"Rally Wink",
+  "cobblemon.move.rallywink.desc":"The user gives an encouraging wink to their ally, causing them to move again this turn!",
+  "cobblemon.move.tattle":"Tattle",
+  "cobblemon.move.tattle.desc":"The user wracks their brain for all combat-relevant knowledge on a chosen target, and relays it back to their trainer.",
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   "cobblemon.batte.singleturn.tattle": "Tattle Log: %1$s. Species: ${target.species.name}."

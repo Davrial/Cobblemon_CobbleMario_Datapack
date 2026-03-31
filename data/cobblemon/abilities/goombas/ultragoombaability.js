@@ -4,8 +4,7 @@
     flags: { breakable: 1 },
 
     onStart(pokemon) {
-      this.boost({ evasion: 1 }, pokemon);
-      this.boost({ spd: 1 }, pokemon);
+      this.boost({ evasion: 1, spd: 1 }, pokemon, pokemon, null, true);
     },
     onDamagingHitOrder: 1,
     onDamagingHit(damage, target, source, move) {
@@ -28,7 +27,7 @@
     	const flyingMoves = [
             'highjumpkick', 'supersonicskystrike',
             'floatyfall', 'fly', 'skyattack', 'divekick'
-    	]
+    	];
     	if (spikedMoves.includes(move.id)) {
             return this.chainModify(1.5);
     	}

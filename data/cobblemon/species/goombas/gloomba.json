@@ -240,7 +240,7 @@
     {
       "id": "gloomba-spikedgloomba-level_up-vanilla",
       "variant": "level_up",
-      "result": "gloombaspikedgoomba",
+      "result": "spikedgoomba",
       "consumeHeldItem": false,
       "learnableMoves": ["hornattack"],
       "requirements": [
@@ -251,7 +251,7 @@
     {
       "id": "gloomba-spikedgloomba-level_up-vanilla",
       "variant": "level_up",
-      "result": "gloombaparagoombaflying",
+      "result": "paragloombaparagoombaflying",
       "consumeHeldItem": false,
       "learnableMoves": ["bounce"],
       "requirements": [

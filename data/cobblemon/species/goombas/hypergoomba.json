@@ -239,7 +239,7 @@
     {
       "id": "hypergoomba-hyperspikedgoomba-level_up-vanilla",
       "variant": "level_up",
-      "result": "hypergoombaspikedgoomba",
+      "result": "hyperspikedgoomba",
       "consumeHeldItem": false,
       "learnableMoves": ["hornattack", "hornleech"],
       "requirements": [
@@ -250,7 +250,7 @@
     {
       "id": "hypergoomba-hyperparagoomba-level_up-vanilla",
       "variant": "level_up",
-      "result": "hypergoombaparagoombaflying",
+      "result": "hyperparagoombaparagoombaflying",
       "consumeHeldItem": false,
       "learnableMoves": ["bounce"],
       "requirements": [
