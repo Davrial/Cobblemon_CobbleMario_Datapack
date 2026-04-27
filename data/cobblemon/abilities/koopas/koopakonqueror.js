@@ -1,6 +1,6 @@
 {
 	name: "Koopa Konqueror",
-	rating: 4,
+	rating: 3,
     flags: {},
 
     onModifyMove(move) {
