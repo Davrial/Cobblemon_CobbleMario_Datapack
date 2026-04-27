@@ -1,0 +1,19 @@
+{
+  "species": "cobblemon:fire_bro",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:sprite",
+      "model": "cobblemon:sprite.geo",
+      "texture": "cobblemon:textures/pokemon/fire_bro/fire_bro_sprite.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/fire_bro/fire_bro_shiny.png"
+    }
+  ]
+}

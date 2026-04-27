@@ -1,13 +1,12 @@
 {
   "implemented": true,
-  "name": "electricbro",
+  "name": "zapbro",
   "nationalPokedexNumber": 65031,
   "primaryType": "dragon",
   "secondaryType": "electric",
   "abilities": [
-    "shellarmor",
-    "longreach",
-    "h:limber"
+    "throwingbroproficiency",
+    "h:throwingbroproficiency"
   ],
   "baseStats": {
     "hp": 70,

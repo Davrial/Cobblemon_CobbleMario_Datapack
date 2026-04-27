@@ -1,0 +1,52 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "royal-red-and-blue-goombas-herd",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "spawnablePositionType": "grounded",
+      "bucket": "rare",
+      "levelRange": "8-32",
+      "weight": 100.0,
+      "maxHerdSize": 3,
+      "minDistanceBetweenSpawns": 1.5,
+      "herdablePokemon": [
+        {
+          "pokemon": "redgoomba",
+          "isLeader": true,
+          "levelRange": "8-32",
+          "weight": 50,
+          "maxTimes": 1,
+          "levelRangeOffset": "5-15"
+        },
+        {
+          "pokemon": "bluegoomba",
+          "isLeader": true,
+          "levelRange": "8-32",
+          "weight": 50,
+          "maxTimes": 1,
+          "levelRangeOffset": "5-15"
+        },
+        {
+          "pokemon": "royalgoomba",
+          "isLeader": true,
+          "levelRange": "8-32",
+          "weight": 25,
+          "maxTimes": 1,
+          "levelRangeOffset": "10-20"
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_plains",
+          "#cobblemon:is_mushroom"
+        ]
+      }
+    }
+  ]
+}

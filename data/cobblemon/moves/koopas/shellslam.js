@@ -3,7 +3,7 @@
  		basePower: 80,
  		category: "Physical",
  		name: "Shell Slam",
- 		pp: 16,
+ 		pp: 5,
  		priority: 0,
  		flags: {contact: 1, nonsky:1, bypasssub: 1, mirror: 1, metronome: 1},
         ignoreDefensive: true,

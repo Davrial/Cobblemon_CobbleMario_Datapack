@@ -63,7 +63,15 @@
             "tier":2
           },
           {
+            "pokemon":"spikedgloomba",
+            "tier":2
+          },
+          {
             "pokemon":"gloombaparagoomba",
+            "tier":2
+          },
+          {
+            "pokemon":"paragloomba",
             "tier":2
           },
           {

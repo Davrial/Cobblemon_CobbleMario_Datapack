@@ -1,13 +1,12 @@
 {
   "implemented": true,
-  "name": "dartbro",
+  "name": "needlebro",
   "nationalPokedexNumber": 65030,
   "primaryType": "dragon",
   "secondaryType": "fighting",
   "abilities": [
-    "shellarmor",
-    "longreach",
-    "h:limber"
+    "throwingbroproficiency",
+    "h:throwingbroproficiency"
   ],
   "baseStats": {
     "hp": 70,

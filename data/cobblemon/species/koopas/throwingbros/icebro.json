@@ -5,9 +5,8 @@
   "primaryType": "dragon",
   "secondaryType": "ice",
   "abilities": [
-    "shellarmor",
-    "longreach",
-    "h:limber"
+    "throwingbroproficiency",
+    "h:throwingbroproficiency"
   ],
   "baseStats": {
     "hp": 70,

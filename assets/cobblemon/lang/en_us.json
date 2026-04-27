@@ -198,10 +198,17 @@
 
   "cobblemon.ability.supergoombaability":"Template",
   "cobblemon.ability.supergoombaability.desc":"Template",
-  "cobblemon.ability.ultragoombaability":"Template",
-  "cobblemon.ability.ultragoombaability.desc":"Template",
+  "cobblemon.ability.ultragoombaability":"Peak Goomba Form",
+  "cobblemon.ability.ultragoombaability.desc":"These elite goombas deal damage with their defensive head spike, and have the boosts from their wings as well.",
   "cobblemon.ability.invinshroomability":"Template",
   "cobblemon.ability.invinshroomability.desc":"Template",
+
+
+
+  "cobblemon.ability.koopakonqueror":"Koopa Konqueror",
+  "cobblemon.ability.koopakonqueror.desc":"This fearsome draconic turtle is also a master of Dark and Fire attacks, gaining STAB with them.",
+  "cobblemon.ability.throwingbroproficiency":"Throwing Bro Proficiency",
+  "cobblemon.ability.throwingbroproficiency.desc":"Experts of throwing things, certain moves the user uses lose the Contact property, Fling gains a different typing based on their held item, and replaces certain held items when Flung. Additionally treated as a Fighting type for move effectiveness, with additive effect if the user is already Fighting type.",
 
 
 
@@ -221,6 +228,20 @@
   "cobblemon.move.tattle":"Tattle",
   "cobblemon.move.tattle.desc":"The user wracks their brain for all combat-relevant knowledge on a chosen target, and relays it back to their trainer.",
 
+  "cobblemon.move.dizzyshell":"Dizzy Shell",
+  "cobblemon.move.dizzyshell.desc":"The user spins in their shell in a reckless and confusing fashion, then strikes multiple opponents. High chance to Confuse.",
+  "cobblemon.move.fireshell":"Fire Shell",
+  "cobblemon.move.fireshell.desc":"The user sets their shell ablaze, then hits their opponent. Might inflict Burn.",
+  "cobblemon.move.powershell":"Power Shell",
+  "cobblemon.move.powershell.desc":"The user withdraws into its shell, then  flings themselves at their foe with great force.",
+  "cobblemon.move.revengeshell":"Revenge Shell",
+  "cobblemon.move.revengeshell.desc":"The user rapidly spins in their shell, then launches and vengeful and confusing attack. Deals more damage based on user's statuses. Small chance to confuse.",
+  "cobblemon.move.shellshield":"Shell Shield",
+  "cobblemon.move.shellshield.desc":"The user provides their ally with a large shell shield for defense.",
+  "cobblemon.move.shellslam":"Shell Slam",
+  "cobblemon.move.shellslam.desc":"The user withdraws into its shell, then fires at their enemy with devastating force, piercing defenses.",
+  "cobblemon.move.shelltoss":"Shell Toss",
+  "cobblemon.move.shelltoss.desc":"The user withdraws into its shell, then flings themselves at their opponent.",
 
 
 

@@ -1,9 +1,9 @@
 ({
  		accuracy: 100,
- 		basePower: 40,
+ 		basePower: 60,
  		category: "Physical",
  		name: "Power Shell",
- 		pp: 64,
+ 		pp: 16,
  		priority: 0,
  		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1},
  		secondary: null,

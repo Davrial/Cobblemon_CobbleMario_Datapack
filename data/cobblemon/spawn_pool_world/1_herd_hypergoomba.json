@@ -1,0 +1,104 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hypergoomba-herd",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "levelRange": "19-45",
+      "weight": 100.0,
+      "maxHerdSize": 5,
+      "minDistanceBetweenSpawns": 1.5,
+      "herdablePokemon": [
+        {
+          "pokemon": "hypergoomba",
+          "levelRange": "19-45",
+          "weight": 50,
+          "levelRangeOffset": "0-1"
+        },
+        {
+          "pokemon": "hypergoomba",
+          "isLeader": true,
+          "levelRange": "19-45",
+          "weight": 25,
+          "maxTimes": 1,
+          "levelRangeOffset": "4-7"
+        },
+        {
+          "pokemon": "hyperparagoomba",
+          "isLeader": true,
+          "levelRange": "19-45",
+          "weight": 30,
+          "maxTimes": 1,
+          "levelRangeOffset": "1-5"
+        },
+        {
+          "pokemon": "hyperparagoomba",
+          "isLeader": false,
+          "levelRange": "19-45",
+          "weight": 20,
+          "levelRangeOffset": "0-2"
+        },
+        {
+          "pokemon": "hyperspikedgoomba",
+          "isLeader": true,
+          "levelRange": "19-45",
+          "weight": 30,
+          "maxTimes": 1,
+          "levelRangeOffset": "1-5"
+        },
+        {
+          "pokemon": "hyperspikedgoomba",
+          "isLeader": false,
+          "levelRange": "19-45",
+          "weight": 20,
+          "levelRangeOffset": "0-2"
+        },
+        {
+          "pokemon": "supergoomba",
+          "isLeader": true,
+          "levelRange": "19-45",
+          "weight": 10,
+          "maxTimes": 1,
+          "levelRangeOffset": "5-15"
+        },
+        {
+          "pokemon": "redgoomba",
+          "isLeader": true,
+          "levelRange": "19-45",
+          "weight": 10,
+          "maxTimes": 1,
+          "levelRangeOffset": "5-15"
+        },
+        {
+          "pokemon": "ultragoomba",
+          "isLeader": true,
+          "levelRange": "19-45",
+          "weight": 5,
+          "maxTimes": 1,
+          "levelRangeOffset": "10-20"
+        },
+        {
+          "pokemon": "invinshroom",
+          "isLeader": true,
+          "levelRange": "19-45",
+          "weight": 1,
+          "maxTimes": 1,
+          "levelRangeOffset": "20-30"
+        }
+      ],
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_savanna",
+          "minecraft:dark_forest"
+        ]
+      }
+    }
+  ]
+}
