@@ -3,7 +3,7 @@
   rating: 3,
   flags: {},
   onStart(pokemon) {
-    this.effectState.changeMovesTypes = ["barrage"];
+    this.effectState.changeMovesTypes = ["barrage","bonemerang"];
     this.effectState.flingMove = ["fling"];
     let flingItemsCheck = 0;
 

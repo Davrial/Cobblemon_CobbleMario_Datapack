@@ -4,7 +4,7 @@
     flags: { breakable: 1 },
 
     onStart(pokemon) {
-      this.boost({ evasion: 1, spd: 1 }, pokemon, pokemon, null, true);
+      this.boost({ evasion: 1, spe: 1 }, pokemon, pokemon, null, true);
     },
     onDamagingHitOrder: 1,
     onDamagingHit(damage, target, source, move) {

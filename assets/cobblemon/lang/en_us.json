@@ -207,8 +207,29 @@
 
   "cobblemon.ability.koopakonqueror":"Koopa Konqueror",
   "cobblemon.ability.koopakonqueror.desc":"This fearsome draconic turtle is also a master of Dark and Fire attacks, gaining STAB with them.",
+
   "cobblemon.ability.throwingbroproficiency":"Throwing Bro Proficiency",
-  "cobblemon.ability.throwingbroproficiency.desc":"Experts of throwing things, certain moves the user uses lose the Contact property, Fling gains a different typing based on their held item, and replaces certain held items when Flung. Additionally treated as a Fighting type for move effectiveness, with additive effect if the user is already Fighting type.",
+  "cobblemon.ability.throwingbroproficiency.desc":"Experts of throwing things. Fling gains a different typing based on their held item, and replaces certain held items which match the user's element when Flung. Additionally treated as a Fighting type for move effectiveness.",
+  "cobblemon.ability.throwingbroproficiencyhammer":"Throwing Bro Proficiency - Hammer",
+  "cobblemon.ability.throwingbroproficiencyhammer.desc":"Experts of throwing things. Fling gains a different typing based on their held item, and replaces certain held items when Flung. Has STAB with all Hammer-Based Moves.",
+  "cobblemon.ability.throwingbroproficiencyelectric":"Throwing Bro Proficiency - Electric",
+  "cobblemon.ability.throwingbroproficiencyelectric.desc":"Experts of throwing things. Fling gains a different typing based on their held item, and replaces certain held items which match the user's element when Flung. Additionally treated as a Fighting type for move effectiveness.",
+  "cobblemon.ability.throwingbroproficiencyfire":"Throwing Bro Proficiency - Fire",
+  "cobblemon.ability.throwingbroproficiencyfire.desc":"Experts of throwing things. Fling gains a different typing based on their held item, and replaces certain held items which match the user's element when Flung. Additionally treated as a Fighting type for move effectiveness.",
+  "cobblemon.ability.throwingbroproficiencyflying":"Throwing Bro Proficiency - Flying",
+  "cobblemon.ability.throwingbroproficiencyflying.desc":"Experts of throwing things. Fling gains a different typing based on their held item, and replaces certain held items which match the user's element when Flung. Additionally treated as a Flying type for STAB.",
+  "cobblemon.ability.throwingbroproficiencygrass":"Throwing Bro Proficiency - Grass",
+  "cobblemon.ability.throwingbroproficiencygrass.desc":"Experts of throwing things. Fling gains a different typing based on their held item, and replaces certain held items which match the user's element when Flung. Additionally treated as a Fighting type for move effectiveness.",
+  "cobblemon.ability.throwingbroproficiencyice":"Throwing Bro Proficiency - Ice",
+  "cobblemon.ability.throwingbroproficiencyice.desc":"Experts of throwing things. Fling gains a different typing based on their held item, and replaces certain held items which match the user's element when Flung. Additionally treated as a Fighting type for move effectiveness.",
+  "cobblemon.ability.throwingbroproficiencypoison":"Throwing Bro Proficiency - Poison",
+  "cobblemon.ability.throwingbroproficiencypoison.desc":"Experts of throwing things. Fling gains a different typing based on their held item, and replaces certain held items which match the user's element when Flung. Additionally treated as a Poison type for STAB.",
+  "cobblemon.ability.throwingbroproficiencyrock":"Throwing Bro Proficiency - Rock",
+  "cobblemon.ability.throwingbroproficiencyrock.desc":"Experts of throwing things. Fling gains a different typing based on their held item, and replaces certain held items which match the user's element when Flung. Additionally treated as a Rock type for STAB.",
+  "cobblemon.ability.throwingbroproficiencysteel":"Throwing Bro Proficiency - Steel",
+  "cobblemon.ability.throwingbroproficiencysteel.desc":"Experts of throwing things. Fling gains a different typing based on their held item, and replaces certain held items which match the user's element when Flung. Additionally treated as a Steel type for STAB.",
+  "cobblemon.ability.throwingbroproficiencywater":"Throwing Bro Proficiency - Water",
+  "cobblemon.ability.throwingbroproficiencywater.desc":"Experts of throwing things. Fling gains a different typing based on their held item, and replaces certain held items which match the user's element when Flung. Additionally treated as a Fighting type for move effectiveness.",
 
 
 

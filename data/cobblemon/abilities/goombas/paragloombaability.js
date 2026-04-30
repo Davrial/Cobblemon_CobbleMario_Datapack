@@ -5,7 +5,7 @@
 
     onStart(pokemon) {
       this.boost({ evasion: 1 }, pokemon);
-      this.boost({ spd: 1 }, pokemon);
+      this.boost({ spe: 1 }, pokemon);
     },
     onSourceModifyDamage(damage, source, target, move) {
         const boostedMoves = [

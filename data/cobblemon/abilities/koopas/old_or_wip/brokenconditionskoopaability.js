@@ -1,5 +1,5 @@
 {
-	name: "Koopa Ability",
+	name: "Broken Conditions Koopa Ability",
 	rating: -1,
     flags: {},
 

@@ -133,7 +133,7 @@
       move.type = "Fighting";
     }
 
-    if (move.type === "Fighting") {
+    if (move.type === "Fighting" || move.type === "Poison") {
       move.forceSTAB = true;
     }
   },
