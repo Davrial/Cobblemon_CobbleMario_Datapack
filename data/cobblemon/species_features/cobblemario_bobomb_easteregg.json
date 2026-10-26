@@ -1,6 +1,6 @@
 {
   "type": "choice",
-  "keys": ["bobomb_easteregg_color"],
+  "keys": ["cobblemario_bobomb_easteregg"],
   "default": "random",
   "choices": [
     "charactersadmiralbobbery",
@@ -134,5 +134,5 @@
     "pkmnitemblockevostoneblockwater"
   ],
   "isAspect": true,
-  "aspectFormat": "bobomb-easteregg-color-{{choice}}"
+  "aspectFormat": "cobblemario-bobomb-easteregg-{{choice}}"
 }

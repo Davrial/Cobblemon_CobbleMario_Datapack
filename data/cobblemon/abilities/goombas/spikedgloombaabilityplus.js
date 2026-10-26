@@ -4,7 +4,6 @@
     flags: { breakable: 1 },
 
     onDamagingHitOrder: 1,
-    flags: { breakable: 1 },
     onDamagingHit(damage, target, source, move) {
     const fromAboveMoves1 = [
                 'stomp', 'bodyslam', 'flyingpress', 'heavyslam', 'maliciousmoonsault',  'jumpkick', 'highjumpkick', 'bounce', 'supersonicskystrike', 'acrobatics', 'floatyfall', 'fly', 'skyattack', 'headbonk', 'multibonk', 'divekick'
@@ -16,6 +15,9 @@
             this.damage(source.baseMaxhp / 8, source, target);
             }
       }
+      if (move.type === "Dark") {
+        this.boost({ atk: 2 });
+      }
     },
     onBasePowerPriority: 19,
     onBasePower(basePower, attacker, defender, move) {
@@ -25,11 +27,6 @@
     	if (spikedMoves.includes(move.id)) {
             return this.chainModify(1.5);
     	}
-    },
-    onDamagingHit(damage, target, source, move) {
-      if (move.type === "Dark") {
-        this.boost({ atk: 2 });
-      }
     },
     onTryBoost(boost, target, source, effect) {
       if (effect.name === "Intimidate" && boost.atk) {

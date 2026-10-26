@@ -212,7 +212,7 @@
   ],
   "aspects": [
     "basegoomba",
-    "partner-false"
+    "cobblemario-partner-false"
   ],
   "pokedex": [
     "cobblemon.species.goomba.desc"
@@ -992,7 +992,7 @@
         "partner"
       ],
       "aspects": [
-        "partner-true"
+        "cobblemario-partner-true"
       ],
       "abilities": [
         "partnergoombaability",

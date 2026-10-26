@@ -104,5 +104,5 @@
     "true"
   ],
   "isAspect":true,
-  "aspectFormat":"partner-{{choice}}"
+  "aspectFormat":"cobblemario-partner-{{choice}}"
 }

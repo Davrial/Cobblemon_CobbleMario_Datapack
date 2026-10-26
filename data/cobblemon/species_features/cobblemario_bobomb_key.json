@@ -1,6 +1,6 @@
 {
   "type": "choice",
-  "keys": ["bobomb_key"],
+  "keys": ["cobblemario_bobomb_key"],
   "default": "random",
   "choices": [
     "gold",
@@ -26,9 +26,9 @@
     "brass",
     "brass",
     "brass",
-    "sailorwheel",
-    "bonewheel"
+    "wheel_sailor",
+    "wheel_bone"
   ],
   "isAspect": true,
-  "aspectFormat": "bobomb-key-{{choice}}"
+  "aspectFormat": "cobblemario_bobomb-key-{{choice}}"
 }

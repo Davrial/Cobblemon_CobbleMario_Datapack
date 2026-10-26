@@ -1,6 +1,6 @@
 {
   "type": "choice",
-  "keys": ["bobomb_clothes"],
+  "keys": ["cobblemario_bobomb_clothes"],
   "default": "random",
   "choices": [
     "none",
@@ -130,5 +130,5 @@
     "blueorangebandanalep"
   ],
   "isAspect": true,
-  "aspectFormat": "bobomb-clothes-{{choice}}"
+  "aspectFormat": "cobblemario-bobomb-clothes-{{choice}}"
 }

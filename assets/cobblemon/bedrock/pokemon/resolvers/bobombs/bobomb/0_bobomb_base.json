@@ -16,7 +16,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-black"],
+      "aspects": ["cobblemario-bobomb-color-black"],
       "layers": [
         {
           "name": "base",
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-blue"],
+      "aspects": ["cobblemario-bobomb-color-blue"],
       "layers": [
         {
           "name": "base",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-lightblue"],
+      "aspects": ["cobblemario-bobomb-color-lightblue"],
       "layers": [
         {
           "name": "base",
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-cyan"],
+      "aspects": ["cobblemario-bobomb-color-cyan"],
       "layers": [
         {
           "name": "base",
@@ -56,7 +56,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-purple"],
+      "aspects": ["cobblemario-bobomb-color-purple"],
       "layers": [
         {
           "name": "base",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-red"],
+      "aspects": ["cobblemario-bobomb-color-red"],
       "layers": [
         {
           "name": "base",
@@ -76,7 +76,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-green"],
+      "aspects": ["cobblemario-bobomb-color-green"],
       "layers": [
         {
           "name": "base",
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-lime"],
+      "aspects": ["cobblemario-bobomb-color-lime"],
       "layers": [
         {
           "name": "base",
@@ -96,7 +96,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-yellow"],
+      "aspects": ["cobblemario-bobomb-color-yellow"],
       "layers": [
         {
           "name": "base",
@@ -106,7 +106,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-magenta"],
+      "aspects": ["cobblemario-bobomb-color-magenta"],
       "layers": [
         {
           "name": "base",
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-white"],
+      "aspects": ["cobblemario-bobomb-color-white"],
       "layers": [
         {
           "name": "base",
@@ -126,7 +126,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-gray"],
+      "aspects": ["cobblemario-bobomb-color-gray"],
       "layers": [
         {
           "name": "base",
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-lightgray"],
+      "aspects": ["cobblemario-bobomb-color-lightgray"],
       "layers": [
         {
           "name": "base",
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-brown"],
+      "aspects": ["cobblemario-bobomb-color-brown"],
       "layers": [
         {
           "name": "base",
@@ -156,7 +156,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-orange"],
+      "aspects": ["cobblemario-bobomb-color-orange"],
       "layers": [
         {
           "name": "base",
@@ -166,7 +166,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-pink"],
+      "aspects": ["cobblemario-bobomb-color-pink"],
       "layers": [
         {
           "name": "base",

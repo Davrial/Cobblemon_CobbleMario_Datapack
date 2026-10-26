@@ -1,6 +1,6 @@
 {
   "type": "choice",
-  "keys": ["goomba_eastereggs"],
+  "keys": ["cobblemario_goomba_easteregg"],
   "default": "random",
   "choices": [
     "none",
@@ -179,5 +179,5 @@
     "goombette"
   ],
   "isAspect": true,
-  "aspectFormat": "goomba-eastereggs-{{choice}}"
+  "aspectFormat": "cobblemario-goomba-easteregg-{{choice}}"
 }
