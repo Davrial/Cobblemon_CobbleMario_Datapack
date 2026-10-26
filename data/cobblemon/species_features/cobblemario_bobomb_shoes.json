@@ -1,6 +1,10 @@
 {
   "type": "choice",
+<<<<<<<< HEAD:data/cobblemon/species_features/cobblemario_bobomb_shoes.json
   "keys": ["cobblemario_bobomb_shoes"],
+========
+  "keys": ["cobblemario_bobomb_clothes"],
+>>>>>>>> origin/master:data/cobblemon/species_features/cobblemario_bobomb_clothes.json
   "default": "random",
   "choices": [
     "none",
@@ -130,5 +134,9 @@
     "blueorangebandanalep"
   ],
   "isAspect": true,
+<<<<<<<< HEAD:data/cobblemon/species_features/cobblemario_bobomb_shoes.json
   "aspectFormat": "cobblemario-bobomb-shoes-{{choice}}"
+========
+  "aspectFormat": "cobblemario-bobomb-clothes-{{choice}}"
+>>>>>>>> origin/master:data/cobblemon/species_features/cobblemario_bobomb_clothes.json
 }
