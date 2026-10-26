@@ -3,7 +3,7 @@
   "order": 9,
   "variations": [
     {
-      "aspects": ["male", "bobomb-color-easteregg", "bobomb-easteregg-color-charactersadmiralbobbery"],
+      "aspects": ["male", "cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-charactersadmiralbobbery"],
       "layers": [
         {
           "name": "base",
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-brown", "bobomb-easteregg-color-charactersadmiralbobbery"],
+      "aspects": ["male", "cobblemario-bobomb-color-brown", "cobblemario-bobomb-easteregg-charactersadmiralbobbery"],
       "layers": [
         {
           "name": "base",
@@ -69,7 +69,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-metallic", "bobomb-metallic-color-bronze", "bobomb-easteregg-color-charactersadmiralbobbery"],
+      "aspects": ["male", "cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-bronze", "cobblemario-bobomb-easteregg-charactersadmiralbobbery"],
       "layers": [
         {
           "name": "base",
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-easteregg", "bobomb-easteregg-color-characterspapatch"],
+      "aspects": ["male", "cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-characterspapatch"],
       "layers": [
         {
           "name": "base",
@@ -131,7 +131,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-purple", "bobomb-easteregg-color-characterspapatch"],
+      "aspects": ["male", "cobblemario-bobomb-color-purple", "cobblemario-bobomb-easteregg-characterspapatch"],
       "layers": [
         {
           "name": "base",
@@ -160,7 +160,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-easteregg", "bobomb-easteregg-color-charactersbub"],
+      "aspects": ["male", "cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-charactersbub"],
       "layers": [
         {
           "name": "base",
@@ -189,7 +189,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-metallic", "bobomb-metallic-bronze", "bobomb-easteregg-color-charactersbub"],
+      "aspects": ["male", "cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-bronze", "cobblemario-bobomb-easteregg-charactersbub"],
       "layers": [
         {
           "name": "base",
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-metallic", "bobomb-metallic-copper", "bobomb-easteregg-color-charactersbub"],
+      "aspects": ["male", "cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-copper", "cobblemario-bobomb-easteregg-charactersbub"],
       "layers": [
         {
           "name": "base",
@@ -247,7 +247,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-orange", "bobomb-metallic-copper", "bobomb-easteregg-color-charactersbub"],
+      "aspects": ["male", "cobblemario-bobomb-color-orange", "cobblemario-bobomb-metallic-copper", "cobblemario-bobomb-easteregg-charactersbub"],
       "layers": [
         {
           "name": "base",
@@ -276,7 +276,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-orange", "bobomb-metallic-copper", "bobomb-easteregg-color-charactersbub"],
+      "aspects": ["male", "cobblemario-bobomb-color-orange", "cobblemario-bobomb-metallic-copper", "cobblemario-bobomb-easteregg-charactersbub"],
       "layers": [
         {
           "name": "base",
@@ -305,7 +305,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-easteregg", "bobomb-easteregg-color-charactersfahrmayor"],
+      "aspects": ["male", "cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-charactersfahrmayor"],
       "layers": [
         {
           "name": "base",
@@ -338,7 +338,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-green", "bobomb-easteregg-color-charactersfahrmayor"],
+      "aspects": ["male", "cobblemario-bobomb-color-green", "cobblemario-bobomb-easteregg-charactersfahrmayor"],
       "layers": [
         {
           "name": "base",
@@ -371,7 +371,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-metallic", "bobomb-metallic-color-uranium", "bobomb-easteregg-color-charactersfahrmayor"],
+      "aspects": ["male", "cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-uranium", "cobblemario-bobomb-easteregg-charactersfahrmayor"],
       "layers": [
         {
           "name": "base",
@@ -404,7 +404,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-easteregg", "bobomb-easteregg-color-charactersfahrsoldier"],
+      "aspects": ["male", "cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-charactersfahrsoldier"],
       "layers": [
         {
           "name": "base",
@@ -429,7 +429,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-blue", "bobomb-easteregg-color-charactersfahrsoldier"],
+      "aspects": ["male", "cobblemario-bobomb-color-blue", "cobblemario-bobomb-easteregg-charactersfahrsoldier"],
       "layers": [
         {
           "name": "base",
@@ -454,7 +454,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-lightblue", "bobomb-easteregg-color-charactersfahrsoldier"],
+      "aspects": ["male", "cobblemario-bobomb-color-lightblue", "cobblemario-bobomb-easteregg-charactersfahrsoldier"],
       "layers": [
         {
           "name": "base",
@@ -479,7 +479,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-cyan", "bobomb-easteregg-color-charactersfahrsoldier"],
+      "aspects": ["male", "cobblemario-bobomb-color-cyan", "cobblemario-bobomb-easteregg-charactersfahrsoldier"],
       "layers": [
         {
           "name": "base",
@@ -504,7 +504,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-blue", "cosmetic_item-brown_wool"],
+      "aspects": ["male", "cobblemario-bobomb-color-blue", "cosmetic_item-brown_wool"],
       "layers": [
         {
           "name": "base",
@@ -529,7 +529,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-lightblue", "cosmetic_item-brown_wool"],
+      "aspects": ["male", "cobblemario-bobomb-color-lightblue", "cosmetic_item-brown_wool"],
       "layers": [
         {
           "name": "base",
@@ -554,7 +554,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-cyan", "cosmetic_item-brown_wool"],
+      "aspects": ["male", "cobblemario-bobomb-color-cyan", "cosmetic_item-brown_wool"],
       "layers": [
         {
           "name": "base",
@@ -579,7 +579,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-blue", "cosmetic_item-yellow_wool"],
+      "aspects": ["male", "cobblemario-bobomb-color-blue", "cosmetic_item-yellow_wool"],
       "layers": [
         {
           "name": "base",
@@ -604,7 +604,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-lightblue", "cosmetic_item-yellow_wool"],
+      "aspects": ["male", "cobblemario-bobomb-color-lightblue", "cosmetic_item-yellow_wool"],
       "layers": [
         {
           "name": "base",
@@ -629,7 +629,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-cyan", "cosmetic_item-yellow_wool"],
+      "aspects": ["male", "cobblemario-bobomb-color-cyan", "cosmetic_item-yellow_wool"],
       "layers": [
         {
           "name": "base",
@@ -654,7 +654,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-easteregg", "bobomb-easteregg-color-charactersgeneralwhite"],
+      "aspects": ["male", "cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-charactersgeneralwhite"],
       "layers": [
         {
           "name": "base",
@@ -687,7 +687,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-white", "bobomb-easteregg-color-charactersgeneralwhite"],
+      "aspects": ["male", "cobblemario-bobomb-color-white", "cobblemario-bobomb-easteregg-charactersgeneralwhite"],
       "layers": [
         {
           "name": "base",
@@ -720,7 +720,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-lightgray", "bobomb-easteregg-color-charactersgeneralwhite"],
+      "aspects": ["male", "cobblemario-bobomb-color-lightgray", "cobblemario-bobomb-easteregg-charactersgeneralwhite"],
       "layers": [
         {
           "name": "base",
@@ -753,7 +753,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-metallic", "bobomb-metallic-color-silver", "bobomb-easteregg-color-charactersgeneralwhite"],
+      "aspects": ["male", "cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-silver", "cobblemario-bobomb-easteregg-charactersgeneralwhite"],
       "layers": [
         {
           "name": "base",
@@ -786,7 +786,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-metallic", "bobomb-metallic-color-platinum", "bobomb-easteregg-color-charactersgeneralwhite"],
+      "aspects": ["male", "cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-platinum", "cobblemario-bobomb-easteregg-charactersgeneralwhite"],
       "layers": [
         {
           "name": "base",
@@ -819,7 +819,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-easteregg", "bobomb-easteregg-color-charactersgoldbob"],
+      "aspects": ["male", "cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-charactersgoldbob"],
       "layers": [
         {
           "name": "base",
@@ -852,7 +852,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-metallic", "bobomb-metallic-color-gold", "bobomb-easteregg-color-charactersgoldbob"],
+      "aspects": ["male", "cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-gold", "cobblemario-bobomb-easteregg-charactersgoldbob"],
       "layers": [
         {
           "name": "base",
@@ -885,7 +885,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-yellow", "bobomb-metallic-color-gold", "bobomb-easteregg-color-charactersgoldbob"],
+      "aspects": ["male", "cobblemario-bobomb-color-yellow", "cobblemario-bobomb-metallic-color-gold", "cobblemario-bobomb-easteregg-charactersgoldbob"],
       "layers": [
         {
           "name": "base",
@@ -918,7 +918,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-easteregg", "bobomb-easteregg-color-charactersjerry"],
+      "aspects": ["male", "cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-charactersjerry"],
       "layers": [
         {
           "name": "base",
@@ -951,7 +951,7 @@
       ]
     },
     {
-      "aspects": ["male", "bobomb-color-red", "bobomb-easteregg-color-charactersjerry"],
+      "aspects": ["male", "cobblemario-bobomb-color-red", "cobblemario-bobomb-easteregg-charactersjerry"],
       "layers": [
         {
           "name": "base",
@@ -984,7 +984,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-characterslucky"],
+      "aspects": ["cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-characterslucky"],
       "layers": [
         {
           "name": "base",
@@ -1017,7 +1017,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-brown", "bobomb-easteregg-color-characterslucky"],
+      "aspects": ["cobblemario-bobomb-color-brown", "cobblemario-bobomb-easteregg-characterslucky"],
       "layers": [
         {
           "name": "base",
@@ -1050,7 +1050,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-characterslucky"],
+      "aspects": ["cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-characterslucky"],
       "layers": [
         {
           "name": "base",
@@ -1083,7 +1083,7 @@
       ]
     },
     {
-      "aspects": ["female", "bobomb-color-easteregg", "bobomb-easteregg-color-characterssylvia"],
+      "aspects": ["female", "cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-characterssylvia"],
       "layers": [
         {
           "name": "base",
@@ -1116,7 +1116,7 @@
       ]
     },
     {
-      "aspects": ["female", "bobomb-color-lightgray", "bobomb-easteregg-color-characterssylvia"],
+      "aspects": ["female", "cobblemario-bobomb-color-lightgray", "cobblemario-bobomb-easteregg-characterssylvia"],
       "layers": [
         {
           "name": "base",
@@ -1149,7 +1149,7 @@
       ]
     },
     {
-      "aspects": ["female", "bobomb-color-metallic", "bobomb-metallic-color-silver", "bobomb-easteregg-color-characterssylvia"],
+      "aspects": ["female", "cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-silver", "cobblemario-bobomb-easteregg-characterssylvia"],
       "layers": [
         {
           "name": "base",
@@ -1182,7 +1182,7 @@
       ]
     },
     {
-      "aspects": ["female", "bobomb-color-metallic", "bobomb-metallic-color-silver", "cosmetic_item-pink_wool"],
+      "aspects": ["female", "cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-silver", "cosmetic_item-pink_wool"],
       "layers": [
         {
           "name": "base",
@@ -1215,7 +1215,7 @@
       ]
     },
     {
-      "aspects": ["female", "bobomb-color-easteregg", "bobomb-easteregg-color-charactersbombette"],
+      "aspects": ["female", "cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-charactersbombette"],
       "layers": [
         {
           "name": "base",
@@ -1248,7 +1248,7 @@
       ]
     },
     {
-      "aspects": ["female", "bobomb-color-pink", "bobomb-easteregg-color-charactersbombette"],
+      "aspects": ["female", "cobblemario-bobomb-color-pink", "cobblemario-bobomb-easteregg-charactersbombette"],
       "layers": [
         {
           "name": "base",
@@ -1281,7 +1281,7 @@
       ]
     },
     {
-      "aspects": ["female", "bobomb-color-metallic", "bobomb-metallic-color-rosegold", "bobomb-easteregg-color-charactersbombette"],
+      "aspects": ["female", "cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-rosegold", "cobblemario-bobomb-easteregg-charactersbombette"],
       "layers": [
         {
           "name": "base",

@@ -3,7 +3,7 @@
   "order": 1,
   "variations": [
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-gold"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-gold"],
       "layers": [
         {
           "name": "base",
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-silver"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-silver"],
       "layers": [
         {
           "name": "base",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-iron"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-iron"],
       "layers": [
         {
           "name": "base",
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-steel"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-steel"],
       "layers": [
         {
           "name": "base",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-createindustrialiron"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-createindustrialiron"],
       "layers": [
         {
           "name": "base",
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-copper"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-copper"],
       "layers": [
         {
           "name": "base",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-exposedcopper"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-exposedcopper"],
       "layers": [
         {
           "name": "base",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-weatheredcopper"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-weatheredcopper"],
       "layers": [
         {
           "name": "base",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-oxidizedcopper"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-oxidizedcopper"],
       "layers": [
         {
           "name": "base",
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-bronze"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-bronze"],
       "layers": [
         {
           "name": "base",
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-brass"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-brass"],
       "layers": [
         {
           "name": "base",
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-createbrass"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-createbrass"],
       "layers": [
         {
           "name": "base",
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-platinum"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-platinum"],
       "layers": [
         {
           "name": "base",
@@ -120,7 +120,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-rosegold"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-rosegold"],
       "layers": [
         {
           "name": "base",
@@ -129,7 +129,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-uranium"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-uranium"],
       "layers": [
         {
           "name": "base",

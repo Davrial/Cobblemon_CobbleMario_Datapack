@@ -3,7 +3,7 @@
   "order": 6,
   "variations": [
     {
-      "aspects": ["bobomb-clothes-righteyepatch"],
+      "aspects": ["cobblemario-bobomb-clothes-righteyepatch"],
       "layers": [
         {
           "name": "clothes",
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-clothes-lefteyepatch"],
+      "aspects": ["cobblemario-bobomb-clothes-lefteyepatch"],
       "layers": [
         {
           "name": "clothes",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-clothes-yellowpurplebandana"],
+      "aspects": ["cobblemario-bobomb-clothes-yellowpurplebandana"],
       "layers": [
         {
           "name": "clothes",
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-clothes-yellowpurplebandanarep"],
+      "aspects": ["cobblemario-bobomb-clothes-yellowpurplebandanarep"],
       "layers": [
         {
           "name": "clothes",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-clothes-yellowpurplebandanalep"],
+      "aspects": ["cobblemario-bobomb-clothes-yellowpurplebandanalep"],
       "layers": [
         {
           "name": "clothes",
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-clothes-redgreenbandana"],
+      "aspects": ["cobblemario-bobomb-clothes-redgreenbandana"],
       "layers": [
         {
           "name": "clothes",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-clothes-redgreenbandanarep"],
+      "aspects": ["cobblemario-bobomb-clothes-redgreenbandanarep"],
       "layers": [
         {
           "name": "clothes",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-clothes-redgreenbandanalep"],
+      "aspects": ["cobblemario-bobomb-clothes-redgreenbandanalep"],
       "layers": [
         {
           "name": "clothes",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-clothes-blueorangebandana"],
+      "aspects": ["cobblemario-bobomb-clothes-blueorangebandana"],
       "layers": [
         {
           "name": "clothes",
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-clothes-blueorangebandanarep"],
+      "aspects": ["cobblemario-bobomb-clothes-blueorangebandanarep"],
       "layers": [
         {
           "name": "clothes",
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-clothes-blueorangebandanalep"],
+      "aspects": ["cobblemario-bobomb-clothes-blueorangebandanalep"],
       "layers": [
         {
           "name": "clothes",
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-easteregg-color-characterspapatch"],
+      "aspects": ["cobblemario-bobomb-easteregg-color-characterspapatch"],
       "layers": [
         {
           "name": "clothes",
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-clothes-none"],
+      "aspects": ["cobblemario-bobomb-clothes-none"],
       "layers": [
         {
           "name": "clothes",

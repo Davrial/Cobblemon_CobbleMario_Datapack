@@ -1,0 +1,15 @@
+{
+  "pokemon": ["bobomb"],
+  "features": [
+    "cobblemario_civilian",
+    "cobblemario_partner",
+    "cobblemario_bobomb_variant",
+    "cobblemario_bobomb_color",
+    "cobblemario_bobomb_metallic_color",
+    "cobblemario_bobomb_easteregg",
+    "cobblemario_bobomb_key",
+    "cobblemario_bobomb_moustache",
+    "cobblemario_bobomb_clothes",
+    "cobblemario_bobomb_shoes"
+  ]
+}

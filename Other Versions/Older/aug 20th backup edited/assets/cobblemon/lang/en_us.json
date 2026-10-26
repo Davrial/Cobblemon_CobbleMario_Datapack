@@ -88,5 +88,11 @@
   "cobblemon.species.kentckoopa.desc2": "",
   "cobblemon.species.tutankoopa.name": "Tutankoopa",
   "cobblemon.species.tutankoopa.desc1": "PLACEHOLDER",
-  "cobblemon.species.tutankoopa.desc2": ""
+  "cobblemon.species.tutankoopa.desc2": "",
+  "cobblemon.ability.spikedgloombaability": "",
+  "cobblemon.ability.spikedgloombaability.desc": "",
+  "cobblemon.ability.koopaability": "",
+  "cobblemon.ability.koopaability.desc": "",
+  "cobblemon.ability.spikedgloombaabilityplus": "",
+  "cobblemon.ability.spikedgloombaabilityplus.desc": ""
 }

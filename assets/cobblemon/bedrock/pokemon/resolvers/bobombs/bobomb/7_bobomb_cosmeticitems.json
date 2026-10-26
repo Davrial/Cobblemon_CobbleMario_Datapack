@@ -55,15 +55,6 @@
           "texture": "cobblemon:textures/pokemon/bobombs/bobomb/hat/bobomb_hat_fancypinkhat.png"
         }
       ]
-    },
-    {
-      "aspects": ["bobomb-easteregg-color-characterspapatch"],
-      "layers": [
-        {
-          "name": "clothes",
-          "texture": "cobblemon:textures/pokemon/bobombs/bobomb/moustache/bobomb_moustache_pencilblack.png"
-        }
-      ]
     }
   ]
 }

@@ -3,7 +3,7 @@
   "order": 8,
   "variations": [
     {
-      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-createandesitealloy"],
+      "aspects": ["cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-createandesitealloy"],
       "layers": [
         {
           "name": "base",
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-gray", "bobomb-easteregg-color-createandesitealloy"],
+      "aspects": ["cobblemario-bobomb-color-gray", "cobblemario-bobomb-easteregg-createandesitealloy"],
       "layers": [
         {
           "name": "base",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-createacoppercasing"],
+      "aspects": ["cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-createacoppercasing"],
       "layers": [
         {
           "name": "base",
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-copper", "bobomb-easteregg-color-createacoppercasing"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-copper", "cobblemario-bobomb-easteregg-createacoppercasing"],
       "layers": [
         {
           "name": "base",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-createbrass"],
+      "aspects": ["cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-createbrass"],
       "layers": [
         {
           "name": "base",
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-brass", "bobomb-easteregg-color-createbrass"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-brass", "cobblemario-bobomb-easteregg-createbrass"],
       "layers": [
         {
           "name": "base",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-createbrass"],
+      "aspects": ["cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-createbrass"],
       "layers": [
         {
           "name": "base",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-metallic", "bobomb-metallic-color-brass", "bobomb-easteregg-color-createbrasscasing"],
+      "aspects": ["cobblemario-bobomb-color-metallic", "cobblemario-bobomb-metallic-color-brass", "cobblemario-bobomb-easteregg-createbrasscasing"],
       "layers": [
         {
           "name": "base",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-createtraincasing"],
+      "aspects": ["cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-createtraincasing"],
       "layers": [
         {
           "name": "base",
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-black", "bobomb-metallic-color-brass", "bobomb-easteregg-color-createtraincasing"],
+      "aspects": ["cobblemario-bobomb-color-black", "cobblemario-bobomb-metallic-color-brass", "cobblemario-bobomb-easteregg-createtraincasing"],
       "layers": [
         {
           "name": "base",
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-createzinc"],
+      "aspects": ["cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-createzinc"],
       "layers": [
         {
           "name": "base",
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-color-gray", "bobomb-easteregg-color-createzinc"],
+      "aspects": ["cobblemario-bobomb-color-gray", "cobblemario-bobomb-easteregg-createzinc"],
       "layers": [
         {
           "name": "base",

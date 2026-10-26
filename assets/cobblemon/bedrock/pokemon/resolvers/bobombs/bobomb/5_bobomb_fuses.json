@@ -3,7 +3,7 @@
   "order": 5,
   "variations": [
     {
-      "aspects": ["bobomb-fuse-white"],
+      "aspects": ["cobblemario-bobomb-fuse-white"],
       "layers": [
         {
           "name": "fuse",
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-fuse-whitenobase"],
+      "aspects": ["cobblemario-bobomb-fuse-whitenobase"],
       "layers": [
         {
           "name": "fuse",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-fuse-black"],
+      "aspects": ["cobblemario-bobomb-fuse-black"],
       "layers": [
         {
           "name": "fuse",
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-fuse-yellow"],
+      "aspects": ["cobblemario-bobomb-fuse-yellow"],
       "layers": [
         {
           "name": "fuse",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-fuse-basenofuse"],
+      "aspects": ["cobblemario-bobomb-fuse-basenofuse"],
       "layers": [
         {
           "name": "fuse",
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-fuse-none"],
+      "aspects": ["cobblemario-bobomb-fuse-none"],
       "layers": [
         {
           "name": "fuse",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-fuse-bombetteponytail"],
+      "aspects": ["cobblemario-bobomb-fuse-bombetteponytail"],
       "layers": [
         {
           "name": "fuse",

@@ -1,6 +1,6 @@
 {
   "type": "choice",
-  "keys": ["bobomb_color"],
+  "keys": ["cobblemario_bobomb_color"],
   "default": "random",
   "choices": [
     "black",
@@ -179,5 +179,5 @@
     "easteregg"
   ],
   "isAspect": true,
-  "aspectFormat": "bobomb-color-{{choice}}"
+  "aspectFormat": "cobblemario-bobomb-color-{{choice}}"
 }

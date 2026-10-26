@@ -3,7 +3,7 @@
   "order": 4,
   "variations": [
     {
-      "aspects": ["bobomb-feet-fancyshoes1"],
+      "aspects": ["cobblemario-bobomb-feet-fancyshoes1"],
       "layers": [
         {
           "name": "feet",
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-feet-fancyshoes2"],
+      "aspects": ["cobblemario-bobomb-feet-fancyshoes2"],
       "layers": [
         {
           "name": "feet",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-feet-fancyshoes3"],
+      "aspects": ["cobblemario-bobomb-feet-fancyshoes3"],
       "layers": [
         {
           "name": "feet",
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-feet-shoes1"],
+      "aspects": ["cobblemario-bobomb-feet-shoes1"],
       "layers": [
         {
           "name": "feet",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-feet-shoes2"],
+      "aspects": ["cobblemario-bobomb-feet-shoes2"],
       "layers": [
         {
           "name": "feet",
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-feet-shoes3"],
+      "aspects": ["cobblemario-bobomb-feet-shoes3"],
       "layers": [
         {
           "name": "feet",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-feet-shoes4"],
+      "aspects": ["cobblemario-bobomb-feet-shoes4"],
       "layers": [
         {
           "name": "feet",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-feet-shoes5"],
+      "aspects": ["cobblemario-bobomb-feet-shoes5"],
       "layers": [
         {
           "name": "feet",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-feet-shoes6"],
+      "aspects": ["cobblemario-bobomb-feet-shoes6"],
       "layers": [
         {
           "name": "feet",
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-feet-shoes7"],
+      "aspects": ["cobblemario-bobomb-feet-shoes7"],
       "layers": [
         {
           "name": "feet",
@@ -93,7 +93,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-feet-shoes8"],
+      "aspects": ["cobblemario-bobomb-feet-shoes8"],
       "layers": [
         {
           "name": "feet",
@@ -102,7 +102,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-feet-shoes9"],
+      "aspects": ["cobblemario-bobomb-feet-shoes9"],
       "layers": [
         {
           "name": "feet",
@@ -111,7 +111,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-feet-retro"],
+      "aspects": ["cobblemario-bobomb-feet-retro"],
       "layers": [
         {
           "name": "feet",
@@ -120,7 +120,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-easteregg-color-marioretro"],
+      "aspects": ["cobblemario-bobomb-easteregg-color-marioretro"],
       "layers": [
         {
           "name": "feet",

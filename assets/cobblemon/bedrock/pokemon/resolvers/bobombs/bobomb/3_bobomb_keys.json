@@ -3,7 +3,7 @@
   "order": 3,
   "variations": [
     {
-      "aspects": ["bobomb-key-gold"],
+      "aspects": ["cobblemario-bobomb-key-gold"],
       "layers": [
         {
           "name": "key",
@@ -12,7 +12,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-key-silver"],
+      "aspects": ["cobblemario-bobomb-key-silver"],
       "layers": [
         {
           "name": "key",
@@ -21,7 +21,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-key-iron"],
+      "aspects": ["cobblemario-bobomb-key-iron"],
       "layers": [
         {
           "name": "key",
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-key-copper"],
+      "aspects": ["cobblemario-bobomb-key-copper"],
       "layers": [
         {
           "name": "key",
@@ -39,7 +39,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-key-bronze"],
+      "aspects": ["cobblemario-bobomb-key-bronze"],
       "layers": [
         {
           "name": "key",
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-key-brass"],
+      "aspects": ["cobblemario-bobomb-key-brass"],
       "layers": [
         {
           "name": "key",
@@ -57,7 +57,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-key-bombetteheart"],
+      "aspects": ["cobblemario-bobomb-key-bombetteheart"],
       "layers": [
         {
           "name": "key",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-key-sailorwheel"],
+      "aspects": ["cobblemario-bobomb-key-sailorwheel"],
       "layers": [
         {
           "name": "key",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-key-bonewheel"],
+      "aspects": ["cobblemario-bobomb-key-bonewheel"],
       "layers": [
         {
           "name": "key",
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "aspects": ["bobomb-key-none"],
+      "aspects": ["cobblemario-bobomb-key-none"],
       "layers": [
         {
           "name": "key",

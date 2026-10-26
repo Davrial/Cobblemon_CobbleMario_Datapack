@@ -1,0 +1,812 @@
+{
+  "implemented": false,
+  "name": "bobomb",
+  "nationalPokedexNumber": 65031,
+  "primaryType": "steel",
+  "secondaryType": "fire",
+  "abilities": [
+    "aftermath",
+    "h:sturdy"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 80,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 80
+  },
+  "behaviour": {
+    "combat":{
+      "willDefendOwner":false,
+      "willDefendSelf":true,
+      "willFlee":false
+    },
+    "resting": {
+      "canSleep": true,
+      "times": "night",
+      "light": "0-4",
+      "depth": "normal",
+      "willSleepOnBed": false,
+      "drowsyChance":0.0333,
+      "rouseChance":0.0042
+    },
+    "moving": {
+      "canLook": true,
+      "looksAtEntities": true,
+      "stepHeight": 0.6,
+      "wanderChance": 120,
+      "walk": {
+        "canWalk": true,
+        "walkSpeed": 0.5
+      },
+      "swim": {
+        "swimSpeed": 0.15,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false,
+        "canWalkOnWater": false,
+        "avoidsWater": true
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.6
+      },
+      "herd":{
+        "maxSize":"5",
+        "toleratedLeaders":[
+          {
+            "pokemon":"bobomb",
+            "tier":1
+          }
+        ]
+      }
+    },
+    "fireImmune":false
+  },
+  "catchRate": 190,
+  "maleRatio": 0.9,
+  "shoulderMountable": false,
+  "baseExperienceYield": 64,
+  "experienceGroup": "slow",
+  "eggCycles": 10,
+  "eggGroups": [
+    "mineral"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "minecraft:iron_ingot",
+        "quantityRange": "1-1",
+        "percentage": 22
+      },
+      {
+        "item": "minecraft:gunpowder",
+        "quantityRange": "1-1",
+        "percentage": 100
+      }
+    ]
+  },
+
+  "labels": [
+    "custom",
+    "cobblemario",
+    "bobomb"
+  ],
+  "aspects": [
+  ],
+  "pokedex": [
+    "cobblemon.species.bobomb.desc"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 1,
+  "weight": 1,
+
+  "moves": [
+    "1:tackle",
+    "1:selfdestruct",
+    "4:thundershock",
+    "6:eerieimpulse",
+    "9:spark",
+    "11:rollout",
+    "13:screech",
+    "16:chargebeam",
+    "20:swift",
+    "22:electroball",
+    "26:selfdestruct",
+    "29:lightscreen",
+    "34:magnetrise",
+    "37:discharge",
+    "41:explosion",
+    "46:gyroball",
+    "50:mirrorcoat",
+    "egg:metalsound",
+    "egg:recycle",
+    "tm:agility",
+    "tm:assurance",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:doubleedge",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flash",
+    "tm:foulplay",
+    "tm:gyroball",
+    "tm:headbutt",
+    "tm:helpinghand",
+    "tm:lightscreen",
+    "tm:magiccoat",
+    "tm:magnetrise",
+    "tm:metalsound",
+    "tm:protect",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:rest",
+    "tm:risingvoltage",
+    "tm:rollout",
+    "tm:screech",
+    "tm:selfdestruct",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:sleeptalk",
+    "tm:steelroller",
+    "tm:substitute",
+    "tm:suckerpunch",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:terablast",
+    "tm:thief",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:torment",
+    "tm:voltswitch",
+    "tm:wildcharge",
+    "tutor:chargebeam",
+    "tutor:electroweb",
+    "tutor:foulplay",
+    "tutor:helpinghand",
+    "tutor:magiccoat",
+    "tutor:magnetrise",
+    "tutor:recycle",
+    "tutor:rest",
+    "tutor:risingvoltage",
+    "tutor:rollout",
+    "tutor:shockwave",
+    "tutor:signalbeam",
+    "tutor:sleeptalk",
+    "tutor:steelroller",
+    "tutor:suckerpunch",
+    "tutor:swift",
+    "tutor:thunderbolt",
+    "tutor:wildcharge",
+    "legacy:bide",
+    "legacy:confide",
+    "legacy:curse",
+    "legacy:doubleteam",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:mimic",
+    "legacy:naturalgift",
+    "legacy:rage",
+    "legacy:reflect",
+    "legacy:return",
+    "legacy:round",
+    "legacy:secretpower",
+    "legacy:snore",
+    "legacy:swagger",
+    "legacy:teleport",
+    "legacy:toxic",
+    "legacy:zapcannon",
+    "special:refresh"
+  ],
+
+
+  "evolutions": [
+  ],
+
+  "forms": [
+    {
+      "name": "Partner-Bobomb",
+      "primaryType": "steel",
+      "secondaryType": "fire",
+      "maleRatio": 0.50,
+      "height": 32,
+      "weight": 132,
+      "pokedex": [
+        "cobblemon.species.bobomb-partnerbobomb.desc"
+      ],
+      "labels": [
+        "custom",
+        "cobblemario",
+        "bobomb",
+        "partner"
+      ],
+      "aspects": [
+        "cobblemario-partner-true",
+        "buddy-bobomb-false"
+      ],
+      "abilities": [
+        "partnerbobombability",
+        "h:partnerbobombability"
+      ],
+      "baseStats": {
+        "hp": 140,
+        "attack": 64,
+        "defence": 64,
+        "special_attack": 64,
+        "special_defence": 64,
+        "speed": 80
+      },
+      "hitbox": {
+        "width": 1,
+        "height": 1,
+        "fixed": false
+      },
+      "behaviour": {
+        "combat":{
+          "willDefendOwner":true,
+          "willDefendSelf":false,
+          "willFlee":true
+        },
+        "resting": {
+          "canSleep": true,
+          "times": "night",
+          "light": "0-4",
+          "depth": "normal",
+          "willSleepOnBed": true,
+          "drowsyChance":0.0333,
+          "rouseChance":0.0042
+        },
+        "moving": {
+          "canLook": true,
+          "looksAtEntities": true,
+          "stepHeight": 0.6,
+          "wanderChance": 170,
+          "wanderSpeed": 1.0,
+          "walk": {
+            "canWalk": true,
+            "walkSpeed": 0.6
+          },
+          "swim": {
+            "swimSpeed": 0.3,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false,
+            "canWalkOnWater": false
+          }
+        }
+      },
+      "moves": [
+        "1:tackle",
+        "1:selfdestruct",
+        "4:thundershock",
+        "6:eerieimpulse",
+        "9:spark",
+        "11:rollout",
+        "13:screech",
+        "16:chargebeam",
+        "20:swift",
+        "22:electroball",
+        "26:selfdestruct",
+        "29:lightscreen",
+        "34:magnetrise",
+        "37:discharge",
+        "41:explosion",
+        "46:gyroball",
+        "50:mirrorcoat",
+        "egg:metalsound",
+        "egg:recycle",
+        "tm:agility",
+        "tm:assurance",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:doubleedge",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:explosion",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:gyroball",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:lightscreen",
+        "tm:magiccoat",
+        "tm:magnetrise",
+        "tm:metalsound",
+        "tm:protect",
+        "tm:raindance",
+        "tm:recycle",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:rollout",
+        "tm:screech",
+        "tm:selfdestruct",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:steelroller",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:swift",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:torment",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tutor:chargebeam",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:magiccoat",
+        "tutor:magnetrise",
+        "tutor:recycle",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:rollout",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:steelroller",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:thunderbolt",
+        "tutor:wildcharge",
+        "legacy:bide",
+        "legacy:confide",
+        "legacy:curse",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:mimic",
+        "legacy:naturalgift",
+        "legacy:rage",
+        "legacy:reflect",
+        "legacy:return",
+        "legacy:round",
+        "legacy:secretpower",
+        "legacy:snore",
+        "legacy:swagger",
+        "legacy:teleport",
+        "legacy:toxic",
+        "legacy:zapcannon",
+        "special:refresh"
+      ]
+    },
+    {
+      "name": "Buddy-Bobomb",
+      "primaryType": "steel",
+      "secondaryType": "fairy",
+      "maleRatio": 0.50,
+      "height": 32,
+      "weight": 132,
+      "pokedex": [
+        "cobblemon.species.bobomb-buddybobomb.desc"
+      ],
+      "labels": [
+        "custom",
+        "cobblemario",
+        "bobomb",
+        "buddybobomb"
+      ],
+      "aspects": [
+        "cobblemario-partner-false",
+        "cobblemario-bobomb-variant-buddy",
+        "cobblemario-civilian-civilian"
+      ],
+      "abilities": [
+        "partnerbobombability",
+        "h:partnerbobombability"
+      ],
+      "baseStats": {
+        "hp": 55,
+        "attack": 25,
+        "defence": 50,
+        "special_attack": 40,
+        "special_defence": 50,
+        "speed": 100
+      },
+      "hitbox": {
+        "width": 1,
+        "height": 1,
+        "fixed": false
+      },
+      "behaviour": {
+        "combat":{
+          "willDefendOwner":true,
+          "willDefendSelf":true,
+          "willFlee":true
+        },
+        "resting": {
+          "canSleep": true,
+          "times": "night",
+          "light": "0-4",
+          "depth": "normal",
+          "willSleepOnBed": true,
+          "drowsyChance":0.0333,
+          "rouseChance":0.0042
+        },
+        "moving": {
+          "canLook": true,
+          "looksAtEntities": true,
+          "stepHeight": 0.6,
+          "wanderChance": 170,
+          "wanderSpeed": 1.0,
+          "walk": {
+            "canWalk": true,
+            "walkSpeed": 0.6
+          },
+          "swim": {
+            "swimSpeed": 0.3,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false,
+            "canWalkOnWater": false
+          },
+          "fly": {
+            "canFly": false,
+            "flySpeedHorizontal": 0.6
+          },
+          "herd":{
+            "maxSize":"1",
+            "toleratedLeaders":[
+              {
+                "pokemon":"spikedgoomba",
+                "tier":1
+              },
+              {
+                "pokemon":"paragoomba",
+                "tier":1
+              },
+              {
+                "pokemon":"redgoomba",
+                "tier":1
+              },
+              {
+                "pokemon":"bluegoomba",
+                "tier":1
+              },
+              {
+                "pokemon":"supergoomba",
+                "tier":2
+              },
+              {
+                "pokemon":"ultragoomba",
+                "tier":3
+              },
+              {
+                "pokemon":"royalgoomba",
+                "tier":3
+              },
+              {
+                "pokemon":"bowser",
+                "tier":3
+              },
+              {
+                "pokemon":"partnergoomba",
+                "tier":4
+              },
+              {
+                "pokemon":"partnerkoopa",
+                "tier":5
+              },
+              {
+                "pokemon":"invinshroom",
+                "tier":6
+              }
+            ]
+          }
+        },
+        "fireImmune":false
+      },
+      "moves": [
+        "1:tackle",
+        "1:selfdestruct",
+        "4:thundershock",
+        "6:eerieimpulse",
+        "9:spark",
+        "11:rollout",
+        "13:screech",
+        "16:chargebeam",
+        "20:swift",
+        "22:electroball",
+        "26:selfdestruct",
+        "29:lightscreen",
+        "34:magnetrise",
+        "37:discharge",
+        "41:explosion",
+        "46:gyroball",
+        "50:mirrorcoat",
+        "egg:metalsound",
+        "egg:recycle",
+        "tm:agility",
+        "tm:assurance",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:doubleedge",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:explosion",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:gyroball",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:lightscreen",
+        "tm:magiccoat",
+        "tm:magnetrise",
+        "tm:metalsound",
+        "tm:protect",
+        "tm:raindance",
+        "tm:recycle",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:rollout",
+        "tm:screech",
+        "tm:selfdestruct",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:steelroller",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:swift",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:torment",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tutor:chargebeam",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:magiccoat",
+        "tutor:magnetrise",
+        "tutor:recycle",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:rollout",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:steelroller",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:thunderbolt",
+        "tutor:wildcharge",
+        "legacy:bide",
+        "legacy:confide",
+        "legacy:curse",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:mimic",
+        "legacy:naturalgift",
+        "legacy:rage",
+        "legacy:reflect",
+        "legacy:return",
+        "legacy:round",
+        "legacy:secretpower",
+        "legacy:snore",
+        "legacy:swagger",
+        "legacy:teleport",
+        "legacy:toxic",
+        "legacy:zapcannon",
+        "special:refresh"
+      ]
+    },
+    {
+      "name": "Partner-Buddy-Bobomb",
+      "primaryType": "steel",
+      "secondaryType": "fairy",
+      "maleRatio": 0.50,
+      "height": 32,
+      "weight": 132,
+      "pokedex": [
+        "cobblemon.species.bobomb-partnerbuddybobomb.desc"
+      ],
+      "labels": [
+        "custom",
+        "cobblemario",
+        "bobomb",
+        "buddybobomb",
+        "partner"
+      ],
+      "aspects": [
+        "cobblemario-partner-true",
+        "cobblemario-bobomb-variant-buddy",
+        "cobblemario-civilian-civilian"
+      ],
+      "abilities": [
+        "partnerbobombability",
+        "h:partnerbobombability"
+      ],
+      "baseStats": {
+        "hp": 140,
+        "attack": 50,
+        "defence": 50,
+        "special_attack": 50,
+        "special_defence": 50,
+        "speed": 136
+      },
+      "hitbox": {
+        "width": 1,
+        "height": 1,
+        "fixed": false
+      },
+      "behaviour": {
+        "combat":{
+          "willDefendOwner":true,
+          "willDefendSelf":false,
+          "willFlee":true
+        },
+        "resting": {
+          "canSleep": true,
+          "times": "night",
+          "light": "0-4",
+          "depth": "normal",
+          "willSleepOnBed": true,
+          "drowsyChance":0.0333,
+          "rouseChance":0.0042
+        },
+        "moving": {
+          "canLook": true,
+          "looksAtEntities": true,
+          "stepHeight": 0.6,
+          "wanderChance": 170,
+          "wanderSpeed": 1.0,
+          "walk": {
+            "canWalk": true,
+            "walkSpeed": 0.6
+          },
+          "swim": {
+            "swimSpeed": 0.3,
+            "canSwimInWater": true,
+            "canBreatheUnderwater": false,
+            "canWalkOnWater": false
+          }
+        }
+      },
+      "moves": [
+        "1:tackle",
+        "1:selfdestruct",
+        "4:thundershock",
+        "6:eerieimpulse",
+        "9:spark",
+        "11:rollout",
+        "13:screech",
+        "16:chargebeam",
+        "20:swift",
+        "22:electroball",
+        "26:selfdestruct",
+        "29:lightscreen",
+        "34:magnetrise",
+        "37:discharge",
+        "41:explosion",
+        "46:gyroball",
+        "50:mirrorcoat",
+        "egg:metalsound",
+        "egg:recycle",
+        "tm:agility",
+        "tm:assurance",
+        "tm:charge",
+        "tm:chargebeam",
+        "tm:doubleedge",
+        "tm:eerieimpulse",
+        "tm:electricterrain",
+        "tm:electroball",
+        "tm:electroweb",
+        "tm:endure",
+        "tm:explosion",
+        "tm:facade",
+        "tm:flash",
+        "tm:foulplay",
+        "tm:gyroball",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:lightscreen",
+        "tm:magiccoat",
+        "tm:magnetrise",
+        "tm:metalsound",
+        "tm:protect",
+        "tm:raindance",
+        "tm:recycle",
+        "tm:rest",
+        "tm:risingvoltage",
+        "tm:rollout",
+        "tm:screech",
+        "tm:selfdestruct",
+        "tm:shockwave",
+        "tm:signalbeam",
+        "tm:sleeptalk",
+        "tm:steelroller",
+        "tm:substitute",
+        "tm:suckerpunch",
+        "tm:swift",
+        "tm:takedown",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:thief",
+        "tm:thunder",
+        "tm:thunderbolt",
+        "tm:thunderwave",
+        "tm:torment",
+        "tm:voltswitch",
+        "tm:wildcharge",
+        "tutor:chargebeam",
+        "tutor:electroweb",
+        "tutor:foulplay",
+        "tutor:helpinghand",
+        "tutor:magiccoat",
+        "tutor:magnetrise",
+        "tutor:recycle",
+        "tutor:rest",
+        "tutor:risingvoltage",
+        "tutor:rollout",
+        "tutor:shockwave",
+        "tutor:signalbeam",
+        "tutor:sleeptalk",
+        "tutor:steelroller",
+        "tutor:suckerpunch",
+        "tutor:swift",
+        "tutor:thunderbolt",
+        "tutor:wildcharge",
+        "legacy:bide",
+        "legacy:confide",
+        "legacy:curse",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:mimic",
+        "legacy:naturalgift",
+        "legacy:rage",
+        "legacy:reflect",
+        "legacy:return",
+        "legacy:round",
+        "legacy:secretpower",
+        "legacy:snore",
+        "legacy:swagger",
+        "legacy:teleport",
+        "legacy:toxic",
+        "legacy:zapcannon",
+        "special:refresh"
+      ]
+    }
+  ]
+}

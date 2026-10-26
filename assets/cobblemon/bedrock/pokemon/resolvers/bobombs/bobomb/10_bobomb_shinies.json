@@ -3,7 +3,7 @@
   "order": 9,
   "variations": [
     {
-      "aspects": ["bobomb-color-easteregg", "bobomb-easteregg-color-charactersadmiralbobbery"],
+      "aspects": ["cobblemario-bobomb-color-easteregg", "cobblemario-bobomb-easteregg-charactersadmiralbobbery"],
       "layers": [
         {
           "name": "base",

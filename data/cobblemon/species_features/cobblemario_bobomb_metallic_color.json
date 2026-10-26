@@ -1,6 +1,6 @@
 {
   "type": "choice",
-  "keys": ["bobomb_metallic_color"],
+  "keys": ["cobblemario_bobomb_metallic_color"],
   "default": "random",
   "choices": [
     "gold",
@@ -34,5 +34,5 @@
     "uranium"
   ],
   "isAspect": true,
-  "aspectFormat": "bobomb-metallic-color-{{choice}}"
+  "aspectFormat": "cobblemario-bobomb-metallic-color-{{choice}}"
 }
